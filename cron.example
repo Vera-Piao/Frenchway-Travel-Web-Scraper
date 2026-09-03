@@ -1,0 +1,5 @@
+# Example: run the Frenchway crawlers every Monday at 9:00 AM.
+#
+# Replace /path/to/Project_1_Frenchway with the actual project path.
+#
+# 0 9 * * 1 cd /path/to/Project_1_Frenchway && ./scripts/run_scrapers.sh >> data/crawled/scrapy.log 2>&1
