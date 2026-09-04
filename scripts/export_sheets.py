@@ -1,257 +1,203 @@
+"""Build and optionally publish idempotent Google Sheets payloads."""
+
+import argparse
+from datetime import datetime, timezone
 import json
 from pathlib import Path
+
 import gspread
 from google.oauth2.service_account import Credentials
 
-def load_processed_data(
-    file_path="data/processed/scraped_data.json"
-):
-    """Load processed scraped data from JSON."""
-    path = Path(file_path)
 
-    with path.open("r", encoding="utf-8") as file:
-        data = json.load(file)
+DATA_PATH = Path("data/processed/scraped_data.json")
+CONFIG_PATH = Path("credentials/google_config.json")
+CREDENTIALS_PATH = Path("credentials/google_service_account.json")
+PAYLOAD_PATH = Path("data/processed/sheets_payload.json")
 
-    return data
 
-def flatten_service_offerings(records):
-    """Flatten service offerings into rows for Google Sheets."""
+def load_json(path):
+    with Path(path).open("r", encoding="utf-8") as file:
+        return json.load(file)
 
+
+def flatten_link_field(records, field):
     rows = []
-
     for record in records:
-        site = record["site"]
-
-        for service in record["service_offerings"]:
+        for item in record.get(field, []):
             rows.append({
-                "site": site,
-                "title": service.get("title", ""),
-                "url": service.get("url", ""),
+                "site": record.get("site", ""),
+                "category": record.get("category", ""),
+                "title": item.get("title", ""),
+                "url": item.get("url", ""),
             })
-
-    return rows
-
-def flatten_case_studies(records):
-    """Flatten case studies into rows for Google Sheets."""
-
-    rows = []
-
-    for record in records:
-        site = record["site"]
-
-        for case_study in record["case_studies"]:
-            rows.append({
-                "site": site,
-                "title": case_study.get("title", ""),
-                "url": case_study.get("url", ""),
-            })
-
     return rows
 
 
-def flatten_testimonials(records):
-    """Flatten client testimonials into rows for Google Sheets."""
-
+def flatten_text_field(records, field, output_name):
     rows = []
-
     for record in records:
-        site = record["site"]
-
-        for testimonial in record["client_testimonials"]:
+        for text in record.get(field, []):
             rows.append({
-                "site": site,
-                "testimonial": testimonial,
+                "site": record.get("site", ""),
+                "category": record.get("category", ""),
+                output_name: text,
             })
-
     return rows
 
 
-def flatten_thought_leadership(records):
-    """Flatten thought leadership articles into rows for Google Sheets."""
-
+def flatten_pricing(records):
     rows = []
-
     for record in records:
-        site = record["site"]
-
-        for article in record["thought_leadership"]:
+        for item in record.get("pricing_signals", []):
             rows.append({
-                "site": site,
-                "title": article.get("title", ""),
-                "url": article.get("url", ""),
+                "site": record.get("site", ""),
+                "text": item.get("text", ""),
+                "kind": item.get("kind", ""),
+                "url": item.get("url", ""),
             })
-
     return rows
 
 
 def flatten_market_insights(records):
-    """Flatten market insights into rows for Google Sheets."""
-
     rows = []
-
     for record in records:
-        site = record["site"]
-        category = record["category"]
-
-        for insight in record["market_insights"]:
+        for insight in record.get("market_insights", []):
             rows.append({
-                "site": site,
-                "category": category,
+                "site": record.get("site", ""),
+                "category": record.get("category", ""),
                 "title": insight.get("title", ""),
                 "summary": insight.get("summary", ""),
                 "author": insight.get("author", ""),
                 "date": insight.get("date", ""),
                 "url": insight.get("url", ""),
             })
-
     return rows
 
-def authenticate_google_sheets(
-    credentials_path="credentials/google_service_account.json"
-):
-    """Authenticate with Google Sheets using a service account."""
 
+def build_payload(records):
+    inventory = []
+    for record in records:
+        inventory.append({
+            "site": record.get("site", ""),
+            "category": record.get("category", ""),
+            "source_url": record.get("source_url", ""),
+            "page_title": record.get("page_title", ""),
+            "services": len(record.get("service_offerings", [])),
+            "case_studies": len(record.get("case_studies", [])),
+            "testimonials": len(record.get("client_testimonials", [])),
+            "thought_leadership": len(record.get("thought_leadership", [])),
+            "industries": len(record.get("industries_served", [])),
+            "pricing_signals": len(record.get("pricing_signals", [])),
+            "market_insights": len(record.get("market_insights", [])),
+        })
+
+    return {
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "worksheets": {
+            "Source Inventory": inventory,
+            "Service Offerings": flatten_link_field(records, "service_offerings"),
+            "Case Studies": flatten_link_field(records, "case_studies"),
+            "Testimonials": flatten_text_field(records, "client_testimonials", "testimonial"),
+            "Customer Reviews": flatten_text_field(records, "customer_reviews", "review"),
+            "Thought Leadership": flatten_link_field(records, "thought_leadership"),
+            "Industries Served": flatten_link_field(records, "industries_served"),
+            "Pricing Signals": flatten_pricing(records),
+            "Market Insights": flatten_market_insights(records),
+        },
+    }
+
+
+def authenticate(credentials_path=CREDENTIALS_PATH):
     scopes = [
         "https://www.googleapis.com/auth/spreadsheets",
         "https://www.googleapis.com/auth/drive",
     ]
+    credentials = Credentials.from_service_account_file(credentials_path, scopes=scopes)
+    return gspread.authorize(credentials)
 
-    credentials = Credentials.from_service_account_file(
-        credentials_path,
-        scopes=scopes,
-    )
 
-    client = gspread.authorize(credentials)
+def spreadsheet_name(config):
+    return config.get("spreadsheet_name", "Frenchway Market Research Data")
 
-    return client
 
-def write_rows_to_worksheet(
-    spreadsheet,
-    worksheet_name,
-    rows,
-    headers,
-):
-    """Create a worksheet and upload structured rows."""
+def get_or_create_worksheet(spreadsheet, name, rows, columns):
+    try:
+        worksheet = spreadsheet.worksheet(name)
+        worksheet.resize(rows=max(rows, 2), cols=max(columns, 1))
+        worksheet.clear()
+        return worksheet
+    except gspread.WorksheetNotFound:
+        return spreadsheet.add_worksheet(title=name, rows=max(rows, 2), cols=max(columns, 1))
 
-    worksheet = spreadsheet.add_worksheet(
-        title=worksheet_name,
-        rows=max(len(rows) + 1, 2),
-        cols=len(headers),
-    )
 
-    values = [headers]
-
+def worksheet_values(rows):
+    headers = []
     for row in rows:
-        values.append([
-            row.get(header, "")
-            for header in headers
-        ])
-
-    worksheet.update(values, "A1")
-
-    print(
-        f"Uploaded {len(rows)} rows "
-        f"to '{worksheet_name}'."
-    )
+        for key in row:
+            if key not in headers:
+                headers.append(key)
+    if not headers:
+        return [["no_records"]]
+    return [headers] + [[row.get(header, "") for header in headers] for row in rows]
 
 
-def export_to_google_sheets(
-    service_rows,
-    case_study_rows,
-    testimonial_rows,
-    thought_leadership_rows,
-    market_insight_rows,
-):
-    """Export all structured data to Google Sheets."""
+def publish_payload(payload, config, credentials_path=CREDENTIALS_PATH):
+    client = authenticate(credentials_path)
+    spreadsheet = client.open(spreadsheet_name(config))
+    for name, rows in payload["worksheets"].items():
+        values = worksheet_values(rows)
+        worksheet = get_or_create_worksheet(spreadsheet, name, len(values), len(values[0]))
+        worksheet.update(values=values, range_name="A1")
+        worksheet.freeze(rows=1)
+        print(f"Published {len(rows)} rows to {name}")
+    return spreadsheet.url
 
-    client = authenticate_google_sheets()
 
-    spreadsheet = client.open(
-    "Frenchway Market Research Data"
-    )
+def check_remote(config, credentials_path=CREDENTIALS_PATH):
+    client = authenticate(credentials_path)
+    spreadsheet = client.open(spreadsheet_name(config))
+    return {
+        "title": spreadsheet.title,
+        "url": spreadsheet.url,
+        "worksheets": [worksheet.title for worksheet in spreadsheet.worksheets()],
+    }
 
-    default_sheet = spreadsheet.sheet1
-    default_sheet.update_title("Service Offerings")
 
-    service_values = [
-        ["site", "title", "url"]
-    ]
+def write_payload(payload, output_path=PAYLOAD_PATH):
+    path = Path(output_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    temporary.replace(path)
+    return path
 
-    for row in service_rows:
-        service_values.append([
-            row["site"],
-            row["title"],
-            row["url"],
-        ])
 
-    default_sheet.update(
-        service_values,
-        "A1",
-    )
+def parse_args():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input", default=str(DATA_PATH))
+    parser.add_argument("--config", default=str(CONFIG_PATH))
+    parser.add_argument("--credentials", default=str(CREDENTIALS_PATH))
+    parser.add_argument("--output", default=str(PAYLOAD_PATH))
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--apply", action="store_true", help="Publish the payload to Google Sheets.")
+    mode.add_argument("--check", action="store_true", help="Read remote spreadsheet metadata without writing.")
+    return parser.parse_args()
 
-    print(
-        f"Uploaded {len(service_rows)} rows "
-        "to 'Service Offerings'."
-    )
 
-    write_rows_to_worksheet(
-        spreadsheet,
-        "Case Studies",
-        case_study_rows,
-        ["site", "title", "url"],
-    )
+def main():
+    args = parse_args()
+    config = load_json(args.config) if Path(args.config).exists() else {}
+    if args.check:
+        print(json.dumps(check_remote(config, args.credentials), indent=2))
+        return
+    records = load_json(args.input)
+    payload = build_payload(records)
+    output = write_payload(payload, args.output)
+    summary = {name: len(rows) for name, rows in payload["worksheets"].items()}
+    print(json.dumps({"payload": str(output), "rows": summary}, indent=2))
+    if args.apply:
+        print(json.dumps({"spreadsheet_url": publish_payload(payload, config, args.credentials)}, indent=2))
 
-    write_rows_to_worksheet(
-        spreadsheet,
-        "Testimonials",
-        testimonial_rows,
-        ["site", "testimonial"],
-    )
-
-    write_rows_to_worksheet(
-        spreadsheet,
-        "Thought Leadership",
-        thought_leadership_rows,
-        ["site", "title", "url"],
-    )
-
-    write_rows_to_worksheet(
-        spreadsheet,
-        "Market Insights",
-        market_insight_rows,
-        [
-            "site",
-            "category",
-            "title",
-            "summary",
-            "author",
-            "date",
-            "url",
-        ],
-    )
-
-    print("\nGoogle Sheets export completed successfully:")
-    print(spreadsheet.url)
 
 if __name__ == "__main__":
-    records = load_processed_data()
-
-    service_rows = flatten_service_offerings(records)
-    case_study_rows = flatten_case_studies(records)
-    testimonial_rows = flatten_testimonials(records)
-    thought_leadership_rows = flatten_thought_leadership(records)
-    market_insight_rows = flatten_market_insights(records)
-
-    print(f"Service Offerings: {len(service_rows)} rows")
-    print(f"Case Studies: {len(case_study_rows)} rows")
-    print(f"Testimonials: {len(testimonial_rows)} rows")
-    print(f"Thought Leadership: {len(thought_leadership_rows)} rows")
-    print(f"Market Insights: {len(market_insight_rows)} rows")
-
-    export_to_google_sheets(
-        service_rows,
-        case_study_rows,
-        testimonial_rows,
-        thought_leadership_rows,
-        market_insight_rows,
-    )
+    main()

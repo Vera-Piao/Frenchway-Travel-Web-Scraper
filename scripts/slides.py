@@ -1,3 +1,5 @@
+import argparse
+from datetime import datetime, timezone
 import json
 from pathlib import Path
 
@@ -15,6 +17,28 @@ SCOPES = [
 ]
 
 DATA_PATH = "data/processed/scraped_data.json"
+PAYLOAD_PATH = "data/processed/slides_payload.json"
+
+
+def compact_text(value, limit=2800):
+    """Convert structured analysis content into bounded slide text."""
+    if isinstance(value, str):
+        text = value
+    elif isinstance(value, list):
+        blocks = []
+        for index, item in enumerate(value, start=1):
+            if isinstance(item, dict):
+                title = item.get("title", f"Recommendation {index}")
+                rationale = item.get("rationale", "")
+                action = item.get("suggested_action", item.get("action", ""))
+                blocks.append(f"{index}. {title}\n{rationale}\nAction: {action}".strip())
+            else:
+                blocks.append(f"{index}. {item}")
+        text = "\n\n".join(blocks)
+    else:
+        text = json.dumps(value, ensure_ascii=False, indent=2)
+    text = "\n".join(line.rstrip() for line in text.splitlines()).strip()
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 def load_analysis_report():
     """Load AI-generated market analysis."""
@@ -27,38 +51,18 @@ def load_analysis_report():
 def create_analysis_slides(
     service,
     presentation_id,
+    analysis_report,
 ):
-    """Create concise market analysis slides."""
+    """Create analysis slides directly from analysis_report.json."""
 
-    trends_body = (
+    trends_body = compact_text(
         "Travel Market\n"
-        "• AI-assisted trip planning is becoming mainstream\n"
-        "• Personalized, experiential travel is growing\n"
-        "• Crisis communication and resilience matter\n"
-        "• Trust and professional expertise remain critical\n\n"
-
-        "Fashion & Luxury Market\n"
-        "• Consumers increasingly seek memorable experiences\n"
-        "• Fashion, culture, wellness, and travel increasingly overlap\n"
-        "• Authenticity and local identity drive differentiation\n"
-        "• Luxury consumers are more selective and value-conscious"
+        + compact_text(analysis_report.get("travel_analysis", "No travel analysis available."), 1250)
+        + "\n\nFashion & Luxury Market\n"
+        + compact_text(analysis_report.get("fashion_analysis", "No fashion analysis available."), 1250)
     )
-
-    recommendations_body = (
-        "1. Curate fashion & luxury travel experiences\n"
-        "Combine shopping, events, culture, and local discovery.\n\n"
-
-        "2. Use AI for personalized itinerary planning\n"
-        "Pair automation with human expertise and quality control.\n\n"
-
-        "3. Strengthen experiential France offerings\n"
-        "Prioritize distinctive, hard-to-replicate experiences.\n\n"
-
-        "4. Lead with trust and expert service\n"
-        "Emphasize credibility, responsiveness, and international support.\n\n"
-
-        "5. Strengthen digital customer acquisition\n"
-        "Use distinctive, experience-led content to reach global travelers."
+    recommendations_body = compact_text(
+        analysis_report.get("strategic_recommendations", []),
     )
 
     create_slide(
@@ -76,6 +80,35 @@ def create_analysis_slides(
         "Strategic Recommendations",
         recommendations_body,
     )
+
+
+def build_slide_plan(records, analysis_report):
+    """Build a local, inspectable representation of every generated slide."""
+    summary = calculate_summary(records)
+    return {
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "analysis_schema_version": analysis_report.get("schema_version", 1),
+        "slides": [
+            {"id": "project_overview", "title": "Project Overview", "summary": summary},
+            {"id": "competitor_analysis", "title": "Competitor Analysis", "summary": summary},
+            {"id": "service_chart", "title": "Extracted Service Offerings by Competitor", "data": calculate_competitor_service_counts(records)},
+            {"id": "market_insights_chart", "title": "Market Insights by Source", "data": calculate_market_insight_counts(records)},
+            {"id": "market_trends", "title": "Key Market Trends", "body": compact_text({
+                "travel": analysis_report.get("travel_analysis", ""),
+                "fashion": analysis_report.get("fashion_analysis", ""),
+            })},
+            {"id": "strategic_recommendations", "title": "Strategic Recommendations", "body": compact_text(analysis_report.get("strategic_recommendations", []))},
+        ],
+    }
+
+
+def write_slide_plan(plan, output_path=PAYLOAD_PATH):
+    path = Path(output_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(plan, ensure_ascii=False, indent=2), encoding="utf-8")
+    temporary.replace(path)
+    return path
     
 def authenticate_google_slides():
     """Authenticate with Google Slides using a service account."""
@@ -393,6 +426,16 @@ def create_bar_chart_slide(
 ):
     """Create a reusable horizontal bar chart slide."""
 
+    if not data:
+        create_slide(
+            service,
+            presentation_id,
+            slide_id,
+            title,
+            "No records were available for this chart in the current dataset.",
+        )
+        return
+
     requests = [
         {
             "createSlide": {
@@ -647,82 +690,59 @@ def get_presentation(service, presentation_id):
     return presentation
 
 
-if __name__ == "__main__":
+def apply_slide_plan(records, analysis_report):
+    """Replace previously generated Google Slides after explicit approval."""
     service = authenticate_google_slides()
     presentation_id = load_presentation_id()
-
-    presentation = get_presentation(
-        service,
-        presentation_id,
+    presentation = get_presentation(service, presentation_id)
+    summary = calculate_summary(records)
+    populate_title_slide(service, presentation_id, presentation)
+    delete_generated_slides(service, presentation_id, presentation)
+    create_initial_slides(service, presentation_id, summary)
+    create_bar_chart_slide(
+        service, presentation_id, "service_chart",
+        "Extracted Service Offerings by Competitor",
+        calculate_competitor_service_counts(records),
     )
+    create_bar_chart_slide(
+        service, presentation_id, "market_insights_chart",
+        "Market Insights by Source",
+        calculate_market_insight_counts(records),
+    )
+    create_analysis_slides(service, presentation_id, analysis_report)
+    return {"title": presentation["title"], "presentation_id": presentation_id}
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output", default=PAYLOAD_PATH)
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--apply", action="store_true", help="Replace generated slides in the configured presentation.")
+    mode.add_argument("--check", action="store_true", help="Read presentation metadata without writing.")
+    return parser.parse_args()
+
+
+def main():
+    args = parse_args()
+    if args.check:
+        service = authenticate_google_slides()
+        presentation_id = load_presentation_id()
+        presentation = get_presentation(service, presentation_id)
+        print(json.dumps({
+            "title": presentation.get("title", ""),
+            "presentation_id": presentation_id,
+            "slide_count": len(presentation.get("slides", [])),
+        }, indent=2))
+        return
 
     records = load_processed_data()
     analysis_report = load_analysis_report()
-    print(
-        "AI analysis loaded:",
-        analysis_report["dataset_summary"][
-            "total_market_insights"
-        ],
-        "market insights",
-    )
-    summary = calculate_summary(records)
-    service_counts = calculate_competitor_service_counts(
-        records
-    )
-    market_insight_counts = calculate_market_insight_counts(
-        records
-    )
+    plan = build_slide_plan(records, analysis_report)
+    output = write_slide_plan(plan, args.output)
+    print(json.dumps({"payload": str(output), "slide_count": len(plan["slides"])}, indent=2))
+    if args.apply:
+        print(json.dumps(apply_slide_plan(records, analysis_report), indent=2))
 
-    print("Google Slides connection successful.")
-    print(f"Title: {presentation['title']}")
-    print(f"Websites analyzed: {summary['total_sites']}")
-    print(f"Service offerings: {summary['service_count']}")
-    print(f"Market insights: {summary['market_insight_count']}")
-    print("\nMarket insights by source:")
 
-    for item in market_insight_counts:
-        print(
-            f"- {format_site_name(item['site'])}: "
-            f"{item['count']}"
-        )
-
-    populate_title_slide(
-        service,
-        presentation_id,
-        presentation,
-    )
-
-    delete_generated_slides(
-        service,
-        presentation_id,
-        presentation,
-    )
-
-    create_initial_slides(
-        service,
-        presentation_id,
-        summary,
-    )
-
-    create_bar_chart_slide(
-        service,
-        presentation_id,
-        "service_chart",
-        "Extracted Service Offerings by Competitor",
-        service_counts,
-    )
-
-    create_bar_chart_slide(
-        service,
-        presentation_id,
-        "market_insights_chart",
-        "Market Insights by Source",
-        market_insight_counts,
-    )
-
-    create_analysis_slides(
-        service,
-        presentation_id,
-    )
-
-    print("Presentation slides created successfully.")
+if __name__ == "__main__":
+    main()

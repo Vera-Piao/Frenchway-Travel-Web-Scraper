@@ -1,5 +1,7 @@
-# Example: run the Frenchway crawlers every Monday at 9:00 AM.
-#
-# Replace /path/to/Project_1_Frenchway with the actual project path.
-#
-# 0 9 * * 1 cd /path/to/Project_1_Frenchway && ./scripts/run_scrapers.sh >> data/crawled/scrapy.log 2>&1
+# Install with `crontab cron.example` only after replacing PROJECT_ROOT.
+# The job runs every Monday at 09:00 in the host's local timezone.
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+PROJECT_ROOT=/path/to/Project_1_Frenchway
+
+0 9 * * 1 cd $PROJECT_ROOT && ./frenchway/bin/python scripts/run_pipeline.py >> data/runs/scheduler.log 2>&1

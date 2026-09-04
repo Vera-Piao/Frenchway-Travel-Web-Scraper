@@ -3,6 +3,7 @@
     "site": "aav_luxury_travel",
     "category": "competitors",
     "source_file": "data/raw/competitors/aav_luxury_travel.html",
+    "source_url": "https://aavluxurytravel.com/",
     "page_title": "Cultural & Luxury Travel Agency in France — Académie des Arts de Vivre",
     "service_offerings": [
       {
@@ -48,9 +49,26 @@
       {
         "title": "Golf",
         "url": "https://www.aavluxurytravel.com/experiences/golf-in-france/"
+      },
+      {
+        "title": "Discover all",
+        "url": "https://www.aavluxurytravel.com/./experiences/"
+      },
+      {
+        "title": "Discover more Experiences",
+        "url": "https://www.aavluxurytravel.com/experiences/"
       }
     ],
-    "case_studies": [],
+    "case_studies": [
+      {
+        "title": "Client Stories",
+        "url": "https://www.aavluxurytravel.com/client-stories/"
+      },
+      {
+        "title": "Read More Client Stories",
+        "url": "https://aavluxurytravel.com/client-stories/"
+      }
+    ],
     "client_testimonials": [
       "Our journey through France was elegant, flexible, and wonderfully curated. Every adjustment was handled carefully and easily.",
       "Traveling as three generations can be complex, yet every hotel, guide, and experience felt perfectly matched to our family.",
@@ -59,13 +77,226 @@
       "Every detail was thoughtfully arranged and flawlessly executed. From private château visits to unforgettable dining experiences, we simply enjoyed the journey without ever thinking about logistics.",
       "One of our best trips ever. Beautiful hotels, exceptional service, and a private driver who made every day feel smooth and relaxed."
     ],
+    "customer_reviews": [
+      "Our journey through France was elegant, flexible, and wonderfully curated. Every adjustment was handled carefully and easily.",
+      "Traveling as three generations can be complex, yet every hotel, guide, and experience felt perfectly matched to our family.",
+      "The logistics were flawless, allowing us to focus entirely on the experience. Every destination felt authentic and deeply memorable.",
+      "The itinerary reflected exactly what we love, charming villages, beautiful hotels, local culture, and unforgettable meals.",
+      "Every detail was thoughtfully arranged and flawlessly executed. From private château visits to unforgettable dining experiences, we simply enjoyed the journey without ever thinking about logistics.",
+      "One of our best trips ever. Beautiful hotels, exceptional service, and a private driver who made every day feel smooth and relaxed."
+    ],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [
+      {
+        "title": "Destinations",
+        "url": "https://www.aavluxurytravel.com/./destinations/"
+      },
+      {
+        "title": "Paris",
+        "url": "https://www.aavluxurytravel.com/destinations/paris/"
+      },
+      {
+        "title": "South of France",
+        "url": "https://www.aavluxurytravel.com/destinations/south-of-france/"
+      },
+      {
+        "title": "Provence",
+        "url": "https://www.aavluxurytravel.com/destinations/provence/"
+      },
+      {
+        "title": "French Riviera",
+        "url": "https://www.aavluxurytravel.com/destinations/french-riviera/"
+      },
+      {
+        "title": "Normandy",
+        "url": "https://www.aavluxurytravel.com/destinations/normandy/"
+      },
+      {
+        "title": "Burgundy",
+        "url": "https://www.aavluxurytravel.com/destinations/burgundy/"
+      },
+      {
+        "title": "Loire Valley",
+        "url": "https://www.aavluxurytravel.com/destinations/loire-valley/"
+      },
+      {
+        "title": "Bordeaux",
+        "url": "https://www.aavluxurytravel.com/destinations/bordeaux/"
+      },
+      {
+        "title": "Corsica",
+        "url": "https://www.aavluxurytravel.com/destinations/corsica/"
+      },
+      {
+        "title": "Brittany",
+        "url": "https://www.aavluxurytravel.com/destinations/brittany/"
+      },
+      {
+        "title": "Basque Country",
+        "url": "https://www.aavluxurytravel.com/destinations/basque-country/"
+      },
+      {
+        "title": "Alsace",
+        "url": "https://www.aavluxurytravel.com/destinations/alsace/"
+      },
+      {
+        "title": "Discover all",
+        "url": "https://www.aavluxurytravel.com/./destinations/"
+      },
+      {
+        "title": "Experiences",
+        "url": "https://www.aavluxurytravel.com/./experiences/"
+      },
+      {
+        "title": "Wine",
+        "url": "https://www.aavluxurytravel.com/experiences/wine/"
+      },
+      {
+        "title": "Gourmet",
+        "url": "https://www.aavluxurytravel.com/experiences/gourmet/"
+      },
+      {
+        "title": "Fashion & Shopping",
+        "url": "https://www.aavluxurytravel.com/experiences/fashion-and-shopping/"
+      },
+      {
+        "title": "Architecture & Gardens",
+        "url": "https://www.aavluxurytravel.com/experiences/architecture-and-gardens/"
+      },
+      {
+        "title": "Art & History",
+        "url": "https://www.aavluxurytravel.com/experiences/art-and-history/"
+      },
+      {
+        "title": "Markets",
+        "url": "https://www.aavluxurytravel.com/experiences/markets/"
+      },
+      {
+        "title": "Chateaux & Castles",
+        "url": "https://www.aavluxurytravel.com/experiences/chateaux-and-castles/"
+      },
+      {
+        "title": "Sport in France",
+        "url": "https://www.aavluxurytravel.com/experiences/sport-in-france/"
+      },
+      {
+        "title": "Spa & Wellness",
+        "url": "https://www.aavluxurytravel.com/experiences/chateaux-and-castles-1/"
+      },
+      {
+        "title": "Skiing",
+        "url": "https://www.aavluxurytravel.com/experiences/skiing-in-france/"
+      },
+      {
+        "title": "Golf",
+        "url": "https://www.aavluxurytravel.com/experiences/golf-in-france/"
+      },
+      {
+        "title": "Discover all",
+        "url": "https://www.aavluxurytravel.com/./experiences/"
+      },
+      {
+        "title": "Travel in France",
+        "url": "https://www.aavluxurytravel.com/france/"
+      },
+      {
+        "title": "Little Black Book",
+        "url": "https://www.aavluxurytravel.com/little-black-book/"
+      },
+      {
+        "title": "Our Story",
+        "url": "https://www.aavluxurytravel.com/our-story/"
+      },
+      {
+        "title": "The Journal",
+        "url": "https://www.aavluxurytravel.com/the-journal/"
+      },
+      {
+        "title": "Client Stories",
+        "url": "https://www.aavluxurytravel.com/client-stories/"
+      },
+      {
+        "title": "Sustainability",
+        "url": "https://www.aavluxurytravel.com/sustainability/"
+      },
+      {
+        "title": "Discover France",
+        "url": "https://www.aavluxurytravel.com/france/"
+      },
+      {
+        "title": "Family Holidays",
+        "url": "https://www.aavluxurytravel.com/other/family-holidays/"
+      },
+      {
+        "title": "Discover more Experiences",
+        "url": "https://www.aavluxurytravel.com/experiences/"
+      },
+      {
+        "title": "Discover our travel agency",
+        "url": "https://www.aavluxurytravel.com/about/"
+      },
+      {
+        "title": "More about family holidays",
+        "url": "https://www.aavluxurytravel.com/other/family-holidays/"
+      },
+      {
+        "title": "Discover Wine →",
+        "url": "https://www.aavluxurytravel.com/experiences/wine/"
+      },
+      {
+        "title": "Discover Architecture & Gardens →",
+        "url": "https://www.aavluxurytravel.com/experiences/architecture-and-gardens/"
+      },
+      {
+        "title": "Discover Art & History →",
+        "url": "https://www.aavluxurytravel.com/experiences/art-and-history/"
+      },
+      {
+        "title": "Discover Gourmet →",
+        "url": "https://www.aavluxurytravel.com/experiences/gourmet/"
+      },
+      {
+        "title": "Discover Chateaux & Castles →",
+        "url": "https://www.aavluxurytravel.com/experiences/chateaux-and-castles/"
+      },
+      {
+        "title": "Discover Spa & Wellness →",
+        "url": "https://www.aavluxurytravel.com/experiences/chateaux-and-castles-1/"
+      },
+      {
+        "title": "Sitemap",
+        "url": "https://www.aavluxurytravel.com/sitemap/"
+      },
+      {
+        "title": "Booking Terms & Conditions",
+        "url": "https://www.aavluxurytravel.com/terms-and-conditions/"
+      },
+      {
+        "title": "Privacy Policy",
+        "url": "https://www.aavluxurytravel.com/privacy-policy/"
+      },
+      {
+        "title": "Legal Mentions",
+        "url": "https://www.aavluxurytravel.com/legal-mentions/"
+      }
+    ],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 13,
+      "case_studies": 2,
+      "client_testimonials": 6,
+      "thought_leadership": 0,
+      "industries_served": 48,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "bcd_travel",
     "category": "competitors",
     "source_file": "data/raw/competitors/bcd_travel.html",
+    "source_url": "https://www.bcdtravel.com/",
     "page_title": "Business Travel Management & Corporate Travel | BCD Travel",
     "service_offerings": [
       {
@@ -137,73 +368,489 @@
       {
         "title": "BCD Travel leads the way with first-of-its-kind end-to-end solution for travel management in China",
         "url": "https://www.bcdtravel.com/resources/bcd-travel-leads-the-way-with-first-of-its-kind-end-to-end-solution-for-travel-management-in-china/"
+      },
+      {
+        "title": "All success stories",
+        "url": "https://www.bcdtravel.com/success-stories/"
       }
     ],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [
+      {
+        "title": "Consulting",
+        "url": "https://www.bcdtravel.com/travel-management/consulting-advito/"
+      },
+      {
+        "title": "Learn more",
+        "url": "https://www.bcdtravel.com/travel-management/consulting-advito/"
+      },
+      {
+        "title": "Energy, resources & marine",
+        "url": "https://www.bcdtravel.com/energy-resources-marine/"
+      },
+      {
+        "title": "Media & entertainment",
+        "url": "https://www.bcdtravel.com/media-entertainment/"
+      },
+      {
+        "title": "Life sciences",
+        "url": "https://www.bcdtravel.com/life-sciences/"
+      },
+      {
+        "title": "Business travel consulting",
+        "url": "https://www.bcdtravel.com/travel-management/consulting-advito/"
+      }
+    ],
+    "pricing_signals": [
+      {
+        "text": "client retention rate",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      }
+    ],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 14,
+      "case_studies": 4,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 6,
+      "pricing_signals": 1,
+      "market_insights": 0
+    }
   },
   {
     "site": "blueorange_travel",
     "category": "competitors",
     "source_file": "data/raw/competitors/blueorange_travel.html",
+    "source_url": "https://blueorangetravel.com/fashion-travel-agency/",
     "page_title": "Top Manhattan New York Fashion Travel Agency | BlueOrange Travel",
-    "service_offerings": [],
+    "service_offerings": [
+      {
+        "title": "China & Asia Business Travel",
+        "url": "https://blueorangetravel.com/china-asia-business-travel/"
+      },
+      {
+        "title": "U.S. & North America Business Travel",
+        "url": "https://blueorangetravel.com/us-north-america-business-travel/"
+      },
+      {
+        "title": "South America Business Travel",
+        "url": "https://blueorangetravel.com/south-america-business-travel/"
+      },
+      {
+        "title": "Europe & Russia Business Travel",
+        "url": "https://blueorangetravel.com/europe-russia-business-travel/"
+      },
+      {
+        "title": "Middle East Business Travel",
+        "url": "https://blueorangetravel.com/middle-east-business-travel/"
+      },
+      {
+        "title": "Africa Business Travel",
+        "url": "https://blueorangetravel.com/africa-business-travel/"
+      },
+      {
+        "title": "Australia & Pacific Business Travel",
+        "url": "https://blueorangetravel.com/australia-pacific-business-travel/"
+      },
+      {
+        "title": "New York Business Travel",
+        "url": "https://blueorangetravel.com/business-travel-industries/"
+      },
+      {
+        "title": "Corporate Travel",
+        "url": "https://blueorangetravel.com/corporate-travel-agency-new-york/"
+      },
+      {
+        "title": "Business Travel Management",
+        "url": "https://blueorangetravel.com/business-travel-services/"
+      },
+      {
+        "title": "Technology Travel",
+        "url": "https://blueorangetravel.com/technology-travel-agency/"
+      },
+      {
+        "title": "Rethinking Business Meetings",
+        "url": "https://blueorangetravel.com/executive-meeting/"
+      },
+      {
+        "title": "VIPs & Influencers",
+        "url": "#"
+      },
+      {
+        "title": "VIP Business Travel",
+        "url": "https://blueorangetravel.com/vip-business-travel/"
+      },
+      {
+        "title": "Influencer Travel Management",
+        "url": "https://blueorangetravel.com/influencer-travel-agency/"
+      }
+    ],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [
+      {
+        "title": "Must-Stay Luxury Hotels in New York",
+        "url": "https://blueorangetravel.com/luxury-hotels-in-new-york/"
+      },
+      {
+        "title": "Nonprofit Foundation Travel",
+        "url": "https://blueorangetravel.com/nonprofit-foundation-travel/"
+      },
+      {
+        "title": "Technology Travel",
+        "url": "https://blueorangetravel.com/technology-travel-agency/"
+      },
+      {
+        "title": "Entertainment Travel",
+        "url": "https://blueorangetravel.com/entertainment-travel-agency/"
+      },
+      {
+        "title": "Fashion Travel",
+        "url": "https://blueorangetravel.com/fashion-travel-agency/"
+      },
+      {
+        "title": "Luxury",
+        "url": "https://blueorangetravel.com/fashion-travel-agency/"
+      },
+      {
+        "title": "Find Luxury Hotels Near Me",
+        "url": "https://blueorangetravel.com/hotels-in-new-york-city/"
+      }
+    ],
+    "pricing_signals": [
+      {
+        "text": "Best-fit transportation to and from your destination, identified and booked for all members of your team , using our preferred partnerships with global airlines and other travel companies worldwide to assign seats and secure exclusive pricing",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      }
+    ],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 15,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 7,
+      "pricing_signals": 1,
+      "market_insights": 0
+    }
   },
   {
     "site": "cwt",
     "category": "competitors",
     "source_file": "data/raw/competitors/cwt.html",
+    "source_url": "https://www.mycwt.com/",
     "page_title": "We are CWT | Business Travel | Meetings & Events | Consultancy",
     "service_offerings": [],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 0,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 0,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "deluxe_france",
     "category": "competitors",
     "source_file": "data/raw/competitors/deluxe_france.html",
+    "source_url": "https://deluxefrance.com/details-fashion+tours-559",
     "page_title": "Fashion Tours - Deluxe France",
-    "service_offerings": [],
+    "service_offerings": [
+      {
+        "title": "Our services",
+        "url": "our-services-w1"
+      },
+      {
+        "title": "Back",
+        "url": "our-services-w1"
+      },
+      {
+        "title": "VIP Shopping Experience With Our Personal Shopper",
+        "url": "details-vip+shopping+experience+with+our+personal+shopper-483"
+      },
+      {
+        "title": "Learn more by consulting our privacy policy",
+        "url": "privacy-policy"
+      },
+      {
+        "title": "Our services",
+        "url": "all-our-services-1"
+      },
+      {
+        "title": "Events Management in France",
+        "url": "details-events+management+in+france-605"
+      }
+    ],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [
+      {
+        "title": "Coco Channel's Private Fashion Tour (Paris)",
+        "url": "https://deluxefrance.com/details-coco+chanel+s+private+fashion+tour-526"
+      },
+      {
+        "title": "Luxury Houses Private Fashion Tour (Paris)",
+        "url": "https://deluxefrance.com/details-luxury+houses+private+fashion+tour-529"
+      },
+      {
+        "title": "(clicking here)",
+        "url": "https://deluxefrance.com/details-experience+tailor-made+fashion+tours+in+paris-530"
+      },
+      {
+        "title": "Learn more by consulting our privacy policy",
+        "url": "https://deluxefrance.com/privacy-policy"
+      }
+    ],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 6,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 4,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "direct_travel",
     "category": "competitors",
     "source_file": "data/raw/competitors/direct_travel.html",
+    "source_url": "https://www.dt.com/",
     "page_title": "Direct Travel | Top Corporate Travel Management Company",
-    "service_offerings": [],
+    "service_offerings": [
+      {
+        "title": "Business Travel Global Reach, High-Touch Service",
+        "url": "/business-travel/"
+      },
+      {
+        "title": "Meetings & Events Full-service meetings and event experiences",
+        "url": "/meetings/"
+      },
+      {
+        "title": "Avenir Our unified global platform for modern managed travel",
+        "url": "/avenir/"
+      },
+      {
+        "title": "Travel Management",
+        "url": "/avenir/travel-management/"
+      },
+      {
+        "title": "Direct View Consulting",
+        "url": "/direct-view-consulting/"
+      },
+      {
+        "title": "Strategic Sourcing",
+        "url": "/direct-view-consulting/sourcing/"
+      },
+      {
+        "title": "Technology Consulting",
+        "url": "/direct-view-consulting/technology/"
+      },
+      {
+        "title": "Sustainable Travel",
+        "url": "/direct-view-consulting/sustainability/"
+      },
+      {
+        "title": "Resource Hub Curated insights for powering your corporate travel program",
+        "url": "/resources/"
+      },
+      {
+        "title": "Meetings & Events",
+        "url": "/meetings/"
+      },
+      {
+        "title": "Introducing Avenir Our unified global platform for modern managed travel",
+        "url": "/avenir/"
+      },
+      {
+        "title": "Read more",
+        "url": "/meetings/"
+      },
+      {
+        "title": "The Value of Access: A New Model for Travel Management",
+        "url": "https://www.dt.com/blog/the-value-of-access-a-new-model-for-travel-management/"
+      },
+      {
+        "title": "Read More about The Value of Access: A New Model for Travel Management",
+        "url": "https://www.dt.com/blog/the-value-of-access-a-new-model-for-travel-management/"
+      },
+      {
+        "title": "Business Travel",
+        "url": "/business-travel/"
+      }
+    ],
     "case_studies": [],
-    "client_testimonials": [],
-    "thought_leadership": [],
-    "market_insights": []
+    "client_testimonials": [
+      "“At Direct Travel, our goal is simple: We aim to deliver a dramatically better travel experience for both businesses and travelers through providing exceptional service and innovative technology solutions.” Christal Bemont CEO",
+      "“At Direct Travel, our goal is simple: We aim to deliver a dramatically better travel experience for both businesses and travelers through providing exceptional service and innovative technology solutions.”"
+    ],
+    "customer_reviews": [
+      "“At Direct Travel, our goal is simple: We aim to deliver a dramatically better travel experience for both businesses and travelers through providing exceptional service and innovative technology solutions.” Christal Bemont CEO",
+      "“At Direct Travel, our goal is simple: We aim to deliver a dramatically better travel experience for both businesses and travelers through providing exceptional service and innovative technology solutions.”"
+    ],
+    "thought_leadership": [
+      {
+        "title": "From Fragmentation to Access: Top Webinar Takeaways",
+        "url": "https://www.dt.com/blog/from-fragmentation-to-access-top-webinar-takeaways/"
+      },
+      {
+        "title": "Read More about From Fragmentation to Access: Top Webinar Takeaways",
+        "url": "https://www.dt.com/blog/from-fragmentation-to-access-top-webinar-takeaways/"
+      },
+      {
+        "title": "The Value of Access: A New Model for Travel Management",
+        "url": "https://www.dt.com/blog/the-value-of-access-a-new-model-for-travel-management/"
+      },
+      {
+        "title": "Read More about The Value of Access: A New Model for Travel Management",
+        "url": "https://www.dt.com/blog/the-value-of-access-a-new-model-for-travel-management/"
+      }
+    ],
+    "industries_served": [
+      {
+        "title": "Finance & Procurement",
+        "url": "https://www.dt.com/why-direct/finance-procurement/"
+      },
+      {
+        "title": "Direct View Consulting",
+        "url": "https://www.dt.com/direct-view-consulting/"
+      },
+      {
+        "title": "Strategic Sourcing",
+        "url": "https://www.dt.com/direct-view-consulting/sourcing/"
+      },
+      {
+        "title": "Technology Consulting",
+        "url": "https://www.dt.com/direct-view-consulting/technology/"
+      },
+      {
+        "title": "Sustainable Travel",
+        "url": "https://www.dt.com/direct-view-consulting/sustainability/"
+      }
+    ],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 15,
+      "case_studies": 0,
+      "client_testimonials": 2,
+      "thought_leadership": 4,
+      "industries_served": 5,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "exclusive_france_tours",
     "category": "competitors",
     "source_file": "data/raw/competitors/exclusive_france_tours.html",
+    "source_url": "https://exclusive-france-tours.com/",
     "page_title": "Exclusive France Tours - Luxury and High-End Tours of France",
-    "service_offerings": [],
+    "service_offerings": [
+      {
+        "title": "Top Executive Retreats",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/top-executive-retreats-in-france/"
+      },
+      {
+        "title": "VIP Client Gatherings",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/vip-clients-gathering-in-france/"
+      },
+      {
+        "title": "Global Board Meetings",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/global-boards-meeting-in-france/"
+      },
+      {
+        "title": "Incentive & Award Programs",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/incentive-travel-programs-in-france/"
+      },
+      {
+        "title": "Team Building",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/team-building/"
+      },
+      {
+        "title": "MBA Cohort Integration",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/mba-cohort-integration-in-france/"
+      },
+      {
+        "title": "All corporate events",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/"
+      },
+      {
+        "title": "All of Europe →",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/"
+      },
+      {
+        "title": "Wine for corporate events",
+        "url": "https://www.exclusive-france-tours.com/wine-expertise-for-corporate-events/"
+      },
+      {
+        "title": "Our Corporate Events",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/"
+      },
+      {
+        "title": "European Travel Masterpieces",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/"
+      },
+      {
+        "title": "Exclusive Wine Tours",
+        "url": "https://www.exclusive-france-tours.com/wine-expertise-for-corporate-events/"
+      },
+      {
+        "title": "Our Wine Expertise",
+        "url": "https://www.exclusive-france-tours.com/wine-expertise-for-corporate-events/"
+      }
+    ],
     "case_studies": [],
     "client_testimonials": [
       "Bonjour Marie and team, We had 3 months to make it happen, faced many, many challenges, but we did it and it was a success ! Thank you for the fantastic job you did… The event was seamless for our guests, and their experience rich. We can all be proud of what we have created and achieved together. Thanks very much Marie, it has truly been a pleasure working with you, and I hope the collaboration will continue”"
     ],
-    "thought_leadership": [],
-    "market_insights": []
+    "customer_reviews": [
+      "Bonjour Marie and team, We had 3 months to make it happen, faced many, many challenges, but we did it and it was a success ! Thank you for the fantastic job you did… The event was seamless for our guests, and their experience rich. We can all be proud of what we have created and achieved together. Thanks very much Marie, it has truly been a pleasure working with you, and I hope the collaboration will continue”"
+    ],
+    "thought_leadership": [
+      {
+        "title": "Our Blog",
+        "url": "https://www.exclusive-france-tours.com/blog-en/"
+      }
+    ],
+    "industries_served": [],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 13,
+      "case_studies": 0,
+      "client_testimonials": 1,
+      "thought_leadership": 1,
+      "industries_served": 0,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "fcm_travel",
     "category": "competitors",
     "source_file": "data/raw/competitors/fcm_travel.html",
+    "source_url": "https://www.fcmtravel.com/",
     "page_title": "Global corporate travel management solutions | FCM Travel",
     "service_offerings": [
       {
@@ -265,28 +912,130 @@
       {
         "title": "Traveller",
         "url": "https://www.fcmtravel.com/en-us/solutions/traveler"
+      },
+      {
+        "title": "FCM Platform Proprietary travel platform",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform"
+      },
+      {
+        "title": "Travel Management Enterprise travel services",
+        "url": "https://www.fcmtravel.com/en-us/solutions/travel-management"
+      },
+      {
+        "title": "Consulting Corporate travel consulting",
+        "url": "https://www.fcmtravel.com/en-us/solutions/consulting"
+      },
+      {
+        "title": "AI Approach Fully integrated travel AI",
+        "url": "https://www.fcmtravel.com/en-us/products/platform/sam/ai-approach"
+      },
+      {
+        "title": "Travel Content Our travel content solutions",
+        "url": "https://www.fcmtravel.com/en-us/solutions/travel-content"
       }
     ],
     "case_studies": [],
     "client_testimonials": [],
-    "thought_leadership": [],
-    "market_insights": []
+    "customer_reviews": [],
+    "thought_leadership": [
+      {
+        "title": "FCM Meetings & Events 2026 Trends Report",
+        "url": "https://www.fcmtravel.com/en-us/travel-insights/travel-hub/white-papers/meetings-events-trends-and-forecasts"
+      },
+      {
+        "title": "Read more about FCM Meetings & Events 2026 Trends Report",
+        "url": "https://www.fcmtravel.com/en-us/travel-insights/travel-hub/white-papers/meetings-events-trends-and-forecasts"
+      },
+      {
+        "title": "Reporting & Analytics",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform/reporting-analytics"
+      }
+    ],
+    "industries_served": [
+      {
+        "title": "Consulting Corporate travel consulting",
+        "url": "https://www.fcmtravel.com/en-us/solutions/consulting"
+      },
+      {
+        "title": "FCM Consulting launches Travel Impact Index",
+        "url": "https://www.fcmtravel.com/en-us/resources/news-hub/fcm-consulting-launches-travel-impact-index"
+      },
+      {
+        "title": "Read more about FCM Consulting launches Travel Impact Index",
+        "url": "https://www.fcmtravel.com/en-us/resources/news-hub/fcm-consulting-launches-travel-impact-index"
+      },
+      {
+        "title": "FCM Consulting",
+        "url": "https://www.fcmtravel.com/en-us/solutions/consulting"
+      }
+    ],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 20,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 3,
+      "industries_served": 4,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "forest_travel",
     "category": "competitors",
     "source_file": "data/raw/competitors/forest_travel.html",
+    "source_url": "https://foresttravel.com/experiences/paris-fashion-show/",
     "page_title": "Luxury Signature Event Travel & VIP Access | Forest Travel",
-    "service_offerings": [],
+    "service_offerings": [
+      {
+        "title": "How to Secure Access to the World's Marquee Events — Monaco GP, Wimbledon, Cannes and the Olympics",
+        "url": "/journal/luxury-event-access/"
+      }
+    ],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [
+      {
+        "title": "WhatsApp an advisor",
+        "url": "https://wa.me/17869693045?text=Hello%20Forest%20Travel%2C%20I%27m%20interested%20in%20planning%20a%20private%20luxury%20journey."
+      },
+      {
+        "title": "How to Secure Access to the World's Marquee Events — Monaco GP, Wimbledon, Cannes and the Olympics",
+        "url": "https://foresttravel.com/journal/luxury-event-access/"
+      },
+      {
+        "title": "Read the guide →",
+        "url": "https://foresttravel.com/journal/luxury-event-access/"
+      },
+      {
+        "title": "Luxury Safaris",
+        "url": "https://foresttravel.com/journeys-safari/"
+      },
+      {
+        "title": "Luxury Cruises",
+        "url": "https://foresttravel.com/journeys-sailing/"
+      }
+    ],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 1,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 5,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "french_promise",
     "category": "competitors",
     "source_file": "data/raw/competitors/french_promise.html",
+    "source_url": "https://frenchpromise.com/",
     "page_title": "French Promise by Kairos - Luxury DMC France Travel Advisors",
     "service_offerings": [
       {
@@ -328,39 +1077,278 @@
       {
         "title": "sports & adventure",
         "url": "https://www.frenchpromise.com/experiences/france-luxury-sporting-events-adventures/"
+      },
+      {
+        "title": "Our Promise",
+        "url": "https://www.frenchpromise.com/services/"
       }
     ],
     "case_studies": [],
-    "client_testimonials": [],
+    "client_testimonials": [
+      "“With 39 years of experience in luxury tourism in France, Philip Haslett can open doors. That may mean an after-hours visit to the Louvre, a last-minute tour of top Burgundy vineyards, or a balloon ride over the Loire Valley (he was a commercial pilot, after all). He also has extensive contacts in Monaco.” Travel + Leisure Magazine 2022-2026 A List Award - France & Monaco",
+      "“With 39 years of experience in luxury tourism in France, Philip Haslett can open doors. That may mean an after-hours visit to the Louvre, a last-minute tour of top Burgundy vineyards, or a balloon ride over the Loire Valley (he was a commercial pilot, after all). He also has extensive contacts in Monaco.”",
+      "Travel + Leisure Magazine 2022-2026 A List Award - France & Monaco",
+      "2022-2026 A List Award - France & Monaco",
+      "“One experience that made me smile at the time is the privatisation of a river for a VVIP client. They wanted to go canoeing in a popular spot in Provence, but wanted a private experience so we basically contacted every canoe supplier operating in the area and bought them out for the day so that our client and family could enjoy some alone time.” Condé Nast Traveler 2026 Top Travel Specialist - France & Monaco",
+      "“One experience that made me smile at the time is the privatisation of a river for a VVIP client. They wanted to go canoeing in a popular spot in Provence, but wanted a private experience so we basically contacted every canoe supplier operating in the area and bought them out for the day so that our client and family could enjoy some alone time.”",
+      "Condé Nast Traveler 2026 Top Travel Specialist - France & Monaco",
+      "2026 Top Travel Specialist - France & Monaco",
+      "“Philip can unlock the Palace of the Popes at night, unlock most doors in Bordeaux, helicopter you in to hike with shepherds in the Pyrenees, or ensconce you in a chic beachside villa whose guest list looks like the Oscars seating chart. From the Atlantic to the Mediterranean, he excels at trips that focus on food and wine or adventure (often a bit of both): enjoying oysters fresh from the sea, wine tasting with world-class sommeliers, canyoning in the Verdon Gorge, or surfing in Biarritz.” Wendy Perrin's Wow List France Travel Advisor 2017-2026",
+      "“Philip can unlock the Palace of the Popes at night, unlock most doors in Bordeaux, helicopter you in to hike with shepherds in the Pyrenees, or ensconce you in a chic beachside villa whose guest list looks like the Oscars seating chart. From the Atlantic to the Mediterranean, he excels at trips that focus on food and wine or adventure (often a bit of both): enjoying oysters fresh from the sea, wine tasting with world-class sommeliers, canyoning in the Verdon Gorge, or surfing in Biarritz.”",
+      "Wendy Perrin's Wow List France Travel Advisor 2017-2026"
+    ],
+    "customer_reviews": [
+      "“With 39 years of experience in luxury tourism in France, Philip Haslett can open doors. That may mean an after-hours visit to the Louvre, a last-minute tour of top Burgundy vineyards, or a balloon ride over the Loire Valley (he was a commercial pilot, after all). He also has extensive contacts in Monaco.” Travel + Leisure Magazine 2022-2026 A List Award - France & Monaco",
+      "“With 39 years of experience in luxury tourism in France, Philip Haslett can open doors. That may mean an after-hours visit to the Louvre, a last-minute tour of top Burgundy vineyards, or a balloon ride over the Loire Valley (he was a commercial pilot, after all). He also has extensive contacts in Monaco.”",
+      "Travel + Leisure Magazine 2022-2026 A List Award - France & Monaco",
+      "2022-2026 A List Award - France & Monaco",
+      "“One experience that made me smile at the time is the privatisation of a river for a VVIP client. They wanted to go canoeing in a popular spot in Provence, but wanted a private experience so we basically contacted every canoe supplier operating in the area and bought them out for the day so that our client and family could enjoy some alone time.” Condé Nast Traveler 2026 Top Travel Specialist - France & Monaco",
+      "“One experience that made me smile at the time is the privatisation of a river for a VVIP client. They wanted to go canoeing in a popular spot in Provence, but wanted a private experience so we basically contacted every canoe supplier operating in the area and bought them out for the day so that our client and family could enjoy some alone time.”",
+      "Condé Nast Traveler 2026 Top Travel Specialist - France & Monaco",
+      "2026 Top Travel Specialist - France & Monaco",
+      "“Philip can unlock the Palace of the Popes at night, unlock most doors in Bordeaux, helicopter you in to hike with shepherds in the Pyrenees, or ensconce you in a chic beachside villa whose guest list looks like the Oscars seating chart. From the Atlantic to the Mediterranean, he excels at trips that focus on food and wine or adventure (often a bit of both): enjoying oysters fresh from the sea, wine tasting with world-class sommeliers, canyoning in the Verdon Gorge, or surfing in Biarritz.” Wendy Perrin's Wow List France Travel Advisor 2017-2026",
+      "“Philip can unlock the Palace of the Popes at night, unlock most doors in Bordeaux, helicopter you in to hike with shepherds in the Pyrenees, or ensconce you in a chic beachside villa whose guest list looks like the Oscars seating chart. From the Atlantic to the Mediterranean, he excels at trips that focus on food and wine or adventure (often a bit of both): enjoying oysters fresh from the sea, wine tasting with world-class sommeliers, canyoning in the Verdon Gorge, or surfing in Biarritz.”",
+      "Wendy Perrin's Wow List France Travel Advisor 2017-2026"
+    ],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [
+      {
+        "title": "art & cultural tours",
+        "url": "https://www.frenchpromise.com/experiences/luxury-france-art-cultural-tours/"
+      },
+      {
+        "title": "france wine tours",
+        "url": "https://www.frenchpromise.com/experiences/luxury-france-wine-tours-regions/"
+      },
+      {
+        "title": "luxury barging",
+        "url": "https://www.frenchpromise.com/experiences/luxury-barging/"
+      },
+      {
+        "title": "luxury events",
+        "url": "https://www.frenchpromise.com/experiences/luxury-events/"
+      },
+      {
+        "title": "luxury villas",
+        "url": "https://www.frenchpromise.com/experiences/our-luxury-villas/"
+      },
+      {
+        "title": "luxury wellness retreats",
+        "url": "https://www.frenchpromise.com/experiences/luxury-wellness-retreats/"
+      },
+      {
+        "title": "paris fashion & shopping",
+        "url": "https://www.frenchpromise.com/experiences/paris-fashion-shopping-tours/"
+      },
+      {
+        "title": "sports & adventure",
+        "url": "https://www.frenchpromise.com/experiences/france-luxury-sporting-events-adventures/"
+      },
+      {
+        "title": "Magazine",
+        "url": "https://www.frenchpromise.com/luxurytravelblog/"
+      },
+      {
+        "title": "Paris",
+        "url": "https://www.frenchpromise.com/paris-luxury-travel/"
+      },
+      {
+        "title": "A kairos travel brand - france's premiere luxury dmc",
+        "url": "mailto:bonjour@frenchpromise.com"
+      }
+    ],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 11,
+      "case_studies": 0,
+      "client_testimonials": 11,
+      "thought_leadership": 0,
+      "industries_served": 11,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "le_connoisseur",
     "category": "competitors",
     "source_file": "data/raw/competitors/le_connoisseur.html",
+    "source_url": "https://le-connoisseur.com/",
     "page_title": "Le Connoisseur | Luxury travel, bespoke events & unique experiences in Paris and France",
-    "service_offerings": [],
+    "service_offerings": [
+      {
+        "title": "Services",
+        "url": "/en/p/82/our-services"
+      },
+      {
+        "title": "Venues & Event Management",
+        "url": "/en/p/97/venues-and-events"
+      },
+      {
+        "title": "Companies",
+        "url": "/en/p/10/bespoke-corporate-events-Paris"
+      },
+      {
+        "title": "Corporate Events",
+        "url": "/en/p/85/corporate-event-in-france"
+      },
+      {
+        "title": "Themes",
+        "url": "/en/p/2/exceptional-vip-experiences-in-paris"
+      },
+      {
+        "title": "Allow us to find you the perfect luxury hotel for your stay in Paris, whether you are an individual or corporate traveler.",
+        "url": "/en/p/94/accommodation"
+      },
+      {
+        "title": "We are pleased to handle all aspects of event management and venue bookings - no matter how large or small your event.",
+        "url": "/en/p/97/venues-and-events"
+      },
+      {
+        "title": "Seminars and conferences, presse trips and reward events for your best clients, motivational retreats (incentives), corporate trips to Paris, executive committees...",
+        "url": "/en/p/85/corporate-event-in-france"
+      },
+      {
+        "title": "Companies",
+        "url": "http://www.le-connoisseur.com/en/p/10/bespoke-corporate-events-Paris"
+      },
+      {
+        "title": "Amaze and surprise your top clients and partners by offering them an unforgettable experi…",
+        "url": "http://www.le-connoisseur.com/en/p/10/bespoke-corporate-events-Paris"
+      },
+      {
+        "title": "Local Experiences",
+        "url": "http://www.le-connoisseur.com/en/p/2/exceptional-vip-experiences-in-paris"
+      },
+      {
+        "title": "Unique encounters and creative activities, behind-the-scenes visits and outstanding disco…",
+        "url": "http://www.le-connoisseur.com/en/p/2/exceptional-vip-experiences-in-paris"
+      },
+      {
+        "title": "Our selection of experiences",
+        "url": "/en/p/2/exceptional-vip-experiences-in-paris"
+      },
+      {
+        "title": "All experiences",
+        "url": "/en/p/2/exceptional-vip-experiences-in-paris"
+      }
+    ],
     "case_studies": [],
-    "client_testimonials": [],
+    "client_testimonials": [
+      "Testimonials Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests! Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !! All Stories",
+      "Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests! Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !!",
+      "Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale",
+      "This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests!",
+      "Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !!"
+    ],
+    "customer_reviews": [
+      "Testimonials Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests! Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !! All Stories",
+      "Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests! Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !!",
+      "Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale",
+      "This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests!",
+      "Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !!"
+    ],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [
+      {
+        "title": "Entertainment & Evening Functions",
+        "url": "https://le-connoisseur.com/en/p/98/entertainment"
+      },
+      {
+        "title": "Parisian Fashion & Shopping Trip",
+        "url": "https://le-connoisseur.com/en/p/90/paris-fashion-shopping-trip"
+      },
+      {
+        "title": "Luxury tour in Provence",
+        "url": "https://le-connoisseur.com/en/p/136/Luxury-tour-provence"
+      },
+      {
+        "title": "Fashion & Shopping",
+        "url": "https://le-connoisseur.com/en/p/100/fashion-tour-and-shopping-in-paris"
+      },
+      {
+        "title": "Luxury & Jewellery",
+        "url": "https://le-connoisseur.com/en/p/105/luxury-and-jewellery-experiences-in-paris"
+      },
+      {
+        "title": "Experience the finest tastes of Paris with one of our exceptional luxury gastronomy tour packages.",
+        "url": "https://le-connoisseur.com/en/p/91/gourmet-trip-paris-burgundy-champagne"
+      },
+      {
+        "title": "The cultural heritage and unique \"savoir-faire\" of famous luxury & jewellery houses",
+        "url": "https://le-connoisseur.com/en/p/105/luxury-and-jewellery-experiences-in-paris"
+      },
+      {
+        "title": "Use Le Connoisseur's exclusive network …",
+        "url": "https://le-connoisseur.com/en/p/100/fashion-tour-and-shopping-in-paris"
+      },
+      {
+        "title": "view and book",
+        "url": "https://le-connoisseur.com/en/p/100/fashion-tour-and-shopping-in-paris"
+      },
+      {
+        "title": "The cultural heritage and unique \"savoi…",
+        "url": "https://le-connoisseur.com/en/p/105/luxury-and-jewellery-experiences-in-paris"
+      },
+      {
+        "title": "view and book",
+        "url": "https://le-connoisseur.com/en/p/105/luxury-and-jewellery-experiences-in-paris"
+      }
+    ],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 14,
+      "case_studies": 0,
+      "client_testimonials": 5,
+      "thought_leadership": 0,
+      "industries_served": 11,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "luxe_fashion_trips",
     "category": "competitors",
     "source_file": "data/raw/competitors/luxe_fashion_trips.html",
+    "source_url": "https://luxefashiontrips.com/",
     "page_title": "LUXE fashion trips",
     "service_offerings": [],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [
+      {
+        "title": "LUXE fashion trips",
+        "url": "https://luxefashiontrips.com/"
+      },
+      {
+        "title": "Luxury London",
+        "url": "https://luxefashiontrips.com/london-2025"
+      },
+      {
+        "title": "Italian Fashion Experience",
+        "url": "https://luxefashiontrips.com/italy-2025"
+      }
+    ],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 0,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 3,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "navan",
     "category": "competitors",
     "source_file": "data/raw/competitors/navan.html",
+    "source_url": "https://navan.com/",
     "page_title": "Navan: The #1 Corporate Travel Management Platform",
     "service_offerings": [
       {
@@ -390,6 +1378,26 @@
       {
         "title": "Small Businesses",
         "url": "https://navan.com/solutions/small-business"
+      },
+      {
+        "title": "Business Travel Management See how to manage all corporate travel in one place.",
+        "url": "https://navan.com/product/business-travel"
+      },
+      {
+        "title": "Expense",
+        "url": "https://navan.com/product/expense-management"
+      },
+      {
+        "title": "Payments",
+        "url": "https://navan.com/product/payments"
+      },
+      {
+        "title": "Navan Events",
+        "url": "https://navan.com/product/meetings-and-events"
+      },
+      {
+        "title": "Your browser does not support the video tag. Introducing Navan Edge Early access The new standard for frequent travelers: tailored, rewarding, effortless.",
+        "url": "https://navan.com/product/navan-edge"
       }
     ],
     "case_studies": [
@@ -407,13 +1415,92 @@
       }
     ],
     "client_testimonials": [],
-    "thought_leadership": [],
-    "market_insights": []
+    "customer_reviews": [],
+    "thought_leadership": [
+      {
+        "title": "Study finds Navan saves customers 16% on business travel Read now",
+        "url": "https://navan.com/resources/reports/forrester-tei-report-navan"
+      },
+      {
+        "title": "See why 77% of managers prioritize all-in-one T&E Read now",
+        "url": "https://navan.com/resources/reports/state-of-corporate-travel-and-expense-2026"
+      },
+      {
+        "title": "4.7 out of 5 | 9K+ reviews return ( );",
+        "url": "https://navan.com/resources/reports/g2-grid-report-travel-and-expense-management-leader-spring-2026"
+      }
+    ],
+    "industries_served": [
+      {
+        "title": "Finance Teams",
+        "url": "https://navan.com/solutions/finance"
+      },
+      {
+        "title": "Energy and Utilities",
+        "url": "https://navan.com/energy-and-utilities"
+      },
+      {
+        "title": "Financial Services",
+        "url": "https://navan.com/financial-services"
+      },
+      {
+        "title": "Industrial and Manufacturing",
+        "url": "https://navan.com/industrial-and-manufacturing"
+      },
+      {
+        "title": "Media and Entertainment",
+        "url": "https://navan.com/media-and-entertainment"
+      },
+      {
+        "title": "Retail and E-Commerce",
+        "url": "https://navan.com/retail-and-e-commerce"
+      },
+      {
+        "title": "Technology and Software",
+        "url": "https://navan.com/technology-and-software"
+      },
+      {
+        "title": "Learn more about Finance & Accounting Learn more",
+        "url": "https://navan.com/solutions/finance"
+      },
+      {
+        "title": "Retail and Ecommerce",
+        "url": "https://navan.com/retail-and-e-commerce"
+      }
+    ],
+    "pricing_signals": [
+      {
+        "text": "Pricing",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "text": "Pricing",
+        "kind": "quote_or_pricing_cta",
+        "url": "https://navan.com/pricing"
+      },
+      {
+        "text": "Navan provides your team with special rates among a massive travel inventory featuring top suppliers.",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      }
+    ],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 12,
+      "case_studies": 3,
+      "client_testimonials": 0,
+      "thought_leadership": 3,
+      "industries_served": 9,
+      "pricing_signals": 3,
+      "market_insights": 0
+    }
   },
   {
     "site": "travelperk",
     "category": "competitors",
     "source_file": "data/raw/competitors/travelperk.html",
+    "source_url": "https://www.travelperk.com/",
     "page_title": "The intelligent platform for travel and spend | Perk",
     "service_offerings": [
       {
@@ -567,6 +1654,10 @@
       {
         "title": "Finance transformation",
         "url": "https://www.perk.com/spend-solutions/finance-transformation/"
+      },
+      {
+        "title": "Discover our solutions",
+        "url": "https://www.travelperk.com/solutions-overview/"
       }
     ],
     "case_studies": [
@@ -601,37 +1692,181 @@
       {
         "title": "Umb",
         "url": "https://www.perk.com/case-studies/umb/"
+      },
+      {
+        "title": "View case study",
+        "url": "https://www.travelperk.com/case-studies/fabletics/"
+      },
+      {
+        "title": "View case study",
+        "url": "https://www.travelperk.com/case-studies/on-running/"
+      },
+      {
+        "title": "View case study",
+        "url": "https://www.travelperk.com/case-studies/storyblok/"
       }
     ],
     "client_testimonials": [],
-    "thought_leadership": [],
-    "market_insights": []
+    "customer_reviews": [],
+    "thought_leadership": [
+      {
+        "title": "Expense Fraud report",
+        "url": "https://www.travelperk.com/blog/ai-era-expense-management-controls/"
+      },
+      {
+        "title": "Travel disruption survey",
+        "url": "https://www.travelperk.com/blog/business-travel-chaos-survey/"
+      }
+    ],
+    "industries_served": [
+      {
+        "title": "For finance teams",
+        "url": "https://www.travelperk.com/travel-solutions/persona-finance-team/"
+      },
+      {
+        "title": "Media center",
+        "url": "https://www.travelperk.com/media/"
+      },
+      {
+        "title": "Press Releases",
+        "url": "https://www.travelperk.com/media/"
+      },
+      {
+        "title": "Control without the chaos",
+        "url": "https://www.travelperk.com/travel-solutions/persona-finance-team/"
+      },
+      {
+        "title": "Take control of spend",
+        "url": "https://www.travelperk.com/travel-solutions/persona-finance-team/"
+      },
+      {
+        "title": "Finance teams",
+        "url": "https://www.travelperk.com/travel-solutions/persona-finance-team/"
+      },
+      {
+        "title": "Finance transformation",
+        "url": "https://www.travelperk.com/spend-solutions/finance-transformation/"
+      }
+    ],
+    "pricing_signals": [
+      {
+        "text": "Pricing",
+        "kind": "quote_or_pricing_cta",
+        "url": "https://www.travelperk.com/pricing/"
+      },
+      {
+        "text": "Pricing",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "text": "Our AI searches thousands of venues, negotiates the rates, and brings you the â¨best optionsâyou just pick one. RSVPs, travel, accommodation, and comms are all handled for you in one easy-to-use interface.",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "text": "$37.5K",
+        "kind": "amount",
+        "url": ""
+      },
+      {
+        "text": "Transparent pricing, uncapped cashback, and hours of manual work eliminated every week. Perk grows with your teams, and the bottom line impact grows, too.",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "text": "The widest inventory on the market, negotiated rates and an AI that handles bookings, changes, and disruptions for you. Now you're free to focus on strategy, not firefighting.",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "text": "**$3.72M returned to the business per weekday: Based on the hours given back to Perk users and the estimated business value of that time.â¨",
+        "kind": "amount",
+        "url": ""
+      }
+    ],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 39,
+      "case_studies": 11,
+      "client_testimonials": 0,
+      "thought_leadership": 2,
+      "industries_served": 7,
+      "pricing_signals": 7,
+      "market_insights": 0
+    }
   },
   {
     "site": "tzell_travel",
     "category": "competitors",
     "source_file": "data/raw/competitors/tzell_travel.html",
+    "source_url": "https://tzell.com/",
     "page_title": "HOME - Tzell Travel Group",
-    "service_offerings": [],
+    "service_offerings": [
+      {
+        "title": "TECHNOLOGY",
+        "url": "https://tzell.com/technology/"
+      },
+      {
+        "title": "TZELL SELECT BRANDS",
+        "url": "https://experiencetzellselect.com/"
+      }
+    ],
     "case_studies": [],
     "client_testimonials": [
       "“ Melissa Lonsk hooked my family up with a wonderful vacation! She was so helpful and patient and recommended a great cruise for us to get away for a long weekend! I'd highly recommend working with Melissa and this travel agency when traveling with young kids! Rachel Brier Friedman",
       "“ I am writing you to tell you how much we appreciate Tom Schmidt's efforts given a difficult situation. Tom deserves very high marks for his patience, competence and professionalism. Peter Oakes",
       "“ We had to get an emergency passport for our daughter. Tzell was amazing. They walked us through the whole process. That is very hard to do when you are talking to someone in a panic! Everything they did for our trip was amazing. Liz Neporent",
-      "“ I have experienced for decades Tzell's excellent service and management professionalism. You can't go wrong with Tzell. Yisrael Medad"
+      "“ I have experienced for decades Tzell's excellent service and management professionalism. You can't go wrong with Tzell. Yisrael Medad",
+      "“ Melissa Lonsk hooked my family up with a wonderful vacation! She was so helpful and patient and recommended a great cruise for us to get away for a long weekend! I'd highly recommend working with Melissa and this travel agency when traveling with young kids! Rachel Brier Friedman “ I am writing you to tell you how much we appreciate Tom Schmidt's efforts given a difficult situation. Tom deserves very high marks for his patience, competence and professionalism. Peter Oakes “ We had to get an emergency passport for our daughter. Tzell was amazing. They walked us through the whole process. That is very hard to do when you are talking to someone in a panic! Everything they did for our trip was amazing. Liz Neporent “ I have experienced for decades Tzell's excellent service and management professionalism. You can't go wrong with Tzell. Yisrael Medad"
+    ],
+    "customer_reviews": [
+      "“ Melissa Lonsk hooked my family up with a wonderful vacation! She was so helpful and patient and recommended a great cruise for us to get away for a long weekend! I'd highly recommend working with Melissa and this travel agency when traveling with young kids! Rachel Brier Friedman",
+      "“ I am writing you to tell you how much we appreciate Tom Schmidt's efforts given a difficult situation. Tom deserves very high marks for his patience, competence and professionalism. Peter Oakes",
+      "“ We had to get an emergency passport for our daughter. Tzell was amazing. They walked us through the whole process. That is very hard to do when you are talking to someone in a panic! Everything they did for our trip was amazing. Liz Neporent",
+      "“ I have experienced for decades Tzell's excellent service and management professionalism. You can't go wrong with Tzell. Yisrael Medad",
+      "“ Melissa Lonsk hooked my family up with a wonderful vacation! She was so helpful and patient and recommended a great cruise for us to get away for a long weekend! I'd highly recommend working with Melissa and this travel agency when traveling with young kids! Rachel Brier Friedman “ I am writing you to tell you how much we appreciate Tom Schmidt's efforts given a difficult situation. Tom deserves very high marks for his patience, competence and professionalism. Peter Oakes “ We had to get an emergency passport for our daughter. Tzell was amazing. They walked us through the whole process. That is very hard to do when you are talking to someone in a panic! Everything they did for our trip was amazing. Liz Neporent “ I have experienced for decades Tzell's excellent service and management professionalism. You can't go wrong with Tzell. Yisrael Medad"
     ],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [
+      {
+        "title": "LEARN MORE",
+        "url": "https://tzell.com/entertainment/"
+      },
+      {
+        "title": "ENTERTAINMENT",
+        "url": "https://tzell.com/entertainment/"
+      },
+      {
+        "title": "TECHNOLOGY",
+        "url": "https://tzell.com/technology/"
+      }
+    ],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 2,
+      "case_studies": 0,
+      "client_testimonials": 5,
+      "thought_leadership": 0,
+      "industries_served": 3,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "business_of_fashion",
     "category": "fashion_news",
     "source_file": "data/raw/fashion_news/business_of_fashion.html",
+    "source_url": "https://www.businessoffashion.com/",
     "page_title": "The Business of Fashion",
     "service_offerings": [],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
+    "industries_served": [],
+    "pricing_signals": [],
     "market_insights": [
       {
         "title": "Yayoi Kusama, Renowned for Infinity Rooms and Louis Vuitton Collaborations, Has Died",
@@ -849,17 +2084,30 @@
         "title": "Can Gap Keep Up Its Hot Streak?",
         "url": "https://www.businessoffashion.com/articles/marketing-pr/bof-insights-brand-pulse-ai-brand-performance-tracker-gap-marketing/"
       }
-    ]
+    ],
+    "extraction_quality": {
+      "service_offerings": 0,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 0,
+      "pricing_signals": 0,
+      "market_insights": 54
+    }
   },
   {
     "site": "fashion_united",
     "category": "fashion_news",
     "source_file": "data/raw/fashion_news/fashion_united.html",
+    "source_url": "https://fashionunited.com/",
     "page_title": "Fashion news and fashion jobs",
     "service_offerings": [],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
+    "industries_served": [],
+    "pricing_signals": [],
     "market_insights": [
       {
         "title": "In Pictures: AW27/28 trends through the lens of Christine Boland",
@@ -881,17 +2129,30 @@
         "summary": "US specialty apparel giant Gap Inc. announced its second quarter financial results for the period ended August 1, 2026. The company experienced a top-line decline, with net sales decreasing 2 percent year-over-year (YoY) to 3.7 billion dollars, while comparable sales dropped 1 percent. Store sales fell 3 percent compared to the prior year across...",
         "url": "https://fashionunited.com/news/business/old-navy-appoints-new-ceo-as-gap-addresses-underperformance-in-q2/2026082874311"
       }
-    ]
+    ],
+    "extraction_quality": {
+      "service_offerings": 0,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 0,
+      "pricing_signals": 0,
+      "market_insights": 4
+    }
   },
   {
     "site": "vogue_business",
     "category": "fashion_news",
     "source_file": "data/raw/fashion_news/vogue_business.html",
+    "source_url": "https://www.voguebusiness.com/",
     "page_title": "Vogue Business: Fashion Industry Expertise From an Insider's Perspective | Vogue",
     "service_offerings": [],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
+    "industries_served": [],
+    "pricing_signals": [],
     "market_insights": [
       {
         "title": "How Arc’teryx Made Its Most Circular Product Yet",
@@ -1474,17 +2735,30 @@
         "date": "August 18, 2026",
         "url": "https://www.vogue.com/article/how-kilian-paris-is-turning-a-bestseller-into-a-fragrance-wardrobe"
       }
-    ]
+    ],
+    "extraction_quality": {
+      "service_offerings": 0,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 0,
+      "pricing_signals": 0,
+      "market_insights": 83
+    }
   },
   {
     "site": "wwd",
     "category": "fashion_news",
     "source_file": "data/raw/fashion_news/wwd.html",
+    "source_url": "https://wwd.com/",
     "page_title": "WWD – Women's Wear Daily brings you breaking news about the fashion industry, designers, celebrity trend setters, and extensive coverage of fashion week.",
     "service_offerings": [],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
+    "industries_served": [],
+    "pricing_signals": [],
     "market_insights": [
       {
         "title": "EXCLUSIVE: Royal Favorite Me+Em to Open Pop-up in Geneva, Its First Store in Continental Europe",
@@ -1606,17 +2880,30 @@
         "summary": "",
         "url": "https://wwd.com/eye/lifestyle/wwd-report-card-brad-pitt-ryan-gosling-mens-style1235258864-1235258864/"
       }
-    ]
+    ],
+    "extraction_quality": {
+      "service_offerings": 0,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 0,
+      "pricing_signals": 0,
+      "market_insights": 24
+    }
   },
   {
     "site": "etourisme",
     "category": "travel_news",
     "source_file": "data/raw/travel_news/etourisme.html",
+    "source_url": "https://www.etourisme.info/",
     "page_title": "etourisme.info : votre quotidien de l'e-tourisme",
     "service_offerings": [],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
+    "industries_served": [],
+    "pricing_signals": [],
     "market_insights": [
       {
         "title": "On ferme !",
@@ -1682,28 +2969,54 @@
         "reading_time": "5 min",
         "url": "https://www.etourisme.info/diagnostic-touristique-et-si-lirritant-etait-la-vraie-donnee/"
       }
-    ]
+    ],
+    "extraction_quality": {
+      "service_offerings": 0,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 0,
+      "pricing_signals": 0,
+      "market_insights": 8
+    }
   },
   {
     "site": "quotidien_du_tourisme",
     "category": "travel_news",
     "source_file": "data/raw/travel_news/quotidien_du_tourisme.html",
+    "source_url": "https://www.quotidiendutourisme.com/",
     "page_title": "Le Quotidien du Tourisme - L'actualité du tourisme professionnel",
     "service_offerings": [],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
-    "market_insights": []
+    "industries_served": [],
+    "pricing_signals": [],
+    "market_insights": [],
+    "extraction_quality": {
+      "service_offerings": 0,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 0,
+      "pricing_signals": 0,
+      "market_insights": 0
+    }
   },
   {
     "site": "ttg",
     "category": "travel_news",
     "source_file": "data/raw/travel_news/ttg.html",
+    "source_url": "https://www.ttgmedia.com/",
     "page_title": "TTG Media | TTG",
     "service_offerings": [],
     "case_studies": [],
     "client_testimonials": [],
+    "customer_reviews": [],
     "thought_leadership": [],
+    "industries_served": [],
+    "pricing_signals": [],
     "market_insights": [
       {
         "title": "‘We can’t do this alone’: AWTE calls on men to challenge misogyny in the travel industry",
@@ -1790,6 +3103,15 @@
         "summary": "",
         "url": "https://www.ttgmedia.com/travel-industry-news/we-quickly-realised-ai-needed-stay-behind-scenes-says-ttg-30-under-30-behind"
       }
-    ]
+    ],
+    "extraction_quality": {
+      "service_offerings": 0,
+      "case_studies": 0,
+      "client_testimonials": 0,
+      "thought_leadership": 0,
+      "industries_served": 0,
+      "pricing_signals": 0,
+      "market_insights": 17
+    }
   }
 ]

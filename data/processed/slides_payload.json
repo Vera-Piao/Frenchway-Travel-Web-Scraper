@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-09-04T04:37:02.715066Z",
+  "analysis_schema_version": 2,
+  "slides": [
+    {
+      "id": "project_overview",
+      "title": "Project Overview",
+      "summary": {
+        "total_sites": 22,
+        "competitor_sites": 15,
+        "travel_news_sites": 3,
+        "fashion_news_sites": 4,
+        "service_count": 175,
+        "case_study_count": 20,
+        "testimonial_count": 30,
+        "market_insight_count": 190
+      }
+    },
+    {
+      "id": "competitor_analysis",
+      "title": "Competitor Analysis",
+      "summary": {
+        "total_sites": 22,
+        "competitor_sites": 15,
+        "travel_news_sites": 3,
+        "fashion_news_sites": 4,
+        "service_count": 175,
+        "case_study_count": 20,
+        "testimonial_count": 30,
+        "market_insight_count": 190
+      }
+    },
+    {
+      "id": "service_chart",
+      "title": "Extracted Service Offerings by Competitor",
+      "data": [
+        {
+          "site": "travelperk",
+          "count": 39
+        },
+        {
+          "site": "fcm_travel",
+          "count": 20
+        },
+        {
+          "site": "blueorange_travel",
+          "count": 15
+        },
+        {
+          "site": "direct_travel",
+          "count": 15
+        },
+        {
+          "site": "bcd_travel",
+          "count": 14
+        },
+        {
+          "site": "le_connoisseur",
+          "count": 14
+        },
+        {
+          "site": "aav_luxury_travel",
+          "count": 13
+        },
+        {
+          "site": "exclusive_france_tours",
+          "count": 13
+        },
+        {
+          "site": "navan",
+          "count": 12
+        },
+        {
+          "site": "french_promise",
+          "count": 11
+        },
+        {
+          "site": "deluxe_france",
+          "count": 6
+        },
+        {
+          "site": "tzell_travel",
+          "count": 2
+        },
+        {
+          "site": "forest_travel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "market_insights_chart",
+      "title": "Market Insights by Source",
+      "data": [
+        {
+          "site": "vogue_business",
+          "category": "fashion_news",
+          "count": 83
+        },
+        {
+          "site": "business_of_fashion",
+          "category": "fashion_news",
+          "count": 54
+        },
+        {
+          "site": "wwd",
+          "category": "fashion_news",
+          "count": 24
+        },
+        {
+          "site": "ttg",
+          "category": "travel_news",
+          "count": 17
+        },
+        {
+          "site": "etourisme",
+          "category": "travel_news",
+          "count": 8
+        },
+        {
+          "site": "fashion_united",
+          "category": "fashion_news",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "market_trends",
+      "title": "Key Market Trends",
+      "body": "{\n  \"travel\": \"Deterministic travel summary. Leading category themes: trust and service (3 records), experiential travel (2 records), risk and resilience (2 records), fashion and retail (1 records), ai and technology (1 records). Keyword sentiment mean is -0.04; this is descriptive and not a customer-satisfaction measure. Predictive model status: insufficient_data. Forecast withheld because the dated time series is too short or sparse.\",\n  \"fashion\": \"Deterministic fashion summary. Leading category themes: fashion and retail (54 records), ai and technology (9 records), sustainability (6 records), trust and service (5 records), experiential travel (2 records). Keyword sentiment mean is 0.1576; this is descriptive and not a customer-satisfaction measure. Predictive model status: modeled. Article volume measures source publishing/capture activity, not market demand or revenue.\"\n}"
+    },
+    {
+      "id": "strategic_recommendations",
+      "title": "Strategic Recommendations",
+      "body": "1. Lead with signature fashion-and-culture journeys\nFashion, luxury, retail, and experiential themes recur in the captured evidence.\nAction: Pilot one Paris itinerary with explicit access, service, and conversion measures.\n\n2. Use AI for drafts with human approval\nTechnology signals coexist with trust, expertise, and risk themes.\nAction: Require specialist review and a source checklist before sending itineraries.\n\n3. Make resilience part of the offer\nRisk and disruption signals appear in travel coverage.\nAction: Publish escalation, rebooking, traveler-alert, and data-protection commitments.\n\n4. Improve evidence depth\nPricing signals appear on 4 sites and industries on 13 sites.\nAction: Review low-yield sources monthly and maintain selectors with fixtures.\n\n5. Operate a monitored monthly scan\nRecurring decisions require freshness and source-level quality metrics.\nAction: Schedule the pipeline, retain manifests, and alert on coverage or yield regressions."
+    }
+  ]
+}

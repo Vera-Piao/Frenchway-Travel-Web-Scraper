@@ -1,393 +1,189 @@
+"""Create an evidence-bounded market analysis with optional OpenAI synthesis."""
+
+import argparse
+from datetime import datetime, timezone
 import json
+import os
 from pathlib import Path
+
 from openai import OpenAI
 
+try:
+    from .analytics import build_quantitative_analysis, offline_recommendations
+except ImportError:
+    from analytics import build_quantitative_analysis, offline_recommendations
 
-DATA_PATH = "data/processed/scraped_data.json"
-OUTPUT_PATH = "data/processed/analysis_report.json"
 
-def test_openai_connection():
-    """Test the OpenAI API connection."""
+DATA_PATH = Path("data/processed/scraped_data.json")
+OUTPUT_PATH = Path("data/processed/analysis_report.json")
 
-    client = OpenAI()
 
-    response = client.responses.create(
-        model="gpt-5.4-mini",
-        input=(
-            "Reply with exactly: "
-            "OpenAI connection successful."
-        ),
-    )
-
-    return response.output_text
-
-def load_processed_data():
-    """Load processed scraped data."""
-
-    path = Path(DATA_PATH)
-
-    with path.open("r", encoding="utf-8") as file:
+def load_processed_data(file_path=DATA_PATH):
+    with Path(file_path).open("r", encoding="utf-8") as file:
         return json.load(file)
 
 
 def collect_market_insights(records):
-    """Collect market insights for AI analysis."""
-
     insights = []
-
     for record in records:
-        if record["category"] not in {
-            "travel_news",
-            "fashion_news",
-        }:
+        if record.get("category") not in {"travel_news", "fashion_news"}:
             continue
-
-        for article in record["market_insights"]:
+        for article in record.get("market_insights", []):
             insights.append({
-                "source": record["site"],
-                "category": record["category"],
+                "source": record.get("site", ""),
+                "category": record.get("category", ""),
                 "title": article.get("title", ""),
                 "summary": article.get("summary", ""),
                 "date": article.get("date", ""),
                 "url": article.get("url", ""),
             })
-
     return insights
 
 
-def split_insights_by_category(insights):
-    """Split insights into travel and fashion datasets."""
-
-    travel = []
-    fashion = []
-
-    for insight in insights:
-        if insight["category"] == "travel_news":
-            travel.append(insight)
-
-        elif insight["category"] == "fashion_news":
-            fashion.append(insight)
-
-    return travel, fashion
-
-def format_insights_for_ai(insights):
-    """Format market insights as compact text for AI analysis."""
-
+def format_insights_for_ai(insights, limit=120):
     sections = []
-
-    for index, insight in enumerate(insights, start=1):
-        parts = [
-            f"[{index}]",
-            f"Source: {insight['source']}",
+    for index, insight in enumerate(insights[:limit], start=1):
+        sections.append("\n".join(filter(None, [
+            f"[{index}] Source: {insight['source']}",
             f"Title: {insight['title']}",
-        ]
-
-        if insight["summary"]:
-            parts.append(
-                f"Summary: {insight['summary']}"
-            )
-
-        if insight["date"]:
-            parts.append(
-                f"Date: {insight['date']}"
-            )
-
-        sections.append("\n".join(parts))
-
+            f"Summary: {insight['summary']}" if insight["summary"] else "",
+            f"Date: {insight['date']}" if insight["date"] else "",
+            f"URL: {insight['url']}" if insight["url"] else "",
+        ])))
     return "\n\n".join(sections)
 
-def analyze_market_category(
-    client,
-    category_name,
-    insights,
-):
-    """Analyze one category of market insights."""
 
-    formatted_data = format_insights_for_ai(
-        insights
-    )
-
+def api_synthesis(client, model, label, insights):
     prompt = f"""
-You are analyzing market research data for
-Frenchway Travel, a travel company seeking to
-attract more international customers.
-
-Analyze the following {category_name} news data.
-
-Identify:
-1. Five major market themes or trends.
-2. Important customer expectations or behaviors.
-3. Relevant opportunities for a travel company.
-4. Potential risks or challenges.
-
-Base your conclusions only on the supplied data.
-Do not invent statistics, companies, or trends
-that are not supported by the input.
-
-For each major theme, briefly explain the evidence
-visible in the supplied article titles or summaries.
+You are preparing market research for Frenchway Travel.
+Analyze the supplied {label} article records. Identify five supported themes,
+customer expectations, opportunities, and risks. Cite record numbers in the
+analysis. Do not invent statistics, dates, sources, or causal claims. Explicitly
+state when evidence is title-only or sparse.
 
 DATA:
-{formatted_data}
+{format_insights_for_ai(insights)}
 """
-
-    response = client.responses.create(
-        model="gpt-5.4-mini",
-        input=prompt,
-    )
-
+    response = client.responses.create(model=model, input=prompt)
     return response.output_text
 
-def group_insights_by_source(insights):
-    """Group market insights by source."""
 
-    groups = {}
-
-    for insight in insights:
-        source = insight["source"]
-
-        if source not in groups:
-            groups[source] = []
-
-        groups[source].append(insight)
-
-    return groups
-
-def analyze_fashion_sources(
-    client,
-    fashion_insights,
-):
-    """Analyze fashion news source by source."""
-
-    source_groups = group_insights_by_source(
-        fashion_insights
-    )
-
-    analyses = {}
-
-    for source, insights in source_groups.items():
-        print(
-            f"Analyzing {source}: "
-            f"{len(insights)} insights..."
-        )
-
-        analyses[source] = analyze_market_category(
-            client,
-            f"fashion and luxury industry "
-            f"news from {source}",
-            insights,
-        )
-
-    return analyses
-
-def synthesize_fashion_analysis(
-    client,
-    source_analyses,
-):
-    """Synthesize fashion analyses across sources."""
-
-    combined = []
-
-    for source, analysis in source_analyses.items():
-        combined.append(
-            f"SOURCE: {source}\n"
-            f"{analysis}"
-        )
-
-    combined_text = "\n\n".join(combined)
-
+def api_recommendations(client, model, travel_analysis, fashion_analysis):
     prompt = f"""
-You are preparing market research for Frenchway
-Travel, a travel company seeking to attract more
-international customers.
+Create five concise, evidence-bounded recommendations for Frenchway Travel.
+For each, include title, rationale, action, and success measure. Base every item
+only on the analyses below and avoid unsupported forecasts.
 
-Below are separate analyses of fashion and luxury
-industry news sources.
-
-Synthesize them into a concise cross-source report.
-
-Identify:
-1. Five strongest fashion/luxury market trends.
-2. Customer expectations relevant to luxury travel.
-3. Connections between fashion and travel.
-4. Opportunities for Frenchway Travel.
-5. Risks or challenges.
-
-Prioritize patterns supported across the supplied
-analyses. Do not invent facts or statistics.
-
-SOURCE ANALYSES:
-
-{combined_text}
-"""
-
-    response = client.responses.create(
-        model="gpt-5.4-mini",
-        input=prompt,
-    )
-
-    return response.output_text
-
-def synthesize_strategic_recommendations(
-    client,
-    travel_analysis,
-    fashion_analysis,
-):
-    """Create final strategic recommendations for Frenchway Travel."""
-
-    prompt = f"""
-You are preparing the final strategic market
-research summary for Frenchway Travel.
-
-Frenchway Travel wants to attract more
-international customers.
-
-Below are two analyses derived from scraped
-travel and fashion industry data.
-
-TRAVEL INDUSTRY ANALYSIS:
+TRAVEL ANALYSIS:
 {travel_analysis}
 
-FASHION AND LUXURY ANALYSIS:
+FASHION/LUXURY ANALYSIS:
 {fashion_analysis}
-
-Based only on these analyses, identify the five
-most actionable strategic recommendations for
-Frenchway Travel.
-
-Each recommendation must include:
-- title
-- rationale
-- suggested action
-
-Focus on recommendations that connect directly
-to international customer acquisition, travel
-experience design, digital capabilities, or
-competitive differentiation.
-
-Keep the recommendations concise and suitable
-for a consulting presentation.
-
-Do not invent statistics or unsupported facts.
 """
-
-    response = client.responses.create(
-        model="gpt-5.4-mini",
-        input=prompt,
-    )
-
+    response = client.responses.create(model=model, input=prompt)
     return response.output_text
 
-def save_analysis_report(
-    travel_analysis,
-    fashion_analysis,
-    strategic_recommendations,
-    total_count,
-    travel_count,
-    fashion_count,
-):
-    """Save AI market analysis as structured JSON."""
 
-    report = {
-        "dataset_summary": {
-            "total_market_insights": total_count,
-            "travel_insights": travel_count,
-            "fashion_insights": fashion_count,
-        },
+def offline_analysis_text(category, quantitative):
+    category_metrics = quantitative.get("by_category", {}).get(category, quantitative)
+    themes = category_metrics["themes"][:5]
+    theme_text = ", ".join(
+        f"{item['theme'].replace('_', ' ')} ({item['record_count']} records)"
+        for item in themes
+    ) or "no repeated themes detected"
+    sentiment = category_metrics["sentiment"]
+    forecast = category_metrics["predictive_model"]
+    display_category = category.replace("_news", "").replace("_", " ")
+    return (
+        f"Deterministic {display_category} summary. Leading category themes: {theme_text}. "
+        f"Keyword sentiment mean is {sentiment['mean_score']}; this is descriptive and not a customer-satisfaction measure. "
+        f"Predictive model status: {forecast['status']}. {forecast.get('reason', forecast.get('limitations', ''))}"
+    )
+
+
+def dataset_summary(records, insights):
+    return {
+        "total_sources": len(records),
+        "competitor_sources": sum(record.get("category") == "competitors" for record in records),
+        "travel_news_sources": sum(record.get("category") == "travel_news" for record in records),
+        "fashion_news_sources": sum(record.get("category") == "fashion_news" for record in records),
+        "total_market_insights": len(insights),
+        "travel_insights": sum(item["category"] == "travel_news" for item in insights),
+        "fashion_insights": sum(item["category"] == "fashion_news" for item in insights),
+    }
+
+
+def build_report(records, *, use_ai=False, model=None):
+    insights = collect_market_insights(records)
+    travel = [item for item in insights if item["category"] == "travel_news"]
+    fashion = [item for item in insights if item["category"] == "fashion_news"]
+    quantitative = build_quantitative_analysis(records)
+
+    if use_ai:
+        if not os.environ.get("OPENAI_API_KEY"):
+            raise RuntimeError("OPENAI_API_KEY is required with --ai.")
+        model = model or os.environ.get("OPENAI_MODEL", "gpt-5-mini")
+        client = OpenAI()
+        travel_analysis = api_synthesis(client, model, "travel", travel)
+        fashion_analysis = api_synthesis(client, model, "fashion and luxury", fashion)
+        recommendations = api_recommendations(client, model, travel_analysis, fashion_analysis)
+        mode = "openai_plus_deterministic_metrics"
+    else:
+        model = None
+        travel_analysis = offline_analysis_text("travel_news", quantitative)
+        fashion_analysis = offline_analysis_text("fashion_news", quantitative)
+        recommendations = offline_recommendations(quantitative)
+        mode = "deterministic_offline"
+
+    return {
+        "schema_version": 2,
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "analysis_mode": mode,
+        "model": model,
+        "dataset_summary": dataset_summary(records, insights),
+        "quantitative_analysis": quantitative,
         "travel_analysis": travel_analysis,
         "fashion_analysis": fashion_analysis,
-        "strategic_recommendations": (
-            strategic_recommendations
-        ),
+        "strategic_recommendations": recommendations,
+        "guardrails": [
+            "Record counts are extraction outputs, not market share or demand.",
+            "Keyword sentiment is descriptive and can miss context.",
+            "Forecasts are withheld unless the dated time series meets minimum sufficiency thresholds.",
+            "OpenAI synthesis, when enabled, must be reviewed against source records before external use.",
+        ],
     }
-    
-    path = Path(OUTPUT_PATH)
 
-    path.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
 
-    with path.open(
-        "w",
-        encoding="utf-8",
-    ) as file:
-        json.dump(
-            report,
-            file,
-            ensure_ascii=False,
-            indent=2,
-        )
+def save_analysis_report(report, output_path=OUTPUT_PATH):
+    path = Path(output_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    temporary.replace(path)
+    return path
 
-    print(f"\nAnalysis report saved to: {path}")
+
+def parse_args():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input", default=str(DATA_PATH))
+    parser.add_argument("--output", default=str(OUTPUT_PATH))
+    parser.add_argument("--ai", action="store_true", help="Use the OpenAI Responses API for narrative synthesis.")
+    parser.add_argument("--model", help="OpenAI model id; defaults to OPENAI_MODEL or gpt-5-mini.")
+    return parser.parse_args()
+
+
+def main():
+    args = parse_args()
+    records = load_processed_data(args.input)
+    report = build_report(records, use_ai=args.ai, model=args.model)
+    path = save_analysis_report(report, args.output)
+    print(json.dumps({
+        "output": str(path),
+        "analysis_mode": report["analysis_mode"],
+        "dataset_summary": report["dataset_summary"],
+        "predictive_model_status": report["quantitative_analysis"]["predictive_model"]["status"],
+    }, indent=2))
+
 
 if __name__ == "__main__":
-    records = load_processed_data()
-
-    insights = collect_market_insights(records)
-
-    travel_insights, fashion_insights = (
-        split_insights_by_category(insights)
-    )
-
-    print(f"Total market insights: {len(insights)}")
-    print(f"Travel insights: {len(travel_insights)}")
-    print(f"Fashion insights: {len(fashion_insights)}")
-    client = OpenAI()
-
-    print("\nAnalyzing travel industry data...")
-
-    travel_analysis = analyze_market_category(
-        client,
-        "travel industry",
-        travel_insights,
-    )
-
-    print("\nTRAVEL INDUSTRY ANALYSIS")
-    print("=" * 60)
-    print(travel_analysis)
-
-    print("\nAnalyzing fashion industry data...")
-
-    fashion_source_analyses = (
-        analyze_fashion_sources(
-            client,
-            fashion_insights,
-        )
-    )
-
-    print("\nSynthesizing fashion analysis...")
-
-    fashion_analysis = (
-        synthesize_fashion_analysis(
-            client,
-            fashion_source_analyses,
-        )
-    )
-
-    print("\nFASHION INDUSTRY ANALYSIS")
-    print("=" * 60)
-    print(fashion_analysis)
-
-    print("\nGenerating strategic recommendations...")
-
-    strategic_recommendations = (
-        synthesize_strategic_recommendations(
-            client,
-            travel_analysis,
-            fashion_analysis,
-        )
-    )
-
-    print("\nSTRATEGIC RECOMMENDATIONS")
-    print("=" * 60)
-    print(strategic_recommendations)
-
-    save_analysis_report(
-        travel_analysis,
-        fashion_analysis,
-        strategic_recommendations,
-        len(insights),
-        len(travel_insights),
-        len(fashion_insights),
-    )
+    main()

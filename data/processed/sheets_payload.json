@@ -1,0 +1,4377 @@
+{
+  "generated_at": "2026-09-04T04:37:02.632193Z",
+  "worksheets": {
+    "Source Inventory": [
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "source_url": "https://aavluxurytravel.com/",
+        "page_title": "Cultural & Luxury Travel Agency in France — Académie des Arts de Vivre",
+        "services": 13,
+        "case_studies": 2,
+        "testimonials": 6,
+        "thought_leadership": 0,
+        "industries": 48,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "source_url": "https://www.bcdtravel.com/",
+        "page_title": "Business Travel Management & Corporate Travel | BCD Travel",
+        "services": 14,
+        "case_studies": 4,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 6,
+        "pricing_signals": 1,
+        "market_insights": 0
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "source_url": "https://blueorangetravel.com/fashion-travel-agency/",
+        "page_title": "Top Manhattan New York Fashion Travel Agency | BlueOrange Travel",
+        "services": 15,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 7,
+        "pricing_signals": 1,
+        "market_insights": 0
+      },
+      {
+        "site": "cwt",
+        "category": "competitors",
+        "source_url": "https://www.mycwt.com/",
+        "page_title": "We are CWT | Business Travel | Meetings & Events | Consultancy",
+        "services": 0,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 0,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "source_url": "https://deluxefrance.com/details-fashion+tours-559",
+        "page_title": "Fashion Tours - Deluxe France",
+        "services": 6,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 4,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "source_url": "https://www.dt.com/",
+        "page_title": "Direct Travel | Top Corporate Travel Management Company",
+        "services": 15,
+        "case_studies": 0,
+        "testimonials": 2,
+        "thought_leadership": 4,
+        "industries": 5,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "source_url": "https://exclusive-france-tours.com/",
+        "page_title": "Exclusive France Tours - Luxury and High-End Tours of France",
+        "services": 13,
+        "case_studies": 0,
+        "testimonials": 1,
+        "thought_leadership": 1,
+        "industries": 0,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "source_url": "https://www.fcmtravel.com/",
+        "page_title": "Global corporate travel management solutions | FCM Travel",
+        "services": 20,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 3,
+        "industries": 4,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "forest_travel",
+        "category": "competitors",
+        "source_url": "https://foresttravel.com/experiences/paris-fashion-show/",
+        "page_title": "Luxury Signature Event Travel & VIP Access | Forest Travel",
+        "services": 1,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 5,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "source_url": "https://frenchpromise.com/",
+        "page_title": "French Promise by Kairos - Luxury DMC France Travel Advisors",
+        "services": 11,
+        "case_studies": 0,
+        "testimonials": 11,
+        "thought_leadership": 0,
+        "industries": 11,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "source_url": "https://le-connoisseur.com/",
+        "page_title": "Le Connoisseur | Luxury travel, bespoke events & unique experiences in Paris and France",
+        "services": 14,
+        "case_studies": 0,
+        "testimonials": 5,
+        "thought_leadership": 0,
+        "industries": 11,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "luxe_fashion_trips",
+        "category": "competitors",
+        "source_url": "https://luxefashiontrips.com/",
+        "page_title": "LUXE fashion trips",
+        "services": 0,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 3,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "source_url": "https://navan.com/",
+        "page_title": "Navan: The #1 Corporate Travel Management Platform",
+        "services": 12,
+        "case_studies": 3,
+        "testimonials": 0,
+        "thought_leadership": 3,
+        "industries": 9,
+        "pricing_signals": 3,
+        "market_insights": 0
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "source_url": "https://www.travelperk.com/",
+        "page_title": "The intelligent platform for travel and spend | Perk",
+        "services": 39,
+        "case_studies": 11,
+        "testimonials": 0,
+        "thought_leadership": 2,
+        "industries": 7,
+        "pricing_signals": 7,
+        "market_insights": 0
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "source_url": "https://tzell.com/",
+        "page_title": "HOME - Tzell Travel Group",
+        "services": 2,
+        "case_studies": 0,
+        "testimonials": 5,
+        "thought_leadership": 0,
+        "industries": 3,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "source_url": "https://www.businessoffashion.com/",
+        "page_title": "The Business of Fashion",
+        "services": 0,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 0,
+        "pricing_signals": 0,
+        "market_insights": 54
+      },
+      {
+        "site": "fashion_united",
+        "category": "fashion_news",
+        "source_url": "https://fashionunited.com/",
+        "page_title": "Fashion news and fashion jobs",
+        "services": 0,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 0,
+        "pricing_signals": 0,
+        "market_insights": 4
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "source_url": "https://www.voguebusiness.com/",
+        "page_title": "Vogue Business: Fashion Industry Expertise From an Insider's Perspective | Vogue",
+        "services": 0,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 0,
+        "pricing_signals": 0,
+        "market_insights": 83
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "source_url": "https://wwd.com/",
+        "page_title": "WWD – Women's Wear Daily brings you breaking news about the fashion industry, designers, celebrity trend setters, and extensive coverage of fashion week.",
+        "services": 0,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 0,
+        "pricing_signals": 0,
+        "market_insights": 24
+      },
+      {
+        "site": "etourisme",
+        "category": "travel_news",
+        "source_url": "https://www.etourisme.info/",
+        "page_title": "etourisme.info : votre quotidien de l'e-tourisme",
+        "services": 0,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 0,
+        "pricing_signals": 0,
+        "market_insights": 8
+      },
+      {
+        "site": "quotidien_du_tourisme",
+        "category": "travel_news",
+        "source_url": "https://www.quotidiendutourisme.com/",
+        "page_title": "Le Quotidien du Tourisme - L'actualité du tourisme professionnel",
+        "services": 0,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 0,
+        "pricing_signals": 0,
+        "market_insights": 0
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "source_url": "https://www.ttgmedia.com/",
+        "page_title": "TTG Media | TTG",
+        "services": 0,
+        "case_studies": 0,
+        "testimonials": 0,
+        "thought_leadership": 0,
+        "industries": 0,
+        "pricing_signals": 0,
+        "market_insights": 17
+      }
+    ],
+    "Service Offerings": [
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Wine",
+        "url": "https://www.aavluxurytravel.com/experiences/wine/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Gourmet",
+        "url": "https://www.aavluxurytravel.com/experiences/gourmet/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Fashion & Shopping",
+        "url": "https://www.aavluxurytravel.com/experiences/fashion-and-shopping/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Architecture & Gardens",
+        "url": "https://www.aavluxurytravel.com/experiences/architecture-and-gardens/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Art & History",
+        "url": "https://www.aavluxurytravel.com/experiences/art-and-history/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Markets",
+        "url": "https://www.aavluxurytravel.com/experiences/markets/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Chateaux & Castles",
+        "url": "https://www.aavluxurytravel.com/experiences/chateaux-and-castles/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Sport in France",
+        "url": "https://www.aavluxurytravel.com/experiences/sport-in-france/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Spa & Wellness",
+        "url": "https://www.aavluxurytravel.com/experiences/chateaux-and-castles-1/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Skiing",
+        "url": "https://www.aavluxurytravel.com/experiences/skiing-in-france/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Golf",
+        "url": "https://www.aavluxurytravel.com/experiences/golf-in-france/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover all",
+        "url": "https://www.aavluxurytravel.com/./experiences/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover more Experiences",
+        "url": "https://www.aavluxurytravel.com/experiences/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Booking & trip management",
+        "url": "https://www.bcdtravel.com/travel-management/booking-trip/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Program & payment insights",
+        "url": "https://www.bcdtravel.com/travel-management/intelligent-spend-management-analytics/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Meetings & events",
+        "url": "https://www.bcdtravel.com/travel-management/meetingsandevents/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Consulting",
+        "url": "https://www.bcdtravel.com/travel-management/consulting-advito/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Platform",
+        "url": "https://www.bcdtravel.com/travel-management/platform/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Tripsource",
+        "url": "https://www.bcdtravel.com/travel-management/tripsource/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Business travel management",
+        "url": "https://www.bcdtravel.com/travel-management/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Business travel consulting",
+        "url": "https://www.bcdtravel.com/travel-management/consulting-advito/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Corporate travel service",
+        "url": "https://www.bcdtravel.com/travel-management/tailored-business-travel-services/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "VIP services",
+        "url": "https://www.bcdtravel.com/travel-management/vip-services/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "DecisionSource",
+        "url": "https://www.bcdtravel.com/travel-management/decisionsource/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "BCD Invite",
+        "url": "https://www.bcdtravel.com/travel-management/bcd-invite/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "BCD Pay",
+        "url": "https://www.bcdtravel.com/travel-management/bcd-pay/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Connect by BCD",
+        "url": "https://www.bcdtravel.com/travel-management/connect/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "China & Asia Business Travel",
+        "url": "https://blueorangetravel.com/china-asia-business-travel/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "U.S. & North America Business Travel",
+        "url": "https://blueorangetravel.com/us-north-america-business-travel/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "South America Business Travel",
+        "url": "https://blueorangetravel.com/south-america-business-travel/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Europe & Russia Business Travel",
+        "url": "https://blueorangetravel.com/europe-russia-business-travel/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Middle East Business Travel",
+        "url": "https://blueorangetravel.com/middle-east-business-travel/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Africa Business Travel",
+        "url": "https://blueorangetravel.com/africa-business-travel/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Australia & Pacific Business Travel",
+        "url": "https://blueorangetravel.com/australia-pacific-business-travel/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "New York Business Travel",
+        "url": "https://blueorangetravel.com/business-travel-industries/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Corporate Travel",
+        "url": "https://blueorangetravel.com/corporate-travel-agency-new-york/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Business Travel Management",
+        "url": "https://blueorangetravel.com/business-travel-services/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Technology Travel",
+        "url": "https://blueorangetravel.com/technology-travel-agency/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Rethinking Business Meetings",
+        "url": "https://blueorangetravel.com/executive-meeting/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "VIPs & Influencers",
+        "url": "#"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "VIP Business Travel",
+        "url": "https://blueorangetravel.com/vip-business-travel/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Influencer Travel Management",
+        "url": "https://blueorangetravel.com/influencer-travel-agency/"
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "title": "Our services",
+        "url": "our-services-w1"
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "title": "Back",
+        "url": "our-services-w1"
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "title": "VIP Shopping Experience With Our Personal Shopper",
+        "url": "details-vip+shopping+experience+with+our+personal+shopper-483"
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "title": "Learn more by consulting our privacy policy",
+        "url": "privacy-policy"
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "title": "Our services",
+        "url": "all-our-services-1"
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "title": "Events Management in France",
+        "url": "details-events+management+in+france-605"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Business Travel Global Reach, High-Touch Service",
+        "url": "/business-travel/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Meetings & Events Full-service meetings and event experiences",
+        "url": "/meetings/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Avenir Our unified global platform for modern managed travel",
+        "url": "/avenir/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Travel Management",
+        "url": "/avenir/travel-management/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Direct View Consulting",
+        "url": "/direct-view-consulting/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Strategic Sourcing",
+        "url": "/direct-view-consulting/sourcing/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Technology Consulting",
+        "url": "/direct-view-consulting/technology/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Sustainable Travel",
+        "url": "/direct-view-consulting/sustainability/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Resource Hub Curated insights for powering your corporate travel program",
+        "url": "/resources/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Meetings & Events",
+        "url": "/meetings/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Introducing Avenir Our unified global platform for modern managed travel",
+        "url": "/avenir/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Read more",
+        "url": "/meetings/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "The Value of Access: A New Model for Travel Management",
+        "url": "https://www.dt.com/blog/the-value-of-access-a-new-model-for-travel-management/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Read More about The Value of Access: A New Model for Travel Management",
+        "url": "https://www.dt.com/blog/the-value-of-access-a-new-model-for-travel-management/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Business Travel",
+        "url": "/business-travel/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "Top Executive Retreats",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/top-executive-retreats-in-france/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "VIP Client Gatherings",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/vip-clients-gathering-in-france/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "Global Board Meetings",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/global-boards-meeting-in-france/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "Incentive & Award Programs",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/incentive-travel-programs-in-france/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "Team Building",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/team-building/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "MBA Cohort Integration",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/mba-cohort-integration-in-france/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "All corporate events",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "All of Europe →",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "Wine for corporate events",
+        "url": "https://www.exclusive-france-tours.com/wine-expertise-for-corporate-events/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "Our Corporate Events",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "European Travel Masterpieces",
+        "url": "https://www.exclusive-france-tours.com/corporate-events/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "Exclusive Wine Tours",
+        "url": "https://www.exclusive-france-tours.com/wine-expertise-for-corporate-events/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "Our Wine Expertise",
+        "url": "https://www.exclusive-france-tours.com/wine-expertise-for-corporate-events/"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "FCM Platform",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Travel Management",
+        "url": "https://www.fcmtravel.com/en-us/solutions/travel-management"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Consulting",
+        "url": "https://www.fcmtravel.com/en-us/solutions/consulting"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Travel Content",
+        "url": "https://www.fcmtravel.com/en-us/solutions/travel-content"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Sam",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform/sam"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Reporting & Analytics",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform/reporting-analytics"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Payments & Expense",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform/payments-expense"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Decision support",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform/extension"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Booking",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform/booking"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Approvals",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform/approvals"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Safety",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform/safety"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Account Management",
+        "url": "https://www.fcmtravel.com/en-us/solutions/travel-management/account-management"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Booker",
+        "url": "https://www.fcmtravel.com/en-us/solutions/booker"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Travel Manager",
+        "url": "https://www.fcmtravel.com/en-us/solutions/specialist-services/travel-manager"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Traveller",
+        "url": "https://www.fcmtravel.com/en-us/solutions/traveler"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "FCM Platform Proprietary travel platform",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Travel Management Enterprise travel services",
+        "url": "https://www.fcmtravel.com/en-us/solutions/travel-management"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Consulting Corporate travel consulting",
+        "url": "https://www.fcmtravel.com/en-us/solutions/consulting"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "AI Approach Fully integrated travel AI",
+        "url": "https://www.fcmtravel.com/en-us/products/platform/sam/ai-approach"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Travel Content Our travel content solutions",
+        "url": "https://www.fcmtravel.com/en-us/solutions/travel-content"
+      },
+      {
+        "site": "forest_travel",
+        "category": "competitors",
+        "title": "How to Secure Access to the World's Marquee Events — Monaco GP, Wimbledon, Cannes and the Olympics",
+        "url": "/journal/luxury-event-access/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "art & cultural tours",
+        "url": "https://www.frenchpromise.com/experiences/luxury-france-art-cultural-tours/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "france wine tours",
+        "url": "https://www.frenchpromise.com/experiences/luxury-france-wine-tours-regions/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "french ski holidays",
+        "url": "https://www.frenchpromise.com/experiences/french-ski-holidays/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "luxury barging",
+        "url": "https://www.frenchpromise.com/experiences/luxury-barging/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "luxury events",
+        "url": "https://www.frenchpromise.com/experiences/luxury-events/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "luxury villas",
+        "url": "https://www.frenchpromise.com/experiences/our-luxury-villas/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "luxury wellness retreats",
+        "url": "https://www.frenchpromise.com/experiences/luxury-wellness-retreats/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "paris fashion & shopping",
+        "url": "https://www.frenchpromise.com/experiences/paris-fashion-shopping-tours/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "private jets & helicopters",
+        "url": "https://www.frenchpromise.com/experiences/private-jet-and-helicopter-charters-transfer-france/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "sports & adventure",
+        "url": "https://www.frenchpromise.com/experiences/france-luxury-sporting-events-adventures/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "Our Promise",
+        "url": "https://www.frenchpromise.com/services/"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Services",
+        "url": "/en/p/82/our-services"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Venues & Event Management",
+        "url": "/en/p/97/venues-and-events"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Companies",
+        "url": "/en/p/10/bespoke-corporate-events-Paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Corporate Events",
+        "url": "/en/p/85/corporate-event-in-france"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Themes",
+        "url": "/en/p/2/exceptional-vip-experiences-in-paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Allow us to find you the perfect luxury hotel for your stay in Paris, whether you are an individual or corporate traveler.",
+        "url": "/en/p/94/accommodation"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "We are pleased to handle all aspects of event management and venue bookings - no matter how large or small your event.",
+        "url": "/en/p/97/venues-and-events"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Seminars and conferences, presse trips and reward events for your best clients, motivational retreats (incentives), corporate trips to Paris, executive committees...",
+        "url": "/en/p/85/corporate-event-in-france"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Companies",
+        "url": "http://www.le-connoisseur.com/en/p/10/bespoke-corporate-events-Paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Amaze and surprise your top clients and partners by offering them an unforgettable experi…",
+        "url": "http://www.le-connoisseur.com/en/p/10/bespoke-corporate-events-Paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Local Experiences",
+        "url": "http://www.le-connoisseur.com/en/p/2/exceptional-vip-experiences-in-paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Unique encounters and creative activities, behind-the-scenes visits and outstanding disco…",
+        "url": "http://www.le-connoisseur.com/en/p/2/exceptional-vip-experiences-in-paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Our selection of experiences",
+        "url": "/en/p/2/exceptional-vip-experiences-in-paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "All experiences",
+        "url": "/en/p/2/exceptional-vip-experiences-in-paris"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Accounting Teams",
+        "url": "https://navan.com/solutions/accounting"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Executive Assistants",
+        "url": "https://navan.com/solutions/delegates"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Finance Teams",
+        "url": "https://navan.com/solutions/finance"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Travel Managers",
+        "url": "https://navan.com/solutions/travel-managers"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Travelers",
+        "url": "https://navan.com/solutions/travelers"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Enterprises",
+        "url": "https://navan.com/solutions/enterprise"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Small Businesses",
+        "url": "https://navan.com/solutions/small-business"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Business Travel Management See how to manage all corporate travel in one place.",
+        "url": "https://navan.com/product/business-travel"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Expense",
+        "url": "https://navan.com/product/expense-management"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Payments",
+        "url": "https://navan.com/product/payments"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Navan Events",
+        "url": "https://navan.com/product/meetings-and-events"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Your browser does not support the video tag. Introducing Navan Edge Early access The new standard for frequent travelers: tailored, rewarding, effortless.",
+        "url": "https://navan.com/product/navan-edge"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Integrations",
+        "url": "https://www.perk.com/travel-solutions/marketplace/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Spend in Europe",
+        "url": "https://www.perk.com/platform/spend/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Spend in North America",
+        "url": "https://www.perk.com/expense-management-nam/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "MCP",
+        "url": "https://www.perk.com/travel-solutions/mcp/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Flights",
+        "url": "https://www.perk.com/travel-solutions/corporate-flights/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Rail",
+        "url": "https://www.perk.com/travel-solutions/corporate-rail/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Accommodation",
+        "url": "https://www.perk.com/travel-solutions/corporate-accommodation/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Car rental",
+        "url": "https://www.perk.com/travel-solutions/corporate-car-rental/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Travel alerts",
+        "url": "https://www.perk.com/travel-solutions/travel-safety-advice/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Policies and approvals",
+        "url": "https://www.perk.com/travel-solutions/policies-approvals/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Duty of care",
+        "url": "https://www.perk.com/travel-solutions/duty-of-care/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Centralized invoicing",
+        "url": "https://www.perk.com/travel-solutions/centralized-invoicing/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "VAT recovery",
+        "url": "https://www.perk.com/travel-solutions/vat/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Travel reporting",
+        "url": "https://www.perk.com/travel-solutions/travel-management-reporting/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "24/7 travel support",
+        "url": "https://www.perk.com/travel-solutions/corporate-travel-assistance/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "FlexiTravel",
+        "url": "https://www.perk.com/travel-solutions/flexitravel/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Green Trip",
+        "url": "https://www.perk.com/travel-solutions/green-trip/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "VIP Experience",
+        "url": "https://www.perk.com/travel-solutions/executive-experience/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Medical and baggage insurance",
+        "url": "https://www.perk.com/travel-solutions/medical-baggage-insurance/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Spend management",
+        "url": "https://www.perk.com/spend-solutions/spend-management-software/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Expense integrations",
+        "url": "https://www.perk.com/spend-solutions/europe-expense-integrations/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Workflow designer",
+        "url": "https://www.perk.com/spend-solutions/workflow-designer/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Expense processing",
+        "url": "https://www.perk.com/spend-solutions/expense-processing/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "AI in spend management",
+        "url": "https://www.perk.com/spend-solutions/artificial-intelligence/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Invoice processing",
+        "url": "https://www.perk.com/spend-solutions/invoice-automation/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Pay",
+        "url": "https://www.perk.com/spend-solutions/business-payments/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Perk Card",
+        "url": "https://www.perk.com/spend-solutions/business-payments/corporate-cards/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Lodge Card",
+        "url": "https://www.perk.com/spend-solutions/business-payments/lodge-card/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "UBS Corporate Cards",
+        "url": "https://www.perk.com/spend-solutions/business-payments/corporate-cards/ubs-corporate-cards/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Visa Corporate Cards",
+        "url": "https://www.perk.com/spend-solutions/business-payments/corporate-cards/visa-corporate-cards/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Travel booking",
+        "url": "https://www.perk.com/travel-solutions/travel-booking/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "SME travel management",
+        "url": "https://www.perk.com/travel-solutions/small-business-travel-management/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Group Trip",
+        "url": "https://www.perk.com/travel-solutions/group-bookings/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Expense",
+        "url": "https://www.perk.com/travel-solutions/expense-management/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Events",
+        "url": "https://www.perk.com/platform/events/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Traveler tracker",
+        "url": "https://www.perk.com/travel-solutions/corporate-travel-tracker/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Travel software",
+        "url": "https://www.perk.com/travel-solutions/travel-software/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Finance transformation",
+        "url": "https://www.perk.com/spend-solutions/finance-transformation/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Discover our solutions",
+        "url": "https://www.travelperk.com/solutions-overview/"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "title": "TECHNOLOGY",
+        "url": "https://tzell.com/technology/"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "title": "TZELL SELECT BRANDS",
+        "url": "https://experiencetzellselect.com/"
+      }
+    ],
+    "Case Studies": [
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Client Stories",
+        "url": "https://www.aavluxurytravel.com/client-stories/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Read More Client Stories",
+        "url": "https://aavluxurytravel.com/client-stories/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "From fragmented to fully aligned: How a global pharma simplified BTA reconciliation",
+        "url": "https://www.bcdtravel.com/resources/from-fragmented-to-fully-aligned-how-a-global-pharma-simplified-bta-reconciliation/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Siemens reduces travel emissions and funds decarbonization",
+        "url": "https://www.bcdtravel.com/resources/siemens-reduces-travel-emissions-and-funds-decarbonization/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "BCD Travel leads the way with first-of-its-kind end-to-end solution for travel management in China",
+        "url": "https://www.bcdtravel.com/resources/bcd-travel-leads-the-way-with-first-of-its-kind-end-to-end-solution-for-travel-management-in-china/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "All success stories",
+        "url": "https://www.bcdtravel.com/success-stories/"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Canva",
+        "url": "https://navan.com/resources/case-study/canva-case-study-1"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "HelloFresh",
+        "url": "https://navan.com/resources/case-study/case-study-hellofresh"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Duolingo",
+        "url": "https://navan.com/resources/case-study/duolingo-case-study"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Fabletics",
+        "url": "https://www.perk.com/case-studies/fabletics/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "On Running",
+        "url": "https://www.perk.com/case-studies/on-running/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Storyblok",
+        "url": "https://www.perk.com/case-studies/storyblok/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Lush",
+        "url": "https://www.perk.com/case-studies/lush/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Breitling",
+        "url": "https://www.perk.com/case-studies/breitling/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Nord Security",
+        "url": "https://www.perk.com/case-studies/nord-security/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Bitpanda",
+        "url": "https://www.perk.com/case-studies/bitpanda/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Umb",
+        "url": "https://www.perk.com/case-studies/umb/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "View case study",
+        "url": "https://www.travelperk.com/case-studies/fabletics/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "View case study",
+        "url": "https://www.travelperk.com/case-studies/on-running/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "View case study",
+        "url": "https://www.travelperk.com/case-studies/storyblok/"
+      }
+    ],
+    "Testimonials": [
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "testimonial": "Our journey through France was elegant, flexible, and wonderfully curated. Every adjustment was handled carefully and easily."
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "testimonial": "Traveling as three generations can be complex, yet every hotel, guide, and experience felt perfectly matched to our family."
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "testimonial": "The logistics were flawless, allowing us to focus entirely on the experience. Every destination felt authentic and deeply memorable."
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "testimonial": "The itinerary reflected exactly what we love, charming villages, beautiful hotels, local culture, and unforgettable meals."
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "testimonial": "Every detail was thoughtfully arranged and flawlessly executed. From private château visits to unforgettable dining experiences, we simply enjoyed the journey without ever thinking about logistics."
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "testimonial": "One of our best trips ever. Beautiful hotels, exceptional service, and a private driver who made every day feel smooth and relaxed."
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "testimonial": "“At Direct Travel, our goal is simple: We aim to deliver a dramatically better travel experience for both businesses and travelers through providing exceptional service and innovative technology solutions.” Christal Bemont CEO"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "testimonial": "“At Direct Travel, our goal is simple: We aim to deliver a dramatically better travel experience for both businesses and travelers through providing exceptional service and innovative technology solutions.”"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "testimonial": "Bonjour Marie and team, We had 3 months to make it happen, faced many, many challenges, but we did it and it was a success ! Thank you for the fantastic job you did… The event was seamless for our guests, and their experience rich. We can all be proud of what we have created and achieved together. Thanks very much Marie, it has truly been a pleasure working with you, and I hope the collaboration will continue”"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "“With 39 years of experience in luxury tourism in France, Philip Haslett can open doors. That may mean an after-hours visit to the Louvre, a last-minute tour of top Burgundy vineyards, or a balloon ride over the Loire Valley (he was a commercial pilot, after all). He also has extensive contacts in Monaco.” Travel + Leisure Magazine 2022-2026 A List Award - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "“With 39 years of experience in luxury tourism in France, Philip Haslett can open doors. That may mean an after-hours visit to the Louvre, a last-minute tour of top Burgundy vineyards, or a balloon ride over the Loire Valley (he was a commercial pilot, after all). He also has extensive contacts in Monaco.”"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "Travel + Leisure Magazine 2022-2026 A List Award - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "2022-2026 A List Award - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "“One experience that made me smile at the time is the privatisation of a river for a VVIP client. They wanted to go canoeing in a popular spot in Provence, but wanted a private experience so we basically contacted every canoe supplier operating in the area and bought them out for the day so that our client and family could enjoy some alone time.” Condé Nast Traveler 2026 Top Travel Specialist - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "“One experience that made me smile at the time is the privatisation of a river for a VVIP client. They wanted to go canoeing in a popular spot in Provence, but wanted a private experience so we basically contacted every canoe supplier operating in the area and bought them out for the day so that our client and family could enjoy some alone time.”"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "Condé Nast Traveler 2026 Top Travel Specialist - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "2026 Top Travel Specialist - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "“Philip can unlock the Palace of the Popes at night, unlock most doors in Bordeaux, helicopter you in to hike with shepherds in the Pyrenees, or ensconce you in a chic beachside villa whose guest list looks like the Oscars seating chart. From the Atlantic to the Mediterranean, he excels at trips that focus on food and wine or adventure (often a bit of both): enjoying oysters fresh from the sea, wine tasting with world-class sommeliers, canyoning in the Verdon Gorge, or surfing in Biarritz.” Wendy Perrin's Wow List France Travel Advisor 2017-2026"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "“Philip can unlock the Palace of the Popes at night, unlock most doors in Bordeaux, helicopter you in to hike with shepherds in the Pyrenees, or ensconce you in a chic beachside villa whose guest list looks like the Oscars seating chart. From the Atlantic to the Mediterranean, he excels at trips that focus on food and wine or adventure (often a bit of both): enjoying oysters fresh from the sea, wine tasting with world-class sommeliers, canyoning in the Verdon Gorge, or surfing in Biarritz.”"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "testimonial": "Wendy Perrin's Wow List France Travel Advisor 2017-2026"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "testimonial": "Testimonials Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests! Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !! All Stories"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "testimonial": "Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests! Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !!"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "testimonial": "Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "testimonial": "This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests!"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "testimonial": "Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !!"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "testimonial": "“ Melissa Lonsk hooked my family up with a wonderful vacation! She was so helpful and patient and recommended a great cruise for us to get away for a long weekend! I'd highly recommend working with Melissa and this travel agency when traveling with young kids! Rachel Brier Friedman"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "testimonial": "“ I am writing you to tell you how much we appreciate Tom Schmidt's efforts given a difficult situation. Tom deserves very high marks for his patience, competence and professionalism. Peter Oakes"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "testimonial": "“ We had to get an emergency passport for our daughter. Tzell was amazing. They walked us through the whole process. That is very hard to do when you are talking to someone in a panic! Everything they did for our trip was amazing. Liz Neporent"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "testimonial": "“ I have experienced for decades Tzell's excellent service and management professionalism. You can't go wrong with Tzell. Yisrael Medad"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "testimonial": "“ Melissa Lonsk hooked my family up with a wonderful vacation! She was so helpful and patient and recommended a great cruise for us to get away for a long weekend! I'd highly recommend working with Melissa and this travel agency when traveling with young kids! Rachel Brier Friedman “ I am writing you to tell you how much we appreciate Tom Schmidt's efforts given a difficult situation. Tom deserves very high marks for his patience, competence and professionalism. Peter Oakes “ We had to get an emergency passport for our daughter. Tzell was amazing. They walked us through the whole process. That is very hard to do when you are talking to someone in a panic! Everything they did for our trip was amazing. Liz Neporent “ I have experienced for decades Tzell's excellent service and management professionalism. You can't go wrong with Tzell. Yisrael Medad"
+      }
+    ],
+    "Customer Reviews": [
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "review": "Our journey through France was elegant, flexible, and wonderfully curated. Every adjustment was handled carefully and easily."
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "review": "Traveling as three generations can be complex, yet every hotel, guide, and experience felt perfectly matched to our family."
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "review": "The logistics were flawless, allowing us to focus entirely on the experience. Every destination felt authentic and deeply memorable."
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "review": "The itinerary reflected exactly what we love, charming villages, beautiful hotels, local culture, and unforgettable meals."
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "review": "Every detail was thoughtfully arranged and flawlessly executed. From private château visits to unforgettable dining experiences, we simply enjoyed the journey without ever thinking about logistics."
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "review": "One of our best trips ever. Beautiful hotels, exceptional service, and a private driver who made every day feel smooth and relaxed."
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "review": "“At Direct Travel, our goal is simple: We aim to deliver a dramatically better travel experience for both businesses and travelers through providing exceptional service and innovative technology solutions.” Christal Bemont CEO"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "review": "“At Direct Travel, our goal is simple: We aim to deliver a dramatically better travel experience for both businesses and travelers through providing exceptional service and innovative technology solutions.”"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "review": "Bonjour Marie and team, We had 3 months to make it happen, faced many, many challenges, but we did it and it was a success ! Thank you for the fantastic job you did… The event was seamless for our guests, and their experience rich. We can all be proud of what we have created and achieved together. Thanks very much Marie, it has truly been a pleasure working with you, and I hope the collaboration will continue”"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "“With 39 years of experience in luxury tourism in France, Philip Haslett can open doors. That may mean an after-hours visit to the Louvre, a last-minute tour of top Burgundy vineyards, or a balloon ride over the Loire Valley (he was a commercial pilot, after all). He also has extensive contacts in Monaco.” Travel + Leisure Magazine 2022-2026 A List Award - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "“With 39 years of experience in luxury tourism in France, Philip Haslett can open doors. That may mean an after-hours visit to the Louvre, a last-minute tour of top Burgundy vineyards, or a balloon ride over the Loire Valley (he was a commercial pilot, after all). He also has extensive contacts in Monaco.”"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "Travel + Leisure Magazine 2022-2026 A List Award - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "2022-2026 A List Award - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "“One experience that made me smile at the time is the privatisation of a river for a VVIP client. They wanted to go canoeing in a popular spot in Provence, but wanted a private experience so we basically contacted every canoe supplier operating in the area and bought them out for the day so that our client and family could enjoy some alone time.” Condé Nast Traveler 2026 Top Travel Specialist - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "“One experience that made me smile at the time is the privatisation of a river for a VVIP client. They wanted to go canoeing in a popular spot in Provence, but wanted a private experience so we basically contacted every canoe supplier operating in the area and bought them out for the day so that our client and family could enjoy some alone time.”"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "Condé Nast Traveler 2026 Top Travel Specialist - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "2026 Top Travel Specialist - France & Monaco"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "“Philip can unlock the Palace of the Popes at night, unlock most doors in Bordeaux, helicopter you in to hike with shepherds in the Pyrenees, or ensconce you in a chic beachside villa whose guest list looks like the Oscars seating chart. From the Atlantic to the Mediterranean, he excels at trips that focus on food and wine or adventure (often a bit of both): enjoying oysters fresh from the sea, wine tasting with world-class sommeliers, canyoning in the Verdon Gorge, or surfing in Biarritz.” Wendy Perrin's Wow List France Travel Advisor 2017-2026"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "“Philip can unlock the Palace of the Popes at night, unlock most doors in Bordeaux, helicopter you in to hike with shepherds in the Pyrenees, or ensconce you in a chic beachside villa whose guest list looks like the Oscars seating chart. From the Atlantic to the Mediterranean, he excels at trips that focus on food and wine or adventure (often a bit of both): enjoying oysters fresh from the sea, wine tasting with world-class sommeliers, canyoning in the Verdon Gorge, or surfing in Biarritz.”"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "review": "Wendy Perrin's Wow List France Travel Advisor 2017-2026"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "review": "Testimonials Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests! Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !! All Stories"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "review": "Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests! Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !!"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "review": "Soirée très originale dans un lieu inconnu du grand public en lien avec l’activité professionnelle de nos participants. Marie Lavigne, Société Générale"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "review": "This was an amazing and unique experience! I learnt so much about the jewellery industry in France in the latest century or so. The hostess is passionate and eager to share her story, which is a treat for her guests!"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "review": "Since I made a first step to the appartment of the wonderful parisian women Brigitte, our host , I didn't stop thinking that I'm meeting Coco Chanel in the field of Haute Jewellery !!"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "review": "“ Melissa Lonsk hooked my family up with a wonderful vacation! She was so helpful and patient and recommended a great cruise for us to get away for a long weekend! I'd highly recommend working with Melissa and this travel agency when traveling with young kids! Rachel Brier Friedman"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "review": "“ I am writing you to tell you how much we appreciate Tom Schmidt's efforts given a difficult situation. Tom deserves very high marks for his patience, competence and professionalism. Peter Oakes"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "review": "“ We had to get an emergency passport for our daughter. Tzell was amazing. They walked us through the whole process. That is very hard to do when you are talking to someone in a panic! Everything they did for our trip was amazing. Liz Neporent"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "review": "“ I have experienced for decades Tzell's excellent service and management professionalism. You can't go wrong with Tzell. Yisrael Medad"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "review": "“ Melissa Lonsk hooked my family up with a wonderful vacation! She was so helpful and patient and recommended a great cruise for us to get away for a long weekend! I'd highly recommend working with Melissa and this travel agency when traveling with young kids! Rachel Brier Friedman “ I am writing you to tell you how much we appreciate Tom Schmidt's efforts given a difficult situation. Tom deserves very high marks for his patience, competence and professionalism. Peter Oakes “ We had to get an emergency passport for our daughter. Tzell was amazing. They walked us through the whole process. That is very hard to do when you are talking to someone in a panic! Everything they did for our trip was amazing. Liz Neporent “ I have experienced for decades Tzell's excellent service and management professionalism. You can't go wrong with Tzell. Yisrael Medad"
+      }
+    ],
+    "Thought Leadership": [
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "From Fragmentation to Access: Top Webinar Takeaways",
+        "url": "https://www.dt.com/blog/from-fragmentation-to-access-top-webinar-takeaways/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Read More about From Fragmentation to Access: Top Webinar Takeaways",
+        "url": "https://www.dt.com/blog/from-fragmentation-to-access-top-webinar-takeaways/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "The Value of Access: A New Model for Travel Management",
+        "url": "https://www.dt.com/blog/the-value-of-access-a-new-model-for-travel-management/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Read More about The Value of Access: A New Model for Travel Management",
+        "url": "https://www.dt.com/blog/the-value-of-access-a-new-model-for-travel-management/"
+      },
+      {
+        "site": "exclusive_france_tours",
+        "category": "competitors",
+        "title": "Our Blog",
+        "url": "https://www.exclusive-france-tours.com/blog-en/"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "FCM Meetings & Events 2026 Trends Report",
+        "url": "https://www.fcmtravel.com/en-us/travel-insights/travel-hub/white-papers/meetings-events-trends-and-forecasts"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Read more about FCM Meetings & Events 2026 Trends Report",
+        "url": "https://www.fcmtravel.com/en-us/travel-insights/travel-hub/white-papers/meetings-events-trends-and-forecasts"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Reporting & Analytics",
+        "url": "https://www.fcmtravel.com/en-us/solutions/fcm-platform/reporting-analytics"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Study finds Navan saves customers 16% on business travel Read now",
+        "url": "https://navan.com/resources/reports/forrester-tei-report-navan"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "See why 77% of managers prioritize all-in-one T&E Read now",
+        "url": "https://navan.com/resources/reports/state-of-corporate-travel-and-expense-2026"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "4.7 out of 5 | 9K+ reviews return ( );",
+        "url": "https://navan.com/resources/reports/g2-grid-report-travel-and-expense-management-leader-spring-2026"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Expense Fraud report",
+        "url": "https://www.travelperk.com/blog/ai-era-expense-management-controls/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Travel disruption survey",
+        "url": "https://www.travelperk.com/blog/business-travel-chaos-survey/"
+      }
+    ],
+    "Industries Served": [
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Destinations",
+        "url": "https://www.aavluxurytravel.com/./destinations/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Paris",
+        "url": "https://www.aavluxurytravel.com/destinations/paris/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "South of France",
+        "url": "https://www.aavluxurytravel.com/destinations/south-of-france/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Provence",
+        "url": "https://www.aavluxurytravel.com/destinations/provence/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "French Riviera",
+        "url": "https://www.aavluxurytravel.com/destinations/french-riviera/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Normandy",
+        "url": "https://www.aavluxurytravel.com/destinations/normandy/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Burgundy",
+        "url": "https://www.aavluxurytravel.com/destinations/burgundy/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Loire Valley",
+        "url": "https://www.aavluxurytravel.com/destinations/loire-valley/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Bordeaux",
+        "url": "https://www.aavluxurytravel.com/destinations/bordeaux/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Corsica",
+        "url": "https://www.aavluxurytravel.com/destinations/corsica/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Brittany",
+        "url": "https://www.aavluxurytravel.com/destinations/brittany/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Basque Country",
+        "url": "https://www.aavluxurytravel.com/destinations/basque-country/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Alsace",
+        "url": "https://www.aavluxurytravel.com/destinations/alsace/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover all",
+        "url": "https://www.aavluxurytravel.com/./destinations/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Experiences",
+        "url": "https://www.aavluxurytravel.com/./experiences/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Wine",
+        "url": "https://www.aavluxurytravel.com/experiences/wine/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Gourmet",
+        "url": "https://www.aavluxurytravel.com/experiences/gourmet/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Fashion & Shopping",
+        "url": "https://www.aavluxurytravel.com/experiences/fashion-and-shopping/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Architecture & Gardens",
+        "url": "https://www.aavluxurytravel.com/experiences/architecture-and-gardens/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Art & History",
+        "url": "https://www.aavluxurytravel.com/experiences/art-and-history/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Markets",
+        "url": "https://www.aavluxurytravel.com/experiences/markets/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Chateaux & Castles",
+        "url": "https://www.aavluxurytravel.com/experiences/chateaux-and-castles/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Sport in France",
+        "url": "https://www.aavluxurytravel.com/experiences/sport-in-france/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Spa & Wellness",
+        "url": "https://www.aavluxurytravel.com/experiences/chateaux-and-castles-1/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Skiing",
+        "url": "https://www.aavluxurytravel.com/experiences/skiing-in-france/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Golf",
+        "url": "https://www.aavluxurytravel.com/experiences/golf-in-france/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover all",
+        "url": "https://www.aavluxurytravel.com/./experiences/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Travel in France",
+        "url": "https://www.aavluxurytravel.com/france/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Little Black Book",
+        "url": "https://www.aavluxurytravel.com/little-black-book/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Our Story",
+        "url": "https://www.aavluxurytravel.com/our-story/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "The Journal",
+        "url": "https://www.aavluxurytravel.com/the-journal/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Client Stories",
+        "url": "https://www.aavluxurytravel.com/client-stories/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Sustainability",
+        "url": "https://www.aavluxurytravel.com/sustainability/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover France",
+        "url": "https://www.aavluxurytravel.com/france/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Family Holidays",
+        "url": "https://www.aavluxurytravel.com/other/family-holidays/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover more Experiences",
+        "url": "https://www.aavluxurytravel.com/experiences/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover our travel agency",
+        "url": "https://www.aavluxurytravel.com/about/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "More about family holidays",
+        "url": "https://www.aavluxurytravel.com/other/family-holidays/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover Wine →",
+        "url": "https://www.aavluxurytravel.com/experiences/wine/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover Architecture & Gardens →",
+        "url": "https://www.aavluxurytravel.com/experiences/architecture-and-gardens/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover Art & History →",
+        "url": "https://www.aavluxurytravel.com/experiences/art-and-history/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover Gourmet →",
+        "url": "https://www.aavluxurytravel.com/experiences/gourmet/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover Chateaux & Castles →",
+        "url": "https://www.aavluxurytravel.com/experiences/chateaux-and-castles/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Discover Spa & Wellness →",
+        "url": "https://www.aavluxurytravel.com/experiences/chateaux-and-castles-1/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Sitemap",
+        "url": "https://www.aavluxurytravel.com/sitemap/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Booking Terms & Conditions",
+        "url": "https://www.aavluxurytravel.com/terms-and-conditions/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Privacy Policy",
+        "url": "https://www.aavluxurytravel.com/privacy-policy/"
+      },
+      {
+        "site": "aav_luxury_travel",
+        "category": "competitors",
+        "title": "Legal Mentions",
+        "url": "https://www.aavluxurytravel.com/legal-mentions/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Consulting",
+        "url": "https://www.bcdtravel.com/travel-management/consulting-advito/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Learn more",
+        "url": "https://www.bcdtravel.com/travel-management/consulting-advito/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Energy, resources & marine",
+        "url": "https://www.bcdtravel.com/energy-resources-marine/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Media & entertainment",
+        "url": "https://www.bcdtravel.com/media-entertainment/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Life sciences",
+        "url": "https://www.bcdtravel.com/life-sciences/"
+      },
+      {
+        "site": "bcd_travel",
+        "category": "competitors",
+        "title": "Business travel consulting",
+        "url": "https://www.bcdtravel.com/travel-management/consulting-advito/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Must-Stay Luxury Hotels in New York",
+        "url": "https://blueorangetravel.com/luxury-hotels-in-new-york/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Nonprofit Foundation Travel",
+        "url": "https://blueorangetravel.com/nonprofit-foundation-travel/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Technology Travel",
+        "url": "https://blueorangetravel.com/technology-travel-agency/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Entertainment Travel",
+        "url": "https://blueorangetravel.com/entertainment-travel-agency/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Fashion Travel",
+        "url": "https://blueorangetravel.com/fashion-travel-agency/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Luxury",
+        "url": "https://blueorangetravel.com/fashion-travel-agency/"
+      },
+      {
+        "site": "blueorange_travel",
+        "category": "competitors",
+        "title": "Find Luxury Hotels Near Me",
+        "url": "https://blueorangetravel.com/hotels-in-new-york-city/"
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "title": "Coco Channel's Private Fashion Tour (Paris)",
+        "url": "https://deluxefrance.com/details-coco+chanel+s+private+fashion+tour-526"
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "title": "Luxury Houses Private Fashion Tour (Paris)",
+        "url": "https://deluxefrance.com/details-luxury+houses+private+fashion+tour-529"
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "title": "(clicking here)",
+        "url": "https://deluxefrance.com/details-experience+tailor-made+fashion+tours+in+paris-530"
+      },
+      {
+        "site": "deluxe_france",
+        "category": "competitors",
+        "title": "Learn more by consulting our privacy policy",
+        "url": "https://deluxefrance.com/privacy-policy"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Finance & Procurement",
+        "url": "https://www.dt.com/why-direct/finance-procurement/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Direct View Consulting",
+        "url": "https://www.dt.com/direct-view-consulting/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Strategic Sourcing",
+        "url": "https://www.dt.com/direct-view-consulting/sourcing/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Technology Consulting",
+        "url": "https://www.dt.com/direct-view-consulting/technology/"
+      },
+      {
+        "site": "direct_travel",
+        "category": "competitors",
+        "title": "Sustainable Travel",
+        "url": "https://www.dt.com/direct-view-consulting/sustainability/"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Consulting Corporate travel consulting",
+        "url": "https://www.fcmtravel.com/en-us/solutions/consulting"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "FCM Consulting launches Travel Impact Index",
+        "url": "https://www.fcmtravel.com/en-us/resources/news-hub/fcm-consulting-launches-travel-impact-index"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "Read more about FCM Consulting launches Travel Impact Index",
+        "url": "https://www.fcmtravel.com/en-us/resources/news-hub/fcm-consulting-launches-travel-impact-index"
+      },
+      {
+        "site": "fcm_travel",
+        "category": "competitors",
+        "title": "FCM Consulting",
+        "url": "https://www.fcmtravel.com/en-us/solutions/consulting"
+      },
+      {
+        "site": "forest_travel",
+        "category": "competitors",
+        "title": "WhatsApp an advisor",
+        "url": "https://wa.me/17869693045?text=Hello%20Forest%20Travel%2C%20I%27m%20interested%20in%20planning%20a%20private%20luxury%20journey."
+      },
+      {
+        "site": "forest_travel",
+        "category": "competitors",
+        "title": "How to Secure Access to the World's Marquee Events — Monaco GP, Wimbledon, Cannes and the Olympics",
+        "url": "https://foresttravel.com/journal/luxury-event-access/"
+      },
+      {
+        "site": "forest_travel",
+        "category": "competitors",
+        "title": "Read the guide →",
+        "url": "https://foresttravel.com/journal/luxury-event-access/"
+      },
+      {
+        "site": "forest_travel",
+        "category": "competitors",
+        "title": "Luxury Safaris",
+        "url": "https://foresttravel.com/journeys-safari/"
+      },
+      {
+        "site": "forest_travel",
+        "category": "competitors",
+        "title": "Luxury Cruises",
+        "url": "https://foresttravel.com/journeys-sailing/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "art & cultural tours",
+        "url": "https://www.frenchpromise.com/experiences/luxury-france-art-cultural-tours/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "france wine tours",
+        "url": "https://www.frenchpromise.com/experiences/luxury-france-wine-tours-regions/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "luxury barging",
+        "url": "https://www.frenchpromise.com/experiences/luxury-barging/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "luxury events",
+        "url": "https://www.frenchpromise.com/experiences/luxury-events/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "luxury villas",
+        "url": "https://www.frenchpromise.com/experiences/our-luxury-villas/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "luxury wellness retreats",
+        "url": "https://www.frenchpromise.com/experiences/luxury-wellness-retreats/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "paris fashion & shopping",
+        "url": "https://www.frenchpromise.com/experiences/paris-fashion-shopping-tours/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "sports & adventure",
+        "url": "https://www.frenchpromise.com/experiences/france-luxury-sporting-events-adventures/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "Magazine",
+        "url": "https://www.frenchpromise.com/luxurytravelblog/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "Paris",
+        "url": "https://www.frenchpromise.com/paris-luxury-travel/"
+      },
+      {
+        "site": "french_promise",
+        "category": "competitors",
+        "title": "A kairos travel brand - france's premiere luxury dmc",
+        "url": "mailto:bonjour@frenchpromise.com"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Entertainment & Evening Functions",
+        "url": "https://le-connoisseur.com/en/p/98/entertainment"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Parisian Fashion & Shopping Trip",
+        "url": "https://le-connoisseur.com/en/p/90/paris-fashion-shopping-trip"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Luxury tour in Provence",
+        "url": "https://le-connoisseur.com/en/p/136/Luxury-tour-provence"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Fashion & Shopping",
+        "url": "https://le-connoisseur.com/en/p/100/fashion-tour-and-shopping-in-paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Luxury & Jewellery",
+        "url": "https://le-connoisseur.com/en/p/105/luxury-and-jewellery-experiences-in-paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Experience the finest tastes of Paris with one of our exceptional luxury gastronomy tour packages.",
+        "url": "https://le-connoisseur.com/en/p/91/gourmet-trip-paris-burgundy-champagne"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "The cultural heritage and unique \"savoir-faire\" of famous luxury & jewellery houses",
+        "url": "https://le-connoisseur.com/en/p/105/luxury-and-jewellery-experiences-in-paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "Use Le Connoisseur's exclusive network …",
+        "url": "https://le-connoisseur.com/en/p/100/fashion-tour-and-shopping-in-paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "view and book",
+        "url": "https://le-connoisseur.com/en/p/100/fashion-tour-and-shopping-in-paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "The cultural heritage and unique \"savoi…",
+        "url": "https://le-connoisseur.com/en/p/105/luxury-and-jewellery-experiences-in-paris"
+      },
+      {
+        "site": "le_connoisseur",
+        "category": "competitors",
+        "title": "view and book",
+        "url": "https://le-connoisseur.com/en/p/105/luxury-and-jewellery-experiences-in-paris"
+      },
+      {
+        "site": "luxe_fashion_trips",
+        "category": "competitors",
+        "title": "LUXE fashion trips",
+        "url": "https://luxefashiontrips.com/"
+      },
+      {
+        "site": "luxe_fashion_trips",
+        "category": "competitors",
+        "title": "Luxury London",
+        "url": "https://luxefashiontrips.com/london-2025"
+      },
+      {
+        "site": "luxe_fashion_trips",
+        "category": "competitors",
+        "title": "Italian Fashion Experience",
+        "url": "https://luxefashiontrips.com/italy-2025"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Finance Teams",
+        "url": "https://navan.com/solutions/finance"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Energy and Utilities",
+        "url": "https://navan.com/energy-and-utilities"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Financial Services",
+        "url": "https://navan.com/financial-services"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Industrial and Manufacturing",
+        "url": "https://navan.com/industrial-and-manufacturing"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Media and Entertainment",
+        "url": "https://navan.com/media-and-entertainment"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Retail and E-Commerce",
+        "url": "https://navan.com/retail-and-e-commerce"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Technology and Software",
+        "url": "https://navan.com/technology-and-software"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Learn more about Finance & Accounting Learn more",
+        "url": "https://navan.com/solutions/finance"
+      },
+      {
+        "site": "navan",
+        "category": "competitors",
+        "title": "Retail and Ecommerce",
+        "url": "https://navan.com/retail-and-e-commerce"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "For finance teams",
+        "url": "https://www.travelperk.com/travel-solutions/persona-finance-team/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Media center",
+        "url": "https://www.travelperk.com/media/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Press Releases",
+        "url": "https://www.travelperk.com/media/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Control without the chaos",
+        "url": "https://www.travelperk.com/travel-solutions/persona-finance-team/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Take control of spend",
+        "url": "https://www.travelperk.com/travel-solutions/persona-finance-team/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Finance teams",
+        "url": "https://www.travelperk.com/travel-solutions/persona-finance-team/"
+      },
+      {
+        "site": "travelperk",
+        "category": "competitors",
+        "title": "Finance transformation",
+        "url": "https://www.travelperk.com/spend-solutions/finance-transformation/"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "title": "LEARN MORE",
+        "url": "https://tzell.com/entertainment/"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "title": "ENTERTAINMENT",
+        "url": "https://tzell.com/entertainment/"
+      },
+      {
+        "site": "tzell_travel",
+        "category": "competitors",
+        "title": "TECHNOLOGY",
+        "url": "https://tzell.com/technology/"
+      }
+    ],
+    "Pricing Signals": [
+      {
+        "site": "bcd_travel",
+        "text": "client retention rate",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "site": "blueorange_travel",
+        "text": "Best-fit transportation to and from your destination, identified and booked for all members of your team , using our preferred partnerships with global airlines and other travel companies worldwide to assign seats and secure exclusive pricing",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "site": "navan",
+        "text": "Pricing",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "site": "navan",
+        "text": "Pricing",
+        "kind": "quote_or_pricing_cta",
+        "url": "https://navan.com/pricing"
+      },
+      {
+        "site": "navan",
+        "text": "Navan provides your team with special rates among a massive travel inventory featuring top suppliers.",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "site": "travelperk",
+        "text": "Pricing",
+        "kind": "quote_or_pricing_cta",
+        "url": "https://www.travelperk.com/pricing/"
+      },
+      {
+        "site": "travelperk",
+        "text": "Pricing",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "site": "travelperk",
+        "text": "Our AI searches thousands of venues, negotiates the rates, and brings you the â¨best optionsâyou just pick one. RSVPs, travel, accommodation, and comms are all handled for you in one easy-to-use interface.",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "site": "travelperk",
+        "text": "$37.5K",
+        "kind": "amount",
+        "url": ""
+      },
+      {
+        "site": "travelperk",
+        "text": "Transparent pricing, uncapped cashback, and hours of manual work eliminated every week. Perk grows with your teams, and the bottom line impact grows, too.",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "site": "travelperk",
+        "text": "The widest inventory on the market, negotiated rates and an AI that handles bookings, changes, and disruptions for you. Now you're free to focus on strategy, not firefighting.",
+        "kind": "quote_or_pricing_cta",
+        "url": ""
+      },
+      {
+        "site": "travelperk",
+        "text": "**$3.72M returned to the business per weekday: Based on the hours given back to Perk users and the estimated business value of that time.â¨",
+        "kind": "amount",
+        "url": ""
+      }
+    ],
+    "Market Insights": [
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Yayoi Kusama, Renowned for Infinity Rooms and Louis Vuitton Collaborations, Has Died",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/creative-class/yayoi-kusama-renown-for-infinity-rooms-and-louis-vuitton-collaborations-has-died/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "At a $10.1 Billion Valuation, Whoop Turns to Women",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/beauty/whoop-meridian-womens-launch-ipo/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Cinq à Sept Built a $200 Million Business. Now It Wants Your Attention.",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/retail/cinq-a-sept-business/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Meta Says It Will Pay Up to $18 Billion Over Social Media Claim",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/media/meta-says-it-will-pay-up-to-18-billion-over-social-media-claim/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Inside the BoF and Clinuvel Community Lunch Exploring the Future of Skin Health",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/the-business-of-beauty-global-forum-2026/inside-the-bof-and-clinuvel-community-lunch-exploring-the-future-of-skin-health/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Caution: Marketing Roadblocks Ahead",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/briefings/marketing-pr/caution-marketing-roadblocks-ahead/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Exploring Jordan Brand’s Philosophy on the Air Jordan 41",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/briefings/sports/exploring-jordan-brands-philosophy-on-the-air-jordan-41/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Why Small Brands Are Unhappy About the EU’s Newest Regulation",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/briefings/sustainability/why-small-brands-are-unhappy-about-the-eus-newest-regulation/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Mall Brands Take the Stage as Abercrombie and Gap Report Earnings",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/briefings/retail/mall-brands-take-stage-as-abercrombie-and-gap-report-earnings/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Inside Target’s Great Beauty Reset",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/briefings/beauty/inside-targets-great-beauty-reset/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Luxury’s Summer of Muddling Through",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/briefings/luxury/luxurys-summer-of-muddling-through/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Can Underwear Be Skincare?",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/beauty/carewear-skincare-infused-clothing-sylva/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Why Vince and Authentic Brands Group Bought a Stake in Drake’s OVO",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/retail/drake-ovo-vince-authentic-brands-group-acquisition/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "What’s Working for Independent Menswear Retailers",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/retail/whats-working-for-independent-menswear-retailers/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "The #RushTok Marketing Strategies That Work",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/marketing-pr/rushtok-sororities-windsor-edikted/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Logging Off Is the New Luxury. How Can Brands Adapt?",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/marketing-pr/when-logging-off-is-the-new-luxury-how-can-brands-adapt/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "ShopMy Might Be Bringing Affiliate Links Into Your Group Chats",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/retail/shopmy-might-be-bringing-affiliate-links-into-your-group-chats/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "EssilorLuxottica Starts Buyback to Bolster Stock After Heir Exit",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/news-analysis/essilorluxottica-starts-buyback-to-bolster-stock-after-heir-exit/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Ulta Beauty Raises 2026 Guidance as Sales Rise 8.9%",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/beauty/ulta-beauty-raises-2026-guidance-as-sales-rise-89/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Nike Hires Walmart Veteran Ewing as Chief Commercial Officer",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/sports/nike-hires-walmart-veteran-ewing-as-chief-commercial-officer/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Gap Replaces Old Navy CEO After Bigger-Than-Expected Sales Drop",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/retail/gap-replaces-old-navy-ceo-after-bigger-than-expected-sales-drop/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Inditex’s Primark Competitor Lefties Lands in the UK",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/retail/inditexs-primark-competitor-lefties-lands-in-the-uk/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "David Pemsel to Step Down as British Fashion Council Chairman",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/luxury/david-pemsel-to-step-down-as-british-fashion-council-chairman/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "The Best Fashion Stores in the World",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/retail/the-best-fashion-stores-in-the-world/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "How to Build a Fashion Store Worth Leaving Home For",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/retail/how-to-build-a-fashion-store-worth-leaving-home-for/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Why Independent Retail Is More Important Than Ever",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/retail/why-independent-retail-is-more-important-than-ever/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Beauty Is Growing. Not Everyone’s Benefitting.",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/beauty/earnings-wrap-up-analysis-2026-beauty-market/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Can Estée Lauder Turn a Moment Into Momentum?",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/beauty/estee-lauder-stock-up-why/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Nike on Pace for Worst Year Since Jordan’s 1993 Retirement",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/sports/nike-on-pace-for-worst-year-since-jordans-1993-retirement/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Can Skims Level Up by Hiring Supreme’s Former Creative Chief?",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/briefings/sports/can-skims-level-up-by-hiring-supremes-former-creative-chief/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Luxury Sales Plunge in China as Tax Measures Hit Wealthy Shoppers",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/professional/luxury-sales-plunge-in-china-as-tax-measures-hit-wealthy-shoppers/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Opinion: The Luxury Chinese Shopper Looks Different Now",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/opinions/luxury/opinion-the-luxury-chinese-shopper-looks-different-now/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Why Watchmakers Should Pay Attention to Gen Z",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/luxury/why-watchmakers-should-pay-attention-to-gen-z/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "What Founders Can Learn From Phia’s Mistakes",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/briefings/technology/what-founders-can-learn-from-phias-mistakes/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Phia Co-Founders Knew App Took Credit for Sales It Didn’t Drive",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/technology/phia-co-founders-knew-app-took-credit-for-sales-it-didnt-drive/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Retailers Tap AI Shopping Traffic but Fight to Keep Customer Data",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/retail/retailers-tap-ai-shopping-traffic-but-fight-to-keep-customer-data/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Why So Many Fashion Brands Are Upcycling",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/sustainability/inside-fashions-upcycling-boom-why-so-many-brands-are-doing-it/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Opinion: Shein’s IPO Has Only One Winner",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/retail/opinion-sheins-ipo-has-only-one-winner/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Gap’s Turnaround Now Hinges on Old Navy",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/retail/old-navy-ceo-michael-francis-gap-turnaround/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "For These Brands, Resisting the DTC Playbook Paid Off",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/direct-to-consumer/for-these-brands-resisting-the-dtc-playbook-paid-off/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Quince Reaches $10 Billion Valuation in New Funding Round",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/news/direct-to-consumer/quince-reaches-10-billion-valuation-in-new-funding-round/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Can Quince Be More Than a Dupe Brand?",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/direct-to-consumer/quince-asap-rocky-collaboration/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Opinion: Luxury Should Embrace China’s Secondhand Boom",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/opinions/global-markets/opinion-luxury-should-embrace-chinas-secondhand-boom/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Worldview | Indigenous Designers Take Centre Stage in New Zealand",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/global-markets/worldview-indigenous-designers-take-centre-stage-in-new-zealand/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Selling Love in China: How Qixi Marketing Strategies Are Shifting",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/global-markets/selling-love-in-china-how-qixi-marketing-strategies-are-shifting/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "The Most Desirable Fashion Companies to Work for in 2026",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/workplace-talent/most-desirable-fashion-employer-2026/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Why Copenhagen Fashion Week Still Stands Apart",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/briefings/fashion-week/why-copenhagen-fashion-week-still-stands-apart/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Fendi’s Austere New Era",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/reviews/fashion-week/haute-couture-autumn-winter-2026-fendi/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "In Paris, Continuity and the Present Moment Collide",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/reviews/fashion-week/haute-couture-autumn-winter-2026-balenciaga-boloria-gaultier-robert-wun-gaultier-armani-prive/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "How I Became… NFL’s First-Ever Fashion Editor",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/workplace-talent/careers-job-advice-kyle-smith-nfl-fashion-editor/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "How to Protect Work-Life Balance in the Fashion and Beauty Industries",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/workplace-talent/protecting-work-life-balance-fashion-beauty-strategies/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Stone Island’s CEO on Growing a Brand Without Selling Out",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/marketing-pr/bof-insights-stone-island-interview-ceo-robert-triefus/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Strategic Advisory For Fashion, Luxury and Beauty Brands",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/news-analysis/strategic-advisory-for-fashion-luxury-and-beauty-brands/"
+      },
+      {
+        "site": "business_of_fashion",
+        "category": "fashion_news",
+        "title": "Can Gap Keep Up Its Hot Streak?",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.businessoffashion.com/articles/marketing-pr/bof-insights-brand-pulse-ai-brand-performance-tracker-gap-marketing/"
+      },
+      {
+        "site": "fashion_united",
+        "category": "fashion_news",
+        "title": "In Pictures: AW27/28 trends through the lens of Christine Boland",
+        "summary": "During the last trade shows (SS27), it was clear that some colours have secured their place. “Aubergine, for example, or yellow, which took a long time to catch on,” says Christine Boland in a video call with FashionUnited. Looking ahead to autumn/winter 2027/28, new colour movements are emerging. Retro shades like mustard and chartreuse will...",
+        "author": "",
+        "date": "",
+        "url": "https://fashionunited.com/news/fashion/in-pictures-aw27-28-trends-through-the-lens-of-christine-boland/2026082974217"
+      },
+      {
+        "site": "fashion_united",
+        "category": "fashion_news",
+        "title": "Why Lithuanian designers are betting on a Fashion Week of their own",
+        "summary": "When FashionUnited asked designer Kęstutis (Kestas) Rimdžius what he felt was currently lacking or missing within the Lithuanian fashion scene, he was quick to answer. Not talent, nor creativity or skill, but rather a larger platform to showcase what local designers are capable of. “As we are a small country, I feel we lack international...",
+        "author": "",
+        "date": "",
+        "url": "https://fashionunited.com/news/fashion/why-lithuanian-designers-are-betting-on-a-fashion-week-of-their-own/2026082874331"
+      },
+      {
+        "site": "fashion_united",
+        "category": "fashion_news",
+        "title": "The great department store reset: Why Harrods, Selfridges and Harvey Nichols are taking different paths",
+        "summary": "Department stores in the UK are navigating a consumer environment dictated by unlimited online choice and cautious discretionary spending. What has transpired as a result is a two-sided challenge for retailers that have to both work to keep stores open, while also giving customers a reason to visit them. In this context, the traditional...",
+        "author": "",
+        "date": "",
+        "url": "https://fashionunited.com/news/retail/the-great-department-store-reset-why-harrods-selfridges-and-harvey-nichols-are-taking-different-paths/2026082874328"
+      },
+      {
+        "site": "fashion_united",
+        "category": "fashion_news",
+        "title": "Old Navy appoints new CEO as Gap addresses underperformance in Q2",
+        "summary": "US specialty apparel giant Gap Inc. announced its second quarter financial results for the period ended August 1, 2026. The company experienced a top-line decline, with net sales decreasing 2 percent year-over-year (YoY) to 3.7 billion dollars, while comparable sales dropped 1 percent. Store sales fell 3 percent compared to the prior year across...",
+        "author": "",
+        "date": "",
+        "url": "https://fashionunited.com/news/business/old-navy-appoints-new-ceo-as-gap-addresses-underperformance-in-q2/2026082874311"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How Arc’teryx Made Its Most Circular Product Yet",
+        "summary": "",
+        "author": "Sophie Benson",
+        "date": "August 26, 2026",
+        "url": "https://www.vogue.com/article/how-arcteryx-made-its-most-circular-product-yet"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "5 Emerging Designers on Running a Label in Japan",
+        "summary": "",
+        "author": "Ashley Ogawa Clarke",
+        "date": "August 27, 2026",
+        "url": "https://www.vogue.com/article/5-emerging-designers-on-running-a-label-in-japan"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Why Guerlain Is Launching a New L’Heure Bleue",
+        "summary": "",
+        "author": "Laure Guilbault",
+        "date": "August 27, 2026",
+        "url": "https://www.vogue.com/article/why-guerlain-is-launching-a-new-lheure-bleue"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Rise of the Influencer-Investor",
+        "summary": "",
+        "author": "Tariro Makoni",
+        "date": "August 26, 2026",
+        "url": "https://www.vogue.com/article/the-rise-of-the-influencer-investor"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How Endometriosis Changed My Beauty Routine",
+        "summary": "",
+        "author": "Bella Webb",
+        "date": "August 28, 2026",
+        "url": "https://www.vogue.com/article/how-endometriosis-changed-my-beauty-routine"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Scoop With Repetto’s Charlotte Gaucher-Holmann: On Collaborating with Yohji Yamamoto",
+        "summary": "",
+        "author": "Elektra Kotsoni",
+        "date": "August 28, 2026",
+        "url": "https://www.vogue.com/article/the-scoop-with-repettos-charlotte-gaucher-holmann-on-collaborating-with-yohji-yamamoto"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Kering Invites 10 Designers to Reimagine Sustainable Materials",
+        "summary": "",
+        "author": "Bella Webb",
+        "date": "August 27, 2026",
+        "url": "https://www.vogue.com/article/kering-invites-10-designers-to-reimagine-sustainable-materials"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "From Notting Hill to Rio: The Brand Guide to Carnival",
+        "summary": "",
+        "author": "Joe Bobowicz",
+        "date": "August 26, 2026",
+        "url": "https://www.vogue.com/article/from-notting-hill-to-rio-the-brand-guide-to-carnival"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Vogue Business TikTok Trend Tracker",
+        "summary": "",
+        "author": "Lucy Maguire",
+        "date": "August 20, 2026",
+        "url": "https://www.vogue.com/article/the-vogue-business-tiktok-trend-tracker"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Vogue Business AI Tracker",
+        "summary": "",
+        "author": "Amy O’Brien",
+        "date": "August 25, 2026",
+        "url": "https://www.vogue.com/story/technology/the-vogue-business-ai-tracker"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Vogue Business Beauty Trend Tracker",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "August 28, 2026",
+        "url": "https://www.vogue.com/article/the-vogue-business-beauty-tracker"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Vogue Business People Moves Tracker",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "August 26, 2026",
+        "url": "https://www.vogue.com/article/the-vogue-business-people-moves-tracker"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The United States of Luxury",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "June 29, 2026",
+        "url": "https://www.vogue.com/article/the-united-states-of-luxury"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "American Retailers on How to Save American Retail",
+        "summary": "",
+        "author": "Hilary Milnes",
+        "date": "June 29, 2026",
+        "url": "https://www.vogue.com/article/american-retailers-on-how-to-save-american-retail"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Does America Have a Branding Problem?",
+        "summary": "",
+        "author": "Amy Francombe",
+        "date": "June 29, 2026",
+        "url": "https://www.vogue.com/article/does-america-have-a-branding-problem"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How to Make It in America in 2026",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "August 5, 2026",
+        "url": "https://www.vogue.com/article/how-to-make-it-in-america-live-webinar"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How to Sell Now: Product",
+        "summary": "",
+        "author": "Vogue Business",
+        "date": "June 3, 2026",
+        "url": "https://www.vogue.com/article/how-to-sell-product"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How to Sell Now: Direct-to-Consumer",
+        "summary": "",
+        "author": "",
+        "date": "May 13, 2026",
+        "url": "https://www.vogue.com/sponsored/article/how-to-sell-now-direct-to-consumer"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How to Sell Now: Multi-Brand",
+        "summary": "",
+        "author": "Vogue Business",
+        "date": "June 3, 2026",
+        "url": "https://www.vogue.com/article/how-to-sell-now-multi-brand"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How to Sell Now: Vintage and Secondhand",
+        "summary": "",
+        "author": "Vogue Business",
+        "date": "June 3, 2026",
+        "url": "https://www.vogue.com/article/how-to-sell-vintage-and-secondhand"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Exclusive Insights From How to Sell Now",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "July 8, 2026",
+        "url": "https://www.vogue.com/article/how-to-sell-webinar-now-on-demand"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How to Sell Now: Brand",
+        "summary": "",
+        "author": "Vogue Business",
+        "date": "June 3, 2026",
+        "url": "https://www.vogue.com/article/how-to-sell-now-brand"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Exec’s Guide to Longevity Tech",
+        "summary": "",
+        "author": "Amy O’Brien",
+        "date": "August 18, 2026",
+        "url": "https://www.vogue.com/article/the-execs-guide-to-longevity-tech"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Key Takeaways From Luxury’s Q2 Earnings",
+        "summary": "",
+        "author": "Laure Guilbault",
+        "date": "August 4, 2026",
+        "url": "https://www.vogue.com/article/key-takeaways-from-luxurys-q2-earnings"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "China’s Travel Retail Enters Its Post-Duty Free Era",
+        "summary": "",
+        "author": "Yiling Pan",
+        "date": "July 1, 2026",
+        "url": "https://www.vogue.com/article/chinas-travel-retail-enters-its-post-duty-free-era"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How to Build a Winning Sustainability Team",
+        "summary": "",
+        "author": "Bella Webb",
+        "date": "June 18, 2026",
+        "url": "https://www.vogue.com/article/how-to-build-a-winning-sustainability-team"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Can AI Ever Crack Taste?",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "April 22, 2026",
+        "url": "https://www.vogue.com/article/can-ai-ever-crack-taste"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Is AI Just, Like, Basic?",
+        "summary": "",
+        "author": "Hilary Milnes",
+        "date": "April 22, 2026",
+        "url": "https://www.vogue.com/article/is-ai-just-like-basic"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Will AI Kill the Creator Economy?",
+        "summary": "",
+        "author": "Lucy Maguire",
+        "date": "April 22, 2026",
+        "url": "https://www.vogue.com/article/will-ai-kill-the-creator-economy"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "“You Cannot Trust a Machine”: The AI Consumer Perception Survey",
+        "summary": "",
+        "author": "Amy O’Brien",
+        "date": "April 22, 2026",
+        "url": "https://www.vogue.com/article/you-cannot-trust-a-machine-the-ai-consumer-perception-survey"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How the AI Race Will Impact the Global Luxury Market",
+        "summary": "",
+        "author": "Maliha Shoaib",
+        "date": "April 22, 2026",
+        "url": "https://www.vogue.com/article/how-will-the-ai-race-impact-the-global-luxury-market"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Where Will AI Take Fashion in 10 Years?",
+        "summary": "",
+        "author": "Amy O’Brien",
+        "date": "April 22, 2026",
+        "url": "https://www.vogue.com/article/where-will-ai-take-fashion-in-10-years"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How the Role of Creative Director Will Evolve in the Next 10 Years",
+        "summary": "",
+        "author": "Laure Guilbault",
+        "date": "January 20, 2026",
+        "url": "https://www.vogue.com/article/how-the-role-of-creative-director-will-evolve-in-the-next-10-years"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Can the Creative Reset Help Fix Luxury’s Pricing Problem?",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "January 20, 2026",
+        "url": "https://www.vogue.com/article/can-the-creative-reset-help-fix-luxurys-pricing-problem"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Does Fashion Belong to the Millennials Now?",
+        "summary": "",
+        "author": "Elektra Kotsoni",
+        "date": "January 20, 2026",
+        "url": "https://www.vogue.com/article/does-fashion-belong-to-the-millennials-now"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Do Marketers Have the Toughest Job in Fashion?",
+        "summary": "",
+        "author": "Hilary Milnes",
+        "date": "January 20, 2026",
+        "url": "https://www.vogue.com/article/do-marketers-have-the-toughest-job-in-fashion"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Will the Creative Reset Ever End?",
+        "summary": "",
+        "author": "Lucy Maguire",
+        "date": "January 20, 2026",
+        "url": "https://www.vogue.com/article/will-the-creative-reset-ever-end"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Who Are the Creative Directors Most Likely to Embrace AI?",
+        "summary": "",
+        "author": "Amy O’Brien",
+        "date": "January 20, 2026",
+        "url": "https://www.vogue.com/article/who-are-the-creative-directors-most-likely-to-embrace-ai"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "What Does Building a Brand in LA Look Like in 2026?",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "January 7, 2026",
+        "url": "https://www.vogue.com/article/what-does-building-a-brand-in-la-look-like-in-2026"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How LA Fashion Is Rebuilding Post-Fires",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "January 7, 2026",
+        "url": "https://www.vogue.com/article/how-la-fashion-is-rebuilding-post-fires"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "What’s Next for LA Manufacturing?",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "January 7, 2026",
+        "url": "https://www.vogue.com/article/whats-next-for-la-manufacturing"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "What Does the Hollywood Exodus Mean for Fashion?",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "January 7, 2026",
+        "url": "https://www.vogue.com/article/what-does-the-hollywood-exodus-mean-for-fashion"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "DNA-Coded Skincare, Wearable Nanobots: The Beauty Products of Tomorrow",
+        "summary": "",
+        "author": "Nateisha Scott",
+        "date": "April 14, 2025",
+        "url": "https://www.vogue.com/article/dna-coded-skincare-wearable-nanobots-the-beauty-products-of-tomorrow"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Between Science and Science Fiction: The Future of Plastic Surgery",
+        "summary": "",
+        "author": "Amy Francombe",
+        "date": "April 14, 2025",
+        "url": "https://www.vogue.com/article/between-science-and-science-fiction-the-future-of-plastic-surgery"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "What Will Our Teeth Look Like in 2045?",
+        "summary": "",
+        "author": "Lucy Maguire",
+        "date": "April 14, 2025",
+        "url": "https://www.vogue.com/article/what-will-our-teeth-look-like-in-2045"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "What Will We Look Like in 20 Years?",
+        "summary": "",
+        "author": "Nateisha Scott",
+        "date": "April 14, 2025",
+        "url": "https://www.vogue.com/article/what-will-we-look-like-in-20-years"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Are We Heading for a Beauty Burnout?",
+        "summary": "",
+        "author": "Jessica DeFino",
+        "date": "April 14, 2025",
+        "url": "https://www.vogue.com/article/are-we-heading-for-a-beauty-burnout"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Are Tweakments Just Fast Fashion for Your Face?",
+        "summary": "",
+        "author": "Bella Webb",
+        "date": "April 14, 2025",
+        "url": "https://www.vogue.com/article/are-tweakments-just-fast-fashion-for-your-face"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Vogue Business 2025 100 Innovators: Tech Innovators",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "September 8, 2025",
+        "url": "https://www.vogue.com/article/the-vogue-business-2025-100-innovators-tech-innovators"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Vogue Business 2025 100 Innovators: Beauty Disruptors",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "September 8, 2025",
+        "url": "https://www.vogue.com/article/the-vogue-business-2025-100-innovators-beauty-disruptors"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Vogue Business 2025 100 Innovators: Sustainability Thought Leaders",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "September 8, 2025",
+        "url": "https://www.vogue.com/article/the-vogue-business-2025-100-innovators-sustainability-thought-leaders"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Vogue Business 2025 100 Innovators: Entrepreneurs and Founders",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "September 8, 2025",
+        "url": "https://www.vogue.com/article/the-vogue-business-2025-100-innovators-entrepreneurs-and-founders"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Vogue Business 2025 100 Innovators: Champions of Change",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "September 8, 2025",
+        "url": "https://www.vogue.com/story/fashion/the-vogue-business-2025-100-innovators-champions-of-change"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "‘Luxury No Longer Means Quality’: Consumers Weigh in on the Slowdown",
+        "summary": "",
+        "author": "Maliha Shoaib",
+        "date": "January 13, 2025",
+        "url": "https://www.vogue.com/article/luxury-no-longer-means-quality-consumers-weigh-in-on-the-slowdown-survey"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How Long Will the Luxury Slowdown Last?",
+        "summary": "",
+        "author": "Kirsty McGregor",
+        "date": "January 13, 2025",
+        "url": "https://www.vogue.com/article/how-long-will-the-luxury-slowdown-last"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Luxury is Too Expensive. What Should Brands Do?",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "January 13, 2025",
+        "url": "https://www.vogue.com/article/luxury-is-too-expensive-what-should-brands-do"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Six Reasons Why Hermès is Bucking the Luxury Slowdown",
+        "summary": "",
+        "author": "Laure Guilbault",
+        "date": "January 13, 2025",
+        "url": "https://www.vogue.com/article/six-reasons-why-hermes-is-bucking-the-luxury-slowdown"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Dupes, Vintage, Fast Fashion: Who Wins During a Luxury Slowdown?",
+        "summary": "",
+        "author": "Amy Francombe",
+        "date": "January 13, 2025",
+        "url": "https://www.vogue.com/article/dupes-vintage-fast-fashion-who-wins-during-a-luxury-slowdown"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "What’s Fashion’s Next Big Idea?",
+        "summary": "",
+        "author": "José Criales-Unzueta",
+        "date": "January 13, 2025",
+        "url": "https://www.vogue.com/article/whats-fashions-next-big-idea"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Debunking the ‘Star Designer’ Dream",
+        "summary": "",
+        "author": "Bella Webb",
+        "date": "October 7, 2024",
+        "url": "https://www.vogue.com/article/debunking-the-star-designer-dream-survey"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How Can Fashion Design Graduates Get a Job?",
+        "summary": "",
+        "author": "Bella Webb",
+        "date": "October 7, 2024",
+        "url": "https://www.vogue.com/article/how-can-fashion-design-graduates-get-a-job-debunking-the-dream-survey"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Is it Time to Rethink the ‘Star Designer’ System?",
+        "summary": "",
+        "author": "Bella Webb",
+        "date": "October 7, 2024",
+        "url": "https://www.vogue.com/article/is-it-time-to-dethrone-the-star-designer-debunking-the-dream-survey"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "What Do Designers Actually Need from Prizes and Programs?",
+        "summary": "",
+        "author": "Bella Webb",
+        "date": "October 7, 2024",
+        "url": "https://www.vogue.com/article/what-do-designers-actually-need-from-prizes-and-programmes-debunking-the-dream-survey"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Luxury’s Latest Cyber Risk? AI Agents Going Rogue",
+        "summary": "",
+        "author": "Tom Matsuda",
+        "date": "August 25, 2026",
+        "url": "https://www.vogue.com/article/luxurys-latest-cyber-risk-ai-agents-going-rogue"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Inside Tennis’s Booming Influencer Economy",
+        "summary": "",
+        "author": "Jessica Schiffer",
+        "date": "August 25, 2026",
+        "url": "https://www.vogue.com/article/inside-tenniss-booming-influencer-economy"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Back to School: How are Parents Shopping for Gen Alpha?",
+        "summary": "",
+        "author": "Joe Bobowicz",
+        "date": "August 25, 2026",
+        "url": "https://www.vogue.com/article/back-to-school-how-are-parents-shopping-for-gen-alpha"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Should Brands Be Patrons of Art and Culture?",
+        "summary": "",
+        "author": "Amy Francombe",
+        "date": "August 25, 2026",
+        "url": "https://www.vogue.com/article/should-brands-be-patrons-of-art-and-culture"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "In Luxury’s New Resale Era, Everyone’s a Fashion Expert",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "August 24, 2026",
+        "url": "https://www.vogue.com/article/in-luxurys-new-resale-era-everyones-a-fashion-expert"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Are Creators Up to the Task of Their New Marketing Roles?",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "August 24, 2026",
+        "url": "https://www.vogue.com/article/are-creators-up-to-the-task-of-their-new-marketing-roles"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Could This Yacht Reverse Aging?",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "August 21, 2026",
+        "url": "https://www.vogue.com/article/could-this-yacht-reverse-aging"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The GLP-1 Pill Era Is Forcing Beauty to Change Again",
+        "summary": "",
+        "author": "Perdita Nouril",
+        "date": "August 21, 2026",
+        "url": "https://www.vogue.com/article/the-glp-1-pill-era-is-forcing-beauty-to-change-again"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "The Business of Katseye",
+        "summary": "",
+        "author": "Kati Chitrakorn",
+        "date": "August 21, 2026",
+        "url": "https://www.vogue.com/article/the-business-of-katseye"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Coty Sales Fall 1% as It Gears Up for “Transition Year”",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "August 20, 2026",
+        "url": "https://www.vogue.com/article/coty-sales-fall-1-as-it-gears-up-for-transition-year"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Will the EU’s Ban on Destroying Unsold Stock Actually Work?",
+        "summary": "",
+        "author": "Megan Doyle",
+        "date": "August 20, 2026",
+        "url": "https://www.vogue.com/article/will-the-eus-ban-on-destroying-unsold-stock-actually-work"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "What Fashion Can Learn From Luxury Travel About Climate Action",
+        "summary": "",
+        "author": "Lucy Kehoe",
+        "date": "August 20, 2026",
+        "url": "https://www.vogue.com/article/what-fashion-can-learn-from-luxury-travel-about-climate-action"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "It’s Time for Brands to Invest in Women Who Lift",
+        "summary": "",
+        "author": "Grace Cook",
+        "date": "August 20, 2026",
+        "url": "https://www.vogue.com/article/its-time-for-brands-to-invest-in-women-who-lift"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Should Luxury Brands Reduce their Prices?",
+        "summary": "",
+        "author": "Lucy Maguire",
+        "date": "August 20, 2026",
+        "url": "https://www.vogue.com/article/should-luxury-brands-reduce-their-prices"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Estée Lauder Companies Sales Growth Accelerates to 5% in Q4",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "August 19, 2026",
+        "url": "https://www.vogue.com/article/estee-lauder-companies-sales-growth-accelerates-to-5-in-q4"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Brand Heat: Why Winter Brands Are Going All In on Summer",
+        "summary": "",
+        "author": "Kyle MacNeill",
+        "date": "August 19, 2026",
+        "url": "https://www.vogue.com/article/brand-heat-why-winter-brands-are-going-all-in-on-summer"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "With Neon Rebels, Maisonette is Taking On the Tween Market",
+        "summary": "",
+        "author": "Madeleine Schulz",
+        "date": "August 19, 2026",
+        "url": "https://www.vogue.com/article/with-neon-rebels-maisonette-is-taking-on-the-tween-market"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Register to Attend | Insider Roundtable: The Fashion Executive’s Guide to Longevity Tech",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "August 18, 2026",
+        "url": "https://www.vogue.com/article/insider-roundtable-the-fashion-executives-guide-to-longevity-tech"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "Register to Attend | The Fashion Executive’s Guide to Longevity Tech, Live Webinar",
+        "summary": "",
+        "author": "Vogue Business Team",
+        "date": "August 18, 2026",
+        "url": "https://www.vogue.com/article/the-fashion-executives-guide-to-longevity-tech-live-webinar"
+      },
+      {
+        "site": "vogue_business",
+        "category": "fashion_news",
+        "title": "How Kilian Paris Is Turning a Bestseller Into a Fragrance Wardrobe",
+        "summary": "",
+        "author": "Kiana Murden",
+        "date": "August 18, 2026",
+        "url": "https://www.vogue.com/article/how-kilian-paris-is-turning-a-bestseller-into-a-fragrance-wardrobe"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "EXCLUSIVE: Royal Favorite Me+Em to Open Pop-up in Geneva, Its First Store in Continental Europe",
+        "summary": "Me+Em is expanding into Continental Europe with a pop-up at the Bongénie department store that will run from Sept. 3 until Nov. 21.",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/fashion-news/fashion-features/royal-favorite-me-em-pop-up-geneva-first-continental-europe-1239166432/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Sir Paul Smith Has Just Turned 80, and He’s Busier Than Ever",
+        "summary": "The designer, who turned 80 in July, is preparing for a frenetic September with an installation at Selfridges' Corner Shop, a memoir called \"Threads: My Life in Style,\" and a talk at London's…",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/fashion-news/fashion-features/sir-paul-smith-just-turned-80-busier-ever-selfridges-memoir-1239171544/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Simon Launches Media Network",
+        "summary": "The mega shopping center and mixed-use property owner and operator says its new service is a better way to capture audiences and provide brands with a broad view of consumer behavior.",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/business-news/real-estate/simon-launches-a-media-network-1239166436/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Zac Posen Talks GapStudio’s Fall 2026 Collection",
+        "summary": "GapStudio on Friday launched its fall 2026 collection of men's and women's elevated styles designed by Zac Posen, executive vice president and creative director of Gap Inc.",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/fashion-news/fashion-features/gap-studio-fall-2026-collection-zac-posen-fashion-shopping-1239165653/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Gap Inc. Sales Slip in Q2, Old Navy Has Change in Command",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/business-news/retail/gap-inc-q2-new-ceo-at-old-navy-1239169968/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Angourie Rice Falls for the Romance of ‘Finding Emily…",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/eye/people/angourie-rice-finding-emily-movie-1239126602/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Jack Innanen’s Journey to Adulthood",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/eye/people/jack-innanen-adults-big-mistakes-1239164838/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Mother's Beverly Hills Opening",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/eye/parties/mother-beverly-hills-store-opening-dave-grohl-brittany-snow-1239164588/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "In Mumbai, Gaurav Gupta Shows Full Breadth of His Couture Universe",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/runway/fall-couture-2026/all/gaurav-gupta/review/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Vince Men’s Spring 2027: Updating the Classics",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/runway/mens-spring-2027/new-york/vince/review/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Francesco Scognamiglio Fall 2026 Couture: Sheer and Bling",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/runway/fall-couture-2026/milan/francesco-scognamiglio/review/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Fendi Fall 2026 Couture: Craft at Work",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/runway/fall-couture-2026/all/fendi/review/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Aelis Fall 2026 Couture: Extinction Rebellion",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/runway/fall-couture-2026/paris/aelis/review/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Dolly Parton Dies at 80: Photos Through the Years",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/eye/people/gallery/dolly-parton-photos-1239149597/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Best Street Style at Copenhagen Spring 2027 Fashion Week",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/fashion-news/fashion-trends/gallery/best-street-style-copenhagen-spring-2027-fashion-week-1239093768/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Gucci Unveils 2025 Equilibrium Impact Report, Details…",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/sustainability/environment/gucci-2025-equilibrium-impact-report-1239078257/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Uniqlo Donates 1 Million Euros to Support Wildfire Recovery…",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/sustainability/social-impact/uniqlo-donates-1m-euros-france-wildfire-recovery-1239091485/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Chanel Says No More Shredding as Unsold Goods Shift to L'Atelier…",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/sustainability/social-impact/chanel-unsold-goods-latelier-des-matieres-hong-kong-trial-1239068714/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Fashion Cities Unite to Accelerate Sustainability, Launching New…",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/sustainability/business/fashion-cities-coalition-global-sustainability-1239061408/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Paul Smith Joins King Charles III's Sustainable Fashion…",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/sustainability/social-impact/paul-smith-king-charles-iii-sustainable-fashion-task-force-1239049564/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Future Fabrics Expo Brings Post‑petro Fashion Economy Vision…",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/sustainability/innovation/future-fabrics-expo-post-petro-fashion-economy-brussels-1239032658/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Anne Hathaway on Her First Major Fashion Purchase",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/video/anne-hathaway-cover-story-video/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "Megan Fox's Best Fashion Moments Over the Years",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/video/megan-foxs-fashion-moments-over-the-years/"
+      },
+      {
+        "site": "wwd",
+        "category": "fashion_news",
+        "title": "WWD Report Card: Brad Pitt vs Ryan Gosling",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://wwd.com/eye/lifestyle/wwd-report-card-brad-pitt-ryan-gosling-mens-style1235258864-1235258864/"
+      },
+      {
+        "site": "etourisme",
+        "category": "travel_news",
+        "title": "On ferme !",
+        "summary": "Notre secret : les rediffusions d’articles parus dans l’année.Comment on les sélectionne ? Ça, il faudrait le demander à notre bien aimé […]",
+        "author": "Laurence Giuliani",
+        "date": "30 juillet 2026",
+        "url": "https://www.etourisme.info/on-ferme/"
+      },
+      {
+        "site": "etourisme",
+        "category": "travel_news",
+        "title": "Tourisme sous les flammes : communiquer dans l’urgence",
+        "summary": "Notre maison brûle et nous regardons Netflix titrait Libération après les incendies de 2022. Seb Gonzalez devait écrire ce billet […]",
+        "author": "Caroline Le Roy",
+        "date": "27 juillet 2026",
+        "url": "https://www.etourisme.info/communication-crise-incendies/"
+      },
+      {
+        "site": "etourisme",
+        "category": "travel_news",
+        "title": "Retour d’expérience: j’ai laissé l’IA planifier mon road trip en France!",
+        "summary": "Je reviens tout juste d'un séjour de 3 semaines en France, planifié avec l'aide de l'IA. Retour d'expérience.",
+        "author": "Frédéric Gonzalo",
+        "date": "23 juillet 2026",
+        "url": "https://www.etourisme.info/retour-dexperience-jai-laisse-lia-planifier-mon-road-trip-en-france/"
+      },
+      {
+        "site": "etourisme",
+        "category": "travel_news",
+        "title": "Arrêtez d’être à la dispo des pros ! C’est gentil mais dépassé :)",
+        "summary": "Si vous n’avez que 30 secondes Nous, OGD, avons construit beaucoup de services pour les professionnels du tourisme : aide […]",
+        "author": "Pierre Eloy",
+        "date": "20 juillet 2026",
+        "url": "https://www.etourisme.info/arretez-detre-a-la-dispo-des-pros-cest-gentil-mais-depasse/"
+      },
+      {
+        "site": "etourisme",
+        "category": "travel_news",
+        "title": "Le « non-départ en vacances » : une redéfinition de la promesse touristique",
+        "summary": "Un article du média français Le Monde, publié le 30 mai 2026, dresse le portrait d’une nouvelle tendance émergente : le […]",
+        "author": "La Rédaction",
+        "date": "17 juillet 2026",
+        "url": "https://www.etourisme.info/le-non-depart-en-vacances-une-redefinition-de-la-promesse-touristique/"
+      },
+      {
+        "site": "etourisme",
+        "category": "travel_news",
+        "title": "Transformation numérique : où en sont les DMOs?",
+        "summary": "C’est une étude qui fera date! Grâce à l’impulsion du Professeur Roland Schegg, qui opère au sein de l’Institut du […]",
+        "author": "Jean-Luc Boulin",
+        "date": "13 juillet 2026",
+        "url": "https://www.etourisme.info/transformation-numerique-ou-en-sont-les-dmos/"
+      },
+      {
+        "site": "etourisme",
+        "category": "travel_news",
+        "title": "Santé vous bien ! du lien à la santé sociale",
+        "summary": "Pourquoi les ressources allouées au tourisme baissent que ce soient en termes de ressources humaines, de budget, de moyens donnés, […]",
+        "author": "Claire Louerat",
+        "date": "9 juillet 2026",
+        "url": "https://www.etourisme.info/sante-vous-bien-du-lien-a-la-sante-sociale/"
+      },
+      {
+        "site": "etourisme",
+        "category": "travel_news",
+        "title": "Diagnostic touristique : et si l’irritant était la vraie donnée ?",
+        "summary": "Un peu de psychologie territoriale ou entrepreneuriale peut faire du bien. Parfois, il est même très salutaire. Voici quelques mots […]",
+        "author": "Margot Perroy",
+        "date": "6 juillet 2026",
+        "url": "https://www.etourisme.info/diagnostic-touristique-et-si-lirritant-etait-la-vraie-donnee/"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "‘We can’t do this alone’: AWTE calls on men to challenge misogyny in the travel industry",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/we-cant-do-alone-awte-calls-men-challenge-misogyny-travel-industry"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "'A year into this job, I was on a boat in the Maldives with Davina McCall – it's been bonkers'",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/year-job-i-was-boat-maldives-davina-mccall-its-been-bonkers"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "'I've been in travel for nearly 40 years – this is why I think all travel agents should be accredited'",
+        "summary": "Jo Richards argues agents should be subject to a more regulated accreditation system, warning inexperienced entrants – and those chasing industry perks – risk undermining the profession's credibility",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/ive-been-travel-nearly-40-years-why-i-think-all-travel-agents-should-be"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Adam Morris steps up to lead Kuoni trade team as Sarah Weetman moves into new role",
+        "summary": "Trade Partnership Manager Morris to head up Kuoni's trade partnerships team with support from new recruit Lori Scannella, who joins as Trade Partnerships Support Assistant following a near 20-year cruise career",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/adam-morris-steps-lead-kuoni-trade-team-sarah-weetman-moves-new-role"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "'Cowboy' agents chasing demand for lucrative experiential travel bookings, advisors warn",
+        "summary": "Several advisors (pictured) have spoken out against rogue agents booking complex itineraries with big margins as demand for experiential travel grows",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/luxury-travel-news/cowboy-agents-capitalising-demand-lucrative-experiential-trips-pose-serious-risk"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Sarah Lancashire's interim product remit made permanent at Gold Medal",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/gold-medal-marketing-director-sarah-lancashires-interim-product-remit-made"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Hackers steal nearly nine million UK airport users' data",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/hackers-steal-data-belonging-nearly-nine-million-manchester-airports-group"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Poll: Is travel on the mend after the Middle East crisis?",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/aito-buoyed-marked-rebound-bookings-six-months-start-iran-war"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Nepal braces for more flash floods with dozens of UK and Irish nationals still missing",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/nepal-braces-more-flash-floods-dozens-uk-irish-nationals-still-missing"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Kirsty Bachelor succeeds Shane Lewis-Riley as Titan Travel's trade sales chief",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/kirsty-bachelor-succeeds-shane-lewis-riley-titan-travels-trade-sales-chief"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Intrepid launches Nepal appeal after deadly floods",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/intrepid-launches-nepal-appeal-after-flash-floods-devastate-communities-leave"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Brilliant Travel's new-look leadership team head out on UK tour to meet members",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/new-look-brilliant-travel-leadership-team-hit-road-support-members"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Kuoni hands Sarah Weetman expanded role with oversight for new trade team",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/kuoni-hands-sarah-weetman-expanded-trade-role-unveils-new-team-personal-travel"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Travel Counsellor reveals the marriage pact that’s led to ‘100% more conversions’",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/travel-counsellor-reveals-marriage-pact-thats-led-100-more-conversions"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "'The pit can be quite deep': Agencies share how they're addressing loneliness among their homeworking communities",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/pit-can-be-quite-deep-agencies-share-how-theyre-addressing-loneliness-among"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "Luxury operator warns ‘AI will cost us’ if industry doesn’t fix issues now",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/luxury-travel-news/luxury-operator-warns-ai-will-cost-us-if-industry-doesnt-fix-issues-now"
+      },
+      {
+        "site": "ttg",
+        "category": "travel_news",
+        "title": "'When we set up our agency, we quickly realised AI needed to stay behind the scenes'",
+        "summary": "",
+        "author": "",
+        "date": "",
+        "url": "https://www.ttgmedia.com/travel-industry-news/we-quickly-realised-ai-needed-stay-behind-scenes-says-ttg-30-under-30-behind"
+      }
+    ]
+  }
+}

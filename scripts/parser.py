@@ -2,7 +2,13 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 import json
+import re
 from urllib.parse import urljoin
+
+try:
+    from .targets import TARGETS
+except ImportError:
+    from targets import TARGETS
 
 
 def load_html(file_path):
@@ -44,11 +50,15 @@ def parse_html_file(file_path):
         "site": file_info["site"],
         "category": file_info["category"],
         "source_file": file_info["file_path"],
+        "source_url": get_source_url(file_info["category"], file_info["site"]),
         "page_title": "",
         "service_offerings": [],
         "case_studies": [],
         "client_testimonials": [],
+        "customer_reviews": [],
         "thought_leadership": [],
+        "industries_served": [],
+        "pricing_signals": [],
         "market_insights": [],
     }
 
@@ -143,6 +153,7 @@ def parse_html_file(file_path):
     elif file_info["category"] == "competitors":
         competitor_data = extract_competitor_data(soup)
 
+        record["service_offerings"] = find_service_candidates(competitor_data)
         record["client_testimonials"] = competitor_data["testimonials"]
 
     # TTG
@@ -175,7 +186,185 @@ def parse_html_file(file_path):
         articles = extract_business_of_fashion_news(soup)
         record["market_insights"] = articles
 
+    base_url = record["source_url"]
+    if file_info["category"] == "competitors":
+        record["service_offerings"] = merge_link_items(
+            record["service_offerings"],
+            extract_links_by_patterns(
+                soup,
+                base_url,
+                ["/service", "/solution", "/experience", "/product", "/offering"],
+                excluded_texts={"services", "solutions", "experiences", "learn more", "read more"},
+            ),
+        )
+        record["case_studies"] = merge_link_items(
+            record["case_studies"],
+            extract_links_by_patterns(
+                soup,
+                base_url,
+                ["case-stud", "customer-stor", "success-stor", "client-stor"],
+                excluded_texts={"case studies", "customer stories", "read more"},
+            ),
+        )
+        record["thought_leadership"] = extract_thought_leadership(soup, base_url)
+        record["industries_served"] = extract_industries_served(soup, base_url)
+        record["pricing_signals"] = extract_pricing_signals(soup, base_url)
+        record["customer_reviews"] = extract_customer_reviews(soup)
+        record["client_testimonials"] = merge_text_items(
+            record["client_testimonials"],
+            record["customer_reviews"],
+        )
+    elif not record["market_insights"]:
+        record["market_insights"] = extract_generic_news(soup, base_url)
+
+    record["extraction_quality"] = {
+        key: len(record[key])
+        for key in (
+            "service_offerings",
+            "case_studies",
+            "client_testimonials",
+            "thought_leadership",
+            "industries_served",
+            "pricing_signals",
+            "market_insights",
+        )
+    }
+
     return record
+
+
+def get_source_url(category, site):
+    """Return the configured canonical URL for a local snapshot."""
+    return TARGETS.get(category, {}).get(site, "")
+
+
+def normalize_space(value):
+    return re.sub(r"\s+", " ", value or "").strip()
+
+
+def merge_text_items(*groups):
+    merged = []
+    seen = set()
+    for group in groups:
+        for value in group:
+            text = normalize_space(value)
+            key = text.casefold()
+            if text and key not in seen:
+                seen.add(key)
+                merged.append(text)
+    return merged
+
+
+def merge_link_items(*groups):
+    merged = []
+    seen = set()
+    for group in groups:
+        for item in group:
+            title = normalize_space(item.get("title", item.get("text", "")))
+            url = item.get("url", item.get("href", ""))
+            key = (title.casefold(), url.split("#", 1)[0])
+            if title and key not in seen:
+                seen.add(key)
+                merged.append({"title": title, "url": url})
+    return merged
+
+
+def extract_customer_reviews(soup):
+    """Extract testimonial/review text from semantic and class-based containers."""
+    candidates = list(soup.find_all("blockquote"))
+    candidates.extend(soup.select('[class*="testimonial"], [class*="review"], [class*="quote"]'))
+    values = []
+    for node in candidates:
+        text = normalize_space(node.get_text(" ", strip=True))
+        if 35 <= len(text) <= 1200:
+            values.append(text)
+    return merge_text_items(values)[:50]
+
+
+def extract_pricing_signals(soup, base_url):
+    """Capture explicit prices and quote/pricing calls to action without inferring amounts."""
+    price_pattern = re.compile(r"(?:[$€£]\s?\d[\d,.]*|\d[\d,.]*\s?(?:USD|EUR|GBP))", re.I)
+    intent_pattern = re.compile(r"\b(pricing|price|rates?|request (?:a )?quote|get (?:a )?quote|devis|tarifs?)\b", re.I)
+    signals = []
+    seen = set()
+    for node in soup.find_all(["a", "button", "p", "li", "span"]):
+        text = normalize_space(node.get_text(" ", strip=True))
+        if not text or len(text) > 260:
+            continue
+        has_amount = bool(price_pattern.search(text))
+        has_intent = bool(intent_pattern.search(text))
+        if not has_amount and not has_intent:
+            continue
+        href = node.get("href", "") if node.name == "a" else ""
+        url = urljoin(base_url, href) if href else ""
+        key = (text.casefold(), url)
+        if key in seen:
+            continue
+        seen.add(key)
+        signals.append({
+            "text": text,
+            "kind": "amount" if has_amount else "quote_or_pricing_cta",
+            "url": url,
+        })
+    return signals[:50]
+
+
+def extract_industries_served(soup, base_url):
+    """Extract links that explicitly identify client industries or sectors."""
+    route_pattern = re.compile(r"/(industr(?:y|ies)|sectors?|who-we-serve|use-cases?)/", re.I)
+    industry_terms = {
+        "fashion", "luxury", "retail", "technology", "financial services", "finance",
+        "healthcare", "life sciences", "government", "energy", "media", "entertainment",
+        "sports", "consulting", "manufacturing", "nonprofit", "education",
+    }
+    items = []
+    for link in soup.find_all("a", href=True):
+        text = normalize_space(link.get_text(" ", strip=True))
+        href = link.get("href", "")
+        combined = f"{text} {href}".casefold()
+        if not text or len(text) > 100:
+            continue
+        if not route_pattern.search(href) and not any(term in combined for term in industry_terms):
+            continue
+        items.append({"title": text, "url": urljoin(base_url, href)})
+    return merge_link_items(items)[:50]
+
+
+def extract_thought_leadership(soup, base_url):
+    """Extract research, reports, white papers, blogs, and insight articles."""
+    patterns = ("/insight", "/research", "/report", "/whitepaper", "/white-paper", "/blog", "/article")
+    excluded = {"insights", "research", "reports", "blog", "read more", "learn more", "view all"}
+    items = []
+    for link in soup.find_all("a", href=True):
+        text = normalize_space(link.get_text(" ", strip=True))
+        href = link.get("href", "")
+        if not text or text.casefold() in excluded or len(text) < 8 or len(text) > 220:
+            continue
+        if any(pattern in href.casefold() for pattern in patterns):
+            items.append({"title": text, "url": urljoin(base_url, href)})
+    return merge_link_items(items)[:100]
+
+
+def extract_generic_news(soup, base_url):
+    """Fallback article extraction for configured news sites without a custom selector."""
+    items = []
+    seen = set()
+    for link in soup.find_all("a", href=True):
+        href = link.get("href", "")
+        if not any(part in href.casefold() for part in ("/article", "/news", "/story", "/actualite", "/magazine")):
+            continue
+        heading = link.find(["h2", "h3", "h4"])
+        title = normalize_space(heading.get_text(" ", strip=True) if heading else link.get_text(" ", strip=True))
+        if not 15 <= len(title) <= 220:
+            continue
+        url = urljoin(base_url, href).split("#", 1)[0]
+        if url in seen:
+            continue
+        seen.add(url)
+        summary_node = link.find("p")
+        summary = normalize_space(summary_node.get_text(" ", strip=True) if summary_node else "")
+        items.append({"title": title, "summary": summary, "url": url})
+    return items[:150]
 
 def extract_page_content(soup):
     """Extract general structured content from a parsed HTML page."""
@@ -909,9 +1098,12 @@ def save_processed_data(records, output_path="data/processed/scraped_data.json")
     output_file = Path(output_path)
 
     output_file.parent.mkdir(parents=True, exist_ok=True)
+    temporary_file = output_file.with_suffix(output_file.suffix + ".tmp")
 
-    with output_file.open("w", encoding="utf-8") as file:
+    with temporary_file.open("w", encoding="utf-8") as file:
         json.dump(records, file, indent=2, ensure_ascii=False)
+
+    temporary_file.replace(output_file)
 
     print(f"Saved processed data to: {output_file}")
 

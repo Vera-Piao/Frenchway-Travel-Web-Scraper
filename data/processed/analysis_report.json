@@ -1,10 +1,442 @@
 {
+  "schema_version": 2,
+  "generated_at": "2026-09-04T04:37:02.509427Z",
+  "analysis_mode": "deterministic_offline",
+  "model": null,
   "dataset_summary": {
+    "total_sources": 22,
+    "competitor_sources": 15,
+    "travel_news_sources": 3,
+    "fashion_news_sources": 4,
     "total_market_insights": 190,
     "travel_insights": 25,
     "fashion_insights": 165
   },
-  "travel_analysis": "Below is a data-only synthesis of the main themes visible in the supplied titles and summaries.\n\n## 1) Five major market themes or trends\n\n### 1. Crisis response, resilience, and disruption management\n**Evidence:**  \n- **“Tourisme sous les flammes : communiquer dans l’urgence”** points to tourism communication during wildfire emergencies.  \n- **“Is travel on the mend after the Middle East crisis?”** suggests demand and confidence are being affected by regional instability.  \n- **“Nepal braces for more flash floods…”** and **“Intrepid launches Nepal appeal after deadly floods”** show direct travel impacts from natural disasters.  \n- **“Hackers steal nearly nine million UK airport users’ data”** adds a cybersecurity disruption dimension.\n\n**What it indicates:** Travel companies are operating in an environment where safety, disruption, and crisis communications matter more than ever.\n\n---\n\n### 2. Rapid digital transformation, especially AI adoption\n**Evidence:**  \n- **“Retour d’expérience: j’ai laissé l’IA planifier mon road trip en France!”** shows AI being used directly by consumers for trip planning.  \n- **“Transformation numérique : où en sont les DMOs?”** explicitly focuses on digital transformation among destination management organizations.  \n- **“Luxury operator warns ‘AI will cost us’ if industry doesn’t fix issues now”** and **“When we set up our agency, we quickly realised AI needed to stay behind the scenes”** show AI is now a strategic and operational concern, not just a novelty.\n\n**What it indicates:** AI is becoming embedded in travel planning and internal operations, but industry attitudes are mixed and cautious.\n\n---\n\n### 3. Demand for experiential, complex, and high-value travel\n**Evidence:**  \n- **“Cowboy agents chasing demand for lucrative experiential travel bookings…”** states that demand for experiential travel is growing.  \n- The same title also notes these bookings are often complex itineraries with big margins.  \n- **“A year into this job…”** and other trade-role stories suggest a more specialized and relationship-driven market environment.\n\n**What it indicates:** There is strong interest in bespoke, experiential products, but they require high expertise and careful handling.\n\n---\n\n### 4. Professionalization, credibility, and industry standards\n**Evidence:**  \n- **“I’ve been in travel for nearly 40 years – this is why I think all travel agents should be accredited”** calls for more regulated accreditation to protect credibility.  \n- **“Arrêtez d’être à la dispo des pros ! C’est gentil mais dépassé :)”** suggests a rethinking of how tourism businesses serve professional audiences.  \n- Titles about leadership changes at **Kuoni, Titan Travel, Brilliant Travel, Gold Medal** and others point to ongoing organizational structuring.\n\n**What it indicates:** The industry is paying more attention to trust, standards, professional identity, and clearer roles.\n\n---\n\n### 5. Workforce, community, and wellbeing pressures\n**Evidence:**  \n- **“Agencies share how they’re addressing loneliness among their homeworking communities”** highlights isolation in remote work.  \n- **“We can’t do this alone’: AWTE calls on men to challenge misogyny in the travel industry”** points to inclusion and workplace culture issues.  \n- **“Santé vous bien! du lien à la santé sociale”** suggests concern about social health and reduced resources in tourism.  \n- Multiple leadership and team-structure announcements also imply workforce adaptation.\n\n**What it indicates:** Travel businesses are dealing with staff wellbeing, culture, and support as important operational issues.\n\n---\n\n## 2) Important customer expectations or behaviors\n\n### Customers are increasingly comfortable using AI to plan travel\n- **Evidence:** A traveler reports a three-week France trip planned with AI.  \n- **Implication:** Some customers expect faster, more personalized planning tools.\n\n### Customers still value expert help for complex trips\n- **Evidence:** Concern about “cowboy agents” booking complex experiential itineraries suggests these bookings need expertise.  \n- **Implication:** For higher-value or complicated travel, customers likely want reassurance, accuracy, and competence.\n\n### Customers are sensitive to safety and disruption\n- **Evidence:** Articles on wildfires, floods, Middle East crisis, and hacked airport data all emphasize risk.  \n- **Implication:** Travelers expect timely updates, safety guidance, and reassurance.\n\n### Customers and partners expect more credible, trustworthy travel professionals\n- **Evidence:** Calls for accreditation and concern about inexperienced entrants undermining credibility.  \n- **Implication:** Trust and professionalism are important decision factors.\n\n### Some audiences may prefer less direct service from industry professionals\n- **Evidence:** “Arrêtez d’être à la dispo des pros !” suggests the old model of always being available to professionals is outdated.  \n- **Implication:** There may be shifting expectations around service style, responsiveness, and how support is delivered.\n\n---\n\n## 3) Relevant opportunities for a travel company\n\n### Offer AI-assisted trip planning with human oversight\n- **Why:** AI is already being used by travelers, but other titles show caution.  \n- **Opportunity:** Position AI as a tool for convenience while emphasizing human expertise for quality control.\n\n### Specialize in experiential and customized travel\n- **Why:** Demand for experiential travel is explicitly growing.  \n- **Opportunity:** Build premium, tailor-made itineraries that are hard for generic providers to replicate.\n\n### Strengthen crisis communication and traveler support\n- **Why:** Multiple items show disruption from fires, floods, and geopolitical instability.  \n- **Opportunity:** Market reliable emergency communication, rebooking support, and risk-aware travel planning.\n\n### Differentiate through trust, training, and accreditation-like standards\n- **Why:** Accreditation and professional credibility are highlighted as industry concerns.  \n- **Opportunity:** Promote certifications, training, and quality assurance to build confidence among international customers.\n\n### Improve digital customer journeys and destination content\n- **Why:** Digital transformation among DMOs is a major topic.  \n- **Opportunity:** Invest in multilingual digital tools, content, and smoother online booking/support experiences.\n\n### Use wellbeing and community culture as employer brand and service differentiator\n- **Why:** Loneliness, misogyny, and social health issues appear in the data.  \n- **Opportunity:** A healthier internal culture can improve staff retention and service quality.\n\n---\n\n## 4) Potential risks or challenges\n\n### Exposure to natural disasters and crisis-driven cancellations\n- **Evidence:** Wildfires and flash floods directly affect tourism.  \n- **Risk:** Operational disruption, safety issues, and itinerary changes.\n\n### Geopolitical instability affecting demand\n- **Evidence:** The Middle East crisis is explicitly linked to travel performance.  \n- **Risk:** Demand volatility and traveler hesitation.\n\n### Cybersecurity and data privacy threats\n- **Evidence:** Massive UK airport-user data theft.  \n- **Risk:** Reputation damage, compliance issues, and customer trust loss.\n\n### AI-related brand and quality risks\n- **Evidence:** One title warns AI could “cost us,” while another says AI should stay behind the scenes.  \n- **Risk:** Poorly managed AI may reduce trust, quality, or differentiation.\n\n### Credibility damage from unqualified or “rogue” agents\n- **Evidence:** “Cowboy” agents booking complex itineraries; calls for accreditation.  \n- **Risk:** Industry reputation can be harmed by low-quality intermediaries.\n\n### Staff isolation and workplace culture problems\n- **Evidence:** Loneliness among homeworking communities and misogyny in the industry.  \n- **Risk:** Lower morale, retention challenges, and weakened service delivery.\n\n### Resource constraints in tourism organizations\n- **Evidence:** “resources allocated to tourism baissent” indicates declining resources.  \n- **Risk:** Limits on capacity to invest in service, digital tools, and resilience.\n\n---\n\n## Bottom line for Frenchway Travel\nThe supplied data suggests a travel market shaped by **crisis resilience, AI adoption, experiential demand, trust/professionalization, and workforce wellbeing**. For attracting international customers, the strongest practical direction appears to be:\n\n- **clear crisis-ready support,**\n- **expert-led personalized itineraries,**\n- **careful use of AI,**\n- **strong trust signals,**\n- and **modern digital service delivery.**\n\nIf you want, I can turn this into a **SWOT analysis** or a **short executive summary for management**.",
-  "fashion_analysis": "## Cross-source synthesis for Frenchway Travel\n\n### 1) Five strongest fashion/luxury market trends\n1. **Luxury is under pressure and more value-sensitive**\n   - Multiple sources point to a luxury slowdown, especially in key markets like China, with consumers more skeptical about price and quality.\n\n2. **Sustainability and circularity are becoming operational priorities**\n   - Across sources, brands are moving from messaging to action: circular products, unsold-stock handling, sustainable materials, upcycling, and climate-focused initiatives.\n\n3. **Physical retail still matters — but only as a destination**\n   - Stores, pop-ups, flagship openings, and independent retailers are emphasized as experiences worth visiting, not just places to buy.\n\n4. **Resale, vintage, and alternative buying paths are mainstreaming**\n   - Secondhand luxury, vintage, and resale are recurring themes, suggesting consumers are open to nontraditional luxury consumption.\n\n5. **Creator-led, digital-first discovery is reshaping marketing**\n   - Social platforms, influencers, affiliate channels, AI-driven traffic, and content-led storytelling are central to how brands get attention.\n\n---\n\n### 2) Customer expectations relevant to luxury travel\n- **Experiences must feel worth the trip**\n  - Consumers want destination-worthy retail, cultural events, and in-person moments that online channels cannot replicate.\n\n- **Value and quality must be clearly justified**\n  - Luxury travelers appear more selective and price-conscious; premium pricing needs a strong experience rationale.\n\n- **Authenticity and brand/story matter**\n  - Craft, heritage, identity, and distinct local culture resonate strongly across the analyses.\n\n- **Wellness and self-care remain attractive**\n  - Beauty, skin health, and wellness themes suggest demand for restorative and lifestyle-oriented travel.\n\n- **Some travelers want to disconnect**\n  - “Offline luxury” and digital detox behavior suggest interest in privacy, slow travel, and reduced screen time.\n\n- **Consumers are increasingly social- and creator-influenced**\n  - Travel discovery will likely be shaped by short-form content, influencers, and trusted peer-style recommendations.\n\n---\n\n### 3) Connections between fashion and travel\n- **Fashion is becoming a travel reason in itself**\n  - Pop-ups, fashion weeks, flagship stores, couture shows, and designer exhibitions all create destination pull.\n\n- **Cities are part of the fashion product**\n  - Fashion activity is tied to places like Geneva, Beverly Hills, Copenhagen, Mumbai, London, Paris, and emerging local scenes.\n\n- **Shopping is now experiential**\n  - The strongest retail stories are about stores and neighborhoods worth “leaving home for,” which maps directly to travel planning.\n\n- **Fashion and travel both rely on cultural storytelling**\n  - Heritage, craft, celebrity, street style, and local creative scenes function as shared marketing engines.\n\n- **Sustainability links the two sectors**\n  - Sources even note what fashion can learn from luxury travel on climate action, reinforcing overlap around responsible premium experiences.\n\n---\n\n### 4) Opportunities for Frenchway Travel\n1. **Curated fashion-and-shopping itineraries**\n   - Build trips around luxury districts, concept stores, vintage hubs, and destination retail.\n\n2. **Fashion-event travel packages**\n   - Offer access-led travel tied to fashion weeks, pop-ups, designer talks, exhibitions, and showroom events.\n\n3. **Wellness and beauty travel**\n   - Package spa, skincare, and self-care experiences for travelers drawn to beauty and wellness.\n\n4. **Offline luxury / digital detox products**\n   - Position some journeys as quiet, privacy-focused, and restorative.\n\n5. **Resale and vintage-focused travel**\n   - Create itineraries for travelers interested in secondhand luxury, archives, and vintage shopping.\n\n6. **Culture-led premium travel**\n   - Use local fashion communities, heritage, craft, and creative neighborhoods as anchors for international trips.\n\n7. **Sustainability-led premium positioning**\n   - Emphasize responsible travel, low-impact partners, and credible environmental practices.\n\n---\n\n### 5) Risks or challenges\n- **Luxury demand may remain volatile**\n  - Weakness in China and broader luxury slowdown signals uneven demand.\n\n- **Consumers may be harder to win with generic offers**\n  - The market favors highly differentiated, experience-rich trips.\n\n- **Marketing efficiency is less predictable**\n  - Attribution, attention fragmentation, and platform dependence make acquisition harder.\n\n- **Trust and compliance matter more**\n  - Sustainability claims, AI use, and cross-border marketing all invite scrutiny.\n\n- **Trend dependence can shorten relevance**\n  - Fashion-driven travel concepts may age quickly if tied too closely to fast-moving cultural cycles.\n\n- **Premium positioning may limit scale**\n  - The strongest opportunities appear concentrated in affluent, fashion-aware segments rather than broad mass-market demand.\n\nIf you want, I can turn this into a **one-page executive brief** or a **table with “trend / travel implication / Frenchway action”**.",
-  "strategic_recommendations": "## 1) Build AI-assisted trip planning with human concierge review\n**Rationale:** Travelers are already using AI to plan trips, but the market also shows caution around quality and trust. A hybrid model lets Frenchway Travel offer speed and personalization without losing expert credibility.  \n**Suggested action:** Launch an AI-enabled planning layer for first-draft itineraries, then have a Frenchway specialist refine and validate each proposal before sharing with customers.\n\n## 2) Create experiential, destination-worthy travel products\n**Rationale:** Both analyses point to strong demand for experiential, high-value travel that feels unique and worth the journey. This is a clear differentiator for international customers seeking more than standard sightseeing.  \n**Suggested action:** Package trips around distinctive themes such as luxury districts, cultural neighborhoods, fashion events, vintage shopping, wellness, and local craft experiences.\n\n## 3) Position Frenchway as a trust-led, crisis-ready travel partner\n**Rationale:** Safety, disruption, cyber risk, and geopolitical instability are recurring themes in travel. International customers will value reassurance, flexibility, and clear communication.  \n**Suggested action:** Strengthen crisis-response messaging, rebooking support, traveler alerts, and data-protection assurances as part of the core customer proposition.\n\n## 4) Upgrade digital and multilingual customer journeys\n**Rationale:** Digital transformation is reshaping travel discovery and booking, while international growth depends on accessible, frictionless online engagement.  \n**Suggested action:** Improve the website and booking journey with multilingual content, mobile-friendly design, richer destination storytelling, and streamlined inquiry-to-booking workflows.\n\n## 5) Differentiate through premium niche positioning: fashion, luxury, and wellness\n**Rationale:** Fashion and luxury trends show demand for culturally rich, experience-led, and lifestyle-oriented travel, especially where shopping, heritage, and wellness are part of the appeal.  \n**Suggested action:** Develop signature international itineraries centered on fashion cities, luxury retail districts, wellness retreats, and offline-luxury or digital-detox experiences.\n\nIf you’d like, I can also convert these into a **slide-ready 2-column table** with “Recommendation / Why it matters / What to do next.”"
+  "quantitative_analysis": {
+    "sentiment": {
+      "method": "transparent keyword polarity; descriptive, not customer satisfaction",
+      "records_analyzed": 220,
+      "records_with_lexicon_evidence": 47,
+      "distribution": {
+        "negative": 4,
+        "neutral": 175,
+        "positive": 41
+      },
+      "mean_score": 0.1682,
+      "limitations": "Titles and short summaries can omit context, irony, and negation."
+    },
+    "themes": [
+      {
+        "theme": "fashion_and_retail",
+        "record_count": 57
+      },
+      {
+        "theme": "experiential_travel",
+        "record_count": 20
+      },
+      {
+        "theme": "trust_and_service",
+        "record_count": 15
+      },
+      {
+        "theme": "ai_and_technology",
+        "record_count": 12
+      },
+      {
+        "theme": "sustainability",
+        "record_count": 6
+      },
+      {
+        "theme": "risk_and_resilience",
+        "record_count": 4
+      }
+    ],
+    "predictive_model": {
+      "status": "modeled",
+      "method": "ordinary least-squares trend on monthly dated article counts",
+      "dated_records": 83,
+      "distinct_months": 10,
+      "slope_per_month": 0.4397,
+      "training_rmse": 6.7496,
+      "observed_monthly_counts": [
+        {
+          "month": "2024-10",
+          "count": 4
+        },
+        {
+          "month": "2024-11",
+          "count": 0
+        },
+        {
+          "month": "2024-12",
+          "count": 0
+        },
+        {
+          "month": "2025-01",
+          "count": 6
+        },
+        {
+          "month": "2025-02",
+          "count": 0
+        },
+        {
+          "month": "2025-03",
+          "count": 0
+        },
+        {
+          "month": "2025-04",
+          "count": 6
+        },
+        {
+          "month": "2025-05",
+          "count": 0
+        },
+        {
+          "month": "2025-06",
+          "count": 0
+        },
+        {
+          "month": "2025-07",
+          "count": 0
+        },
+        {
+          "month": "2025-08",
+          "count": 0
+        },
+        {
+          "month": "2025-09",
+          "count": 5
+        },
+        {
+          "month": "2025-10",
+          "count": 0
+        },
+        {
+          "month": "2025-11",
+          "count": 0
+        },
+        {
+          "month": "2025-12",
+          "count": 0
+        },
+        {
+          "month": "2026-01",
+          "count": 10
+        },
+        {
+          "month": "2026-02",
+          "count": 0
+        },
+        {
+          "month": "2026-03",
+          "count": 0
+        },
+        {
+          "month": "2026-04",
+          "count": 6
+        },
+        {
+          "month": "2026-05",
+          "count": 1
+        },
+        {
+          "month": "2026-06",
+          "count": 8
+        },
+        {
+          "month": "2026-07",
+          "count": 2
+        },
+        {
+          "month": "2026-08",
+          "count": 35
+        }
+      ],
+      "forecast": [
+        {
+          "month": "2026-09",
+          "predicted_article_count": 8.89
+        },
+        {
+          "month": "2026-10",
+          "predicted_article_count": 9.33
+        },
+        {
+          "month": "2026-11",
+          "predicted_article_count": 9.76
+        }
+      ],
+      "limitations": "Article volume measures source publishing/capture activity, not market demand or revenue."
+    },
+    "extraction_coverage": {
+      "service_offerings": {
+        "records": 175,
+        "sites_with_data": 13
+      },
+      "case_studies": {
+        "records": 20,
+        "sites_with_data": 4
+      },
+      "client_testimonials": {
+        "records": 30,
+        "sites_with_data": 6
+      },
+      "thought_leadership": {
+        "records": 13,
+        "sites_with_data": 5
+      },
+      "industries_served": {
+        "records": 123,
+        "sites_with_data": 13
+      },
+      "pricing_signals": {
+        "records": 12,
+        "sites_with_data": 4
+      },
+      "market_insights": {
+        "records": 190,
+        "sites_with_data": 6
+      }
+    },
+    "by_category": {
+      "travel_news": {
+        "sentiment": {
+          "method": "transparent keyword polarity; descriptive, not customer satisfaction",
+          "records_analyzed": 25,
+          "records_with_lexicon_evidence": 4,
+          "distribution": {
+            "negative": 2,
+            "neutral": 22,
+            "positive": 1
+          },
+          "mean_score": -0.04,
+          "limitations": "Titles and short summaries can omit context, irony, and negation."
+        },
+        "themes": [
+          {
+            "theme": "trust_and_service",
+            "record_count": 3
+          },
+          {
+            "theme": "experiential_travel",
+            "record_count": 2
+          },
+          {
+            "theme": "risk_and_resilience",
+            "record_count": 2
+          },
+          {
+            "theme": "fashion_and_retail",
+            "record_count": 1
+          },
+          {
+            "theme": "ai_and_technology",
+            "record_count": 1
+          }
+        ],
+        "predictive_model": {
+          "status": "insufficient_data",
+          "method": "ordinary least-squares trend on monthly dated article counts",
+          "dated_records": 0,
+          "distinct_months": 0,
+          "minimum_records": 20,
+          "minimum_months": 6,
+          "forecast": [],
+          "reason": "Forecast withheld because the dated time series is too short or sparse."
+        }
+      },
+      "fashion_news": {
+        "sentiment": {
+          "method": "transparent keyword polarity; descriptive, not customer satisfaction",
+          "records_analyzed": 165,
+          "records_with_lexicon_evidence": 31,
+          "distribution": {
+            "negative": 2,
+            "neutral": 135,
+            "positive": 28
+          },
+          "mean_score": 0.1576,
+          "limitations": "Titles and short summaries can omit context, irony, and negation."
+        },
+        "themes": [
+          {
+            "theme": "fashion_and_retail",
+            "record_count": 54
+          },
+          {
+            "theme": "ai_and_technology",
+            "record_count": 9
+          },
+          {
+            "theme": "sustainability",
+            "record_count": 6
+          },
+          {
+            "theme": "trust_and_service",
+            "record_count": 5
+          },
+          {
+            "theme": "experiential_travel",
+            "record_count": 2
+          },
+          {
+            "theme": "risk_and_resilience",
+            "record_count": 2
+          }
+        ],
+        "predictive_model": {
+          "status": "modeled",
+          "method": "ordinary least-squares trend on monthly dated article counts",
+          "dated_records": 83,
+          "distinct_months": 10,
+          "slope_per_month": 0.4397,
+          "training_rmse": 6.7496,
+          "observed_monthly_counts": [
+            {
+              "month": "2024-10",
+              "count": 4
+            },
+            {
+              "month": "2024-11",
+              "count": 0
+            },
+            {
+              "month": "2024-12",
+              "count": 0
+            },
+            {
+              "month": "2025-01",
+              "count": 6
+            },
+            {
+              "month": "2025-02",
+              "count": 0
+            },
+            {
+              "month": "2025-03",
+              "count": 0
+            },
+            {
+              "month": "2025-04",
+              "count": 6
+            },
+            {
+              "month": "2025-05",
+              "count": 0
+            },
+            {
+              "month": "2025-06",
+              "count": 0
+            },
+            {
+              "month": "2025-07",
+              "count": 0
+            },
+            {
+              "month": "2025-08",
+              "count": 0
+            },
+            {
+              "month": "2025-09",
+              "count": 5
+            },
+            {
+              "month": "2025-10",
+              "count": 0
+            },
+            {
+              "month": "2025-11",
+              "count": 0
+            },
+            {
+              "month": "2025-12",
+              "count": 0
+            },
+            {
+              "month": "2026-01",
+              "count": 10
+            },
+            {
+              "month": "2026-02",
+              "count": 0
+            },
+            {
+              "month": "2026-03",
+              "count": 0
+            },
+            {
+              "month": "2026-04",
+              "count": 6
+            },
+            {
+              "month": "2026-05",
+              "count": 1
+            },
+            {
+              "month": "2026-06",
+              "count": 8
+            },
+            {
+              "month": "2026-07",
+              "count": 2
+            },
+            {
+              "month": "2026-08",
+              "count": 35
+            }
+          ],
+          "forecast": [
+            {
+              "month": "2026-09",
+              "predicted_article_count": 8.89
+            },
+            {
+              "month": "2026-10",
+              "predicted_article_count": 9.33
+            },
+            {
+              "month": "2026-11",
+              "predicted_article_count": 9.76
+            }
+          ],
+          "limitations": "Article volume measures source publishing/capture activity, not market demand or revenue."
+        }
+      }
+    }
+  },
+  "travel_analysis": "Deterministic travel summary. Leading category themes: trust and service (3 records), experiential travel (2 records), risk and resilience (2 records), fashion and retail (1 records), ai and technology (1 records). Keyword sentiment mean is -0.04; this is descriptive and not a customer-satisfaction measure. Predictive model status: insufficient_data. Forecast withheld because the dated time series is too short or sparse.",
+  "fashion_analysis": "Deterministic fashion summary. Leading category themes: fashion and retail (54 records), ai and technology (9 records), sustainability (6 records), trust and service (5 records), experiential travel (2 records). Keyword sentiment mean is 0.1576; this is descriptive and not a customer-satisfaction measure. Predictive model status: modeled. Article volume measures source publishing/capture activity, not market demand or revenue.",
+  "strategic_recommendations": [
+    {
+      "title": "Lead with signature fashion-and-culture journeys",
+      "rationale": "Fashion, luxury, retail, and experiential themes recur in the captured evidence.",
+      "suggested_action": "Pilot one Paris itinerary with explicit access, service, and conversion measures."
+    },
+    {
+      "title": "Use AI for drafts with human approval",
+      "rationale": "Technology signals coexist with trust, expertise, and risk themes.",
+      "suggested_action": "Require specialist review and a source checklist before sending itineraries."
+    },
+    {
+      "title": "Make resilience part of the offer",
+      "rationale": "Risk and disruption signals appear in travel coverage.",
+      "suggested_action": "Publish escalation, rebooking, traveler-alert, and data-protection commitments."
+    },
+    {
+      "title": "Improve evidence depth",
+      "rationale": "Pricing signals appear on 4 sites and industries on 13 sites.",
+      "suggested_action": "Review low-yield sources monthly and maintain selectors with fixtures."
+    },
+    {
+      "title": "Operate a monitored monthly scan",
+      "rationale": "Recurring decisions require freshness and source-level quality metrics.",
+      "suggested_action": "Schedule the pipeline, retain manifests, and alert on coverage or yield regressions."
+    }
+  ],
+  "guardrails": [
+    "Record counts are extraction outputs, not market share or demand.",
+    "Keyword sentiment is descriptive and can miss context.",
+    "Forecasts are withheld unless the dated time series meets minimum sufficiency thresholds.",
+    "OpenAI synthesis, when enabled, must be reviewed against source records before external use."
+  ]
 }

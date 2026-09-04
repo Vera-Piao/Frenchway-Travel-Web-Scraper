@@ -1,279 +1,171 @@
-# Frenchway Travel Web Scraper
+# Frenchway Travel Market Research Pipeline
 
-## Project Overview
+This repository collects and analyzes public competitor, travel-industry, and fashion-industry web content for Frenchway Travel. It produces auditable local datasets, deterministic analysis, Google-ready payloads, crawl outputs, run manifests, and quality reports.
 
-This project was developed for Hasmo Consulting to support market research for Frenchway Travel.
+The implementation is deliberately evidence-bounded: it records access failures and stale snapshots, does not bypass anti-bot controls, withholds forecasts when the dated series is too sparse, and requires explicit flags before changing Google Sheets or Google Slides.
 
-The project collects and analyzes publicly available web data from competitor websites, travel industry news sources, and fashion industry news sources. The resulting data can be used to identify competitor offerings, market trends, and potential business opportunities for Frenchway Travel.
+## What is covered
 
-The workflow combines:
+The canonical catalog in `config/targets.json` contains 25 sources:
 
-- Requests for HTTP data collection
-- BeautifulSoup for HTML parsing and structured data extraction
-- Scrapy for multi-page web crawling
-- Google Sheets API for structured data export
-- OpenAI API for market trend analysis
-- Google Slides API for presentation generation
+- 17 competitors
+- 4 travel-news sources
+- 4 fashion-news sources
 
-## Data Sources
+For competitor pages, the parser extracts service offerings, case studies, testimonials, customer reviews, thought leadership, industries served, and pricing signals. News pages produce structured market-insight records. The analysis stage adds theme counts, transparent keyword polarity, extraction coverage, and a guarded monthly publishing-volume trend model.
 
-The project collects data from three main categories.
-
-### Competitors
-
-Competitor websites are used to identify:
-
-- Service offerings
-- Case studies
-- Client testimonials
-- Business travel solutions
-- Luxury and specialized travel services
-
-Examples include BCD Travel, TravelPerk, FCM Travel, Navan, and France-based luxury travel providers.
-
-### Travel Industry News
-
-Travel industry sources are used to identify:
-
-- Market trends
-- Technology developments
-- Tourism strategy
-- Business travel developments
-- Customer expectations
-
-### Fashion Industry News
-
-Fashion industry sources are used to identify:
-
-- Luxury market trends
-- Fashion events
-- Retail and experiential trends
-- Brand activations
-- Consumer behavior relevant to travel
-
-## Project Structure
+## Project layout
 
 ```text
 Project_1_Frenchway/
+├── config/
+│   ├── targets.json
+│   └── quality_thresholds.json
 ├── data/
-│   ├── raw/
-│   ├── processed/
-│   │   ├── scraped_data.json
-│   │   └── analysis_report.json
-│   └── crawled/
-│       ├── bcd_services.json
-│       └── fashion_news.json
-│
+│   ├── raw/                  # HTML snapshots
+│   ├── crawled/              # Scrapy JSON outputs
+│   ├── processed/            # Parsed data, analysis, export payloads
+│   └── runs/                 # Collection, pipeline, and QA manifests
 ├── frenchway_scraper/
-│   ├── scrapy.cfg
-│   └── frenchway_scraper/
-│       ├── settings.py
-│       └── spiders/
-│           ├── services.py
-│           └── fashion_news.py
-│
+│   └── frenchway_scraper/spiders/
+│       ├── services.py
+│       ├── fashion_news.py
+│       └── market_sites.py   # Bounded multi-domain crawler
 ├── scripts/
-│   ├── main.py
-│   ├── targets.py
-│   ├── utils.py
+│   ├── main.py               # Retry-aware snapshot collector
 │   ├── parser.py
-│   ├── export_sheets.py
+│   ├── analytics.py
 │   ├── analysis.py
+│   ├── export_sheets.py
 │   ├── slides.py
+│   ├── validate_outputs.py
+│   ├── run_pipeline.py
 │   └── run_scrapers.sh
-│
+├── tests/
 ├── cron.example
-├── requirements.txt
-├── README.md
-└── .gitignore
+└── requirements.txt
 ```
 
 The local `frenchway/` virtual environment and `credentials/` directory are excluded from version control.
 
 ## Installation
 
-Clone the repository and navigate to the project directory:
-
-```bash
-git clone git@github.com:Vera-Piao/Frenchway-Travel-Web-Scraper.git
-cd Frenchway-Travel-Web-Scraper
-```
-
-Create and activate a virtual environment:
-
 ```bash
 python3 -m venv frenchway
 source frenchway/bin/activate
-```
-
-Install dependencies:
-
-```bash
 python -m pip install -r requirements.txt
 ```
 
-## Usage
+## Recommended run
 
-### 1. Collect HTML with Requests
+Run the complete workflow from the repository root:
 
-Run:
+```bash
+python scripts/run_pipeline.py
+```
+
+The orchestrator stops on the first failed stage and writes stage logs plus `pipeline.json` under a timestamped `data/runs/` directory. Useful options are:
+
+```bash
+python scripts/run_pipeline.py --skip-collect --skip-crawl
+python scripts/run_pipeline.py --ai
+python scripts/run_pipeline.py --publish-google
+python scripts/run_pipeline.py --warn-only
+```
+
+`--ai` requires `OPENAI_API_KEY` and uses `OPENAI_MODEL` or `gpt-5-mini`. Without it, the analysis is deterministic and offline. `--publish-google` is the only pipeline option that writes to the configured Google spreadsheet and presentation.
+
+## Run stages separately
+
+### 1. Collect snapshots
 
 ```bash
 python scripts/main.py
+python scripts/main.py --only egencia --only travel_weekly
+python scripts/main.py --fail-on-incomplete
 ```
 
-This sends HTTP requests to the configured target websites and stores successful responses in:
+Successful HTML is atomically saved under `data/raw/`. Every attempt writes a manifest containing HTTP status, final URL, timing, byte count, hash, and snapshot freshness. Failed requests never overwrite a valid older snapshot.
 
-```text
-data/raw/
-```
-
-Some websites may return HTTP 403 responses or use client-side rendering. The scraper records accessible sources without attempting to bypass website protections.
-
-### 2. Parse HTML with BeautifulSoup
-
-Run:
+### 2. Parse and analyze
 
 ```bash
 python scripts/parser.py
+python scripts/analysis.py
+python scripts/analysis.py --ai
 ```
 
-The parser uses site-specific and generic extraction rules to identify structured information such as:
+Outputs:
 
-- Service offerings
-- Case studies
-- Testimonials
-- Market insights
+- `data/processed/scraped_data.json`
+- `data/processed/analysis_report.json`
 
-Processed data is stored in:
+Sentiment is a transparent keyword indicator, not a customer-satisfaction score. The predictive result is publishing/capture volume, not demand or revenue. The model is withheld unless it has at least 20 dated records spanning six months.
 
-```text
-data/processed/scraped_data.json
-```
+### 3. Build or publish Google outputs
 
-### 3. Export Data to Google Sheets
-
-Run:
+The default commands only generate local, reviewable payloads:
 
 ```bash
 python scripts/export_sheets.py
-```
-
-The processed data is flattened into tables for:
-
-- Service Offerings
-- Case Studies
-- Testimonials
-- Thought Leadership
-- Market Insights
-
-Google API credentials are stored locally under `credentials/` and are not committed to the repository.
-
-### 4. Analyze Market Data with AI
-
-Set the OpenAI API key as an environment variable:
-
-```bash
-export OPENAI_API_KEY="your-api-key"
-```
-
-Then run:
-
-```bash
-python scripts/analysis.py
-```
-
-The analysis pipeline summarizes travel and fashion market insights and generates strategic recommendations.
-
-Results are stored in:
-
-```text
-data/processed/analysis_report.json
-```
-
-API keys should never be stored directly in source code.
-
-### 5. Generate Google Slides
-
-Run:
-
-```bash
 python scripts/slides.py
 ```
 
-The script generates presentation content including:
-
-- Project overview
-- Competitor analysis
-- Service offering comparison
-- Market insight comparison
-- Key market trends
-- Strategic recommendations
-
-### 6. Crawl Multiple Pages with Scrapy
-
-Two Scrapy spiders are included.
-
-Run the BCD Travel services spider:
+Read-only remote checks:
 
 ```bash
-cd frenchway_scraper
-scrapy crawl services -O ../data/crawled/bcd_services.json
+python scripts/export_sheets.py --check
+python scripts/slides.py --check
 ```
 
-Run the FashionUnited news spider:
+Explicit remote publication:
 
 ```bash
-scrapy crawl fashion_news -O ../data/crawled/fashion_news.json
+python scripts/export_sheets.py --apply
+python scripts/slides.py --apply
 ```
 
-The spiders use Scrapy selectors and `response.follow()` to navigate relevant internal pages and extract structured information.
+The Sheets publisher updates named worksheets idempotently instead of creating duplicates. Credentials remain under `credentials/` and must not be committed.
 
-The project respects `robots.txt` through:
-
-```python
-ROBOTSTXT_OBEY = True
-```
-
-## Automated Crawling
-
-A reusable shell script runs both Scrapy spiders:
+### 4. Run Scrapy
 
 ```bash
 ./scripts/run_scrapers.sh
 ```
 
-An example cron configuration is provided in:
+The script runs the two focused spiders and the bounded `market_sites` spider, then executes the quality gate. The multi-domain spider obeys `robots.txt`, uses auto-throttling, limits crawl depth to one, and caps pages per site.
 
-```text
-cron.example
+### 5. Validate outputs
+
+```bash
+python scripts/validate_outputs.py --write-report data/runs/latest-quality.json
 ```
 
-For example, the crawler can be scheduled to run every Monday at 9:00 AM:
+The quality report checks:
 
-```cron
-0 9 * * 1 cd /path/to/Project_1_Frenchway && ./scripts/run_scrapers.sh >> data/crawled/scrapy.log 2>&1
+- all 25 configured targets are accounted for;
+- every currently accessible target has a snapshot and processed record;
+- inaccessible sources have recent, explicit `403`/`404` collection evidence;
+- structured list fields follow the schema;
+- duplicate and empty-title rates remain below thresholds;
+- enough market-insight records exist for useful analysis.
+
+Raw coverage remains visible in the report. A documented unavailable source is never converted into a fabricated record.
+
+## Automated tests
+
+```bash
+python -m unittest discover -s tests -v
+python -m compileall -q scripts frenchway_scraper/frenchway_scraper tests
+python -m pip check
 ```
 
-The cron entry is provided as an example and should be configured for the deployment environment before use.
+Tests cover parsing, quantitative-analysis gates, source catalog coverage, crawler link filtering, Google payload construction, Slides data binding, HTTP status classification, and unavailable-source accountability.
 
-## Outputs
+## Scheduling
 
-The main project outputs are:
+`cron.example` is an installable template for a Monday 09:00 run. Replace `PROJECT_ROOT` with the deployment path, review the command, and only then install it with `crontab cron.example`. This repository does not silently change the host's scheduler.
 
-| Output | Description |
-|---|---|
-| `data/processed/scraped_data.json` | Structured data extracted with BeautifulSoup |
-| `data/processed/analysis_report.json` | AI-generated market analysis |
-| `data/crawled/bcd_services.json` | Multi-page BCD Travel crawl results |
-| `data/crawled/fashion_news.json` | FashionUnited news crawl results |
-| Google Sheets | Structured tables for further analysis |
-| Google Slides | Market research presentation |
+## Known external constraints
 
-## Limitations
-
-Website structures can change over time, so selectors may require maintenance.
-
-Some websites restrict automated HTTP access or rely heavily on client-side rendering. This project does not attempt to bypass access controls or anti-bot protections.
-
-The extracted data represents publicly accessible information available at the time of collection.
+At the latest checked run, Amex GBT, Egencia, and Travel Weekly returned HTTP 403 to the responsible Requests client, including tested official subpages. The quality manifest records this evidence and expires it after 30 days so the sources are retried rather than permanently excluded. Google remote state and scheduler activation depend on the deployment account and host; use the explicit check/apply and cron steps above.

@@ -1,42 +1,28 @@
-TARGETS = {
-    "competitors": {
-        # Global Corporate Travel Competitors
-        "amex_gbt": "https://www.amexglobalbusinesstravel.com/",
-        "cwt": "https://www.mycwt.com/",
-        "bcd_travel": "https://www.bcdtravel.com/",
-        "tzell_travel": "https://tzell.com/",
+"""Canonical target catalog shared by Requests and Scrapy collectors."""
 
-        # Technology-Driven Travel Competitors
-        "egencia": "https://www.egencia.com/",
-        "travelperk": "https://www.travelperk.com/",
-        "fcm_travel": "https://www.fcmtravel.com/",
-        "direct_travel": "https://www.dt.com/",
-        "navan": "https://navan.com/",
+import json
+from pathlib import Path
 
-        # Fashion Industry Competitors
-        "le_connoisseur": "https://le-connoisseur.com/",
-        "blueorange_travel": "https://blueorangetravel.com/fashion-travel-agency/",
-        "luxe_fashion_trips": "https://luxefashiontrips.com/",
-        "forest_travel": "https://foresttravel.com/experiences/paris-fashion-show/",
 
-        # France-Based Travel Agencies
-        "aav_luxury_travel": "https://aavluxurytravel.com/",
-        "exclusive_france_tours": "https://exclusive-france-tours.com/",
-        "deluxe_france": "https://deluxefrance.com/details-fashion+tours-559",
-        "french_promise": "https://frenchpromise.com/",
-    },
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+TARGETS_PATH = PROJECT_ROOT / "config" / "targets.json"
 
-    "travel_news": {
-        "travel_weekly": "https://www.travelweekly.com/",
-        "ttg": "https://www.ttgmedia.com/",
-        "etourisme": "https://www.etourisme.info/",
-        "quotidien_du_tourisme": "https://www.quotidiendutourisme.com/",
-    },
 
-    "fashion_news": {
-        "business_of_fashion": "https://www.businessoffashion.com/",
-        "wwd": "https://wwd.com/",
-        "vogue_business": "https://www.voguebusiness.com/",
-        "fashion_united": "https://fashionunited.com/",
-    },
-}
+def load_targets(path=TARGETS_PATH):
+    with Path(path).open("r", encoding="utf-8") as file:
+        targets = json.load(file)
+
+    if not isinstance(targets, dict) or not targets:
+        raise ValueError("Target catalog must be a non-empty object.")
+
+    for category, sites in targets.items():
+        if not isinstance(sites, dict) or not sites:
+            raise ValueError(f"Target category '{category}' must not be empty.")
+        for site, url in sites.items():
+            if not site or not isinstance(url, str) or not url.startswith(("http://", "https://")):
+                raise ValueError(f"Invalid target: {category}/{site}={url!r}")
+
+    return targets
+
+
+TARGETS = load_targets()
